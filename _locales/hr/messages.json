@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"gt_submit_fmovments": {
+		"message": "Učitaj kretanje flote sa stranice"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "Učitaj Izvještaje Špijunaže Sa Stranice"
+	},
+	"gt_status_window": {
+		"message": "Galaxytool Status ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "galaksija ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". pronađena"
+	},
+	"gt_statsfound": {
+		"message": "statistike pronađene"
+	},
+	"gt_reportsfound": {
+		"message": "stranica izvještaja pronađena"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Statistike igrača ."
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Statistike saveza ."
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "po bodovima ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": "po floti ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "po istraživanjima ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". osvježene"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Pogled galaksije ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". osvježen"
+	},
+	"gt_reportsupdated": {
+		"message": "Izvještaji prebačeni"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "Povjest saveza prebačena"
+	},
+	"gt_error_unknownuni": {
+		"message": "Nepoznat univerzum!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Krivo Stanje Spremnosti: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Krivi statusni kod: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Pristup zabranjen!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Stranica nije nađena!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "Galaxytool server nije pronađen!"
+	},
+	"gt_error_wrongpage": {
+		"message": "Stranica pronađena ali to nije stranica za galaxy dodatak!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Pregled galaksije nije osvježen!"
+	},
+	"gt_error_reporterror": {
+		"message": "Barem jedan izvještaj neuspio!"
+	},
+	"gt_error_statserror": {
+		"message": "Statistike nisu osvježene!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "Povijest saveza nije osvježena!"
+	},
+	"gt_error_foxgame": {
+		"message": "Krive postavke za Fox Game - ubacivanje prekinuto!"
+	},
+	"gt_error_unknown": {
+		"message": "Neočekivan odgovor servera!"
+	},
+	"gt_error_wrong_universe": {
+		"message": "Krivi univerzum!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Toolbar outdated!"
+	},
+	"gt_error_statssort": {
+		"message": "Stats sorted in a wrong way!"
+	},
+	"gt_toolbar_activate": {
+		"message": "Aktiviraj GTD"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Aktiviraj Galaxytool Dodatak"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Toolbar Neaktivan!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Deaktiviraj GTD"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Deaktiviraj Galaxytool Dodatak"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Toolbar Activated."
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "ništa"
+	},
+	"gt_erroralert": {
+		"message": "Pojavila se greška: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "Bar jedan nepoznat unos: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Molimo posjetite stablo tehnologija da bi se ažurirale postavke vašeg jezika.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Kliknite na OK-dugme i stablo tehnologija ce se otvoriti u novom prozoru. Nakon toga osvježite ovu stranicu i probajte ponovo.."
+	},
+	"gt_noreportsfound": {
+		"message": "Ni jedan izvještaj špijunaže nije nađen!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "Nema nepročitanih izvještaja špijunaže!"
+	},
+	"gt_phalanxfound": {
+		"message": "Pronađen izvještaj falange"
+	},
+	"gt_espionagefound": {
+		"message": "Akcija špijunaže pronađena"
+	},
+	"gt_espionageupdated": {
+		"message": "Akcija špijunaže osvježena"
+	},
+	"gt_pmessagefound": {
+		"message": "Poruka igrača nađena"
+	},
+	"gt_pmessageupdated": {
+		"message": "Poruka igrača osvježena"
+	},
+	"gt_shortcrfound": {
+		"message": "Kratki IoB nađen"
+	},
+	"gt_shortcrupdated": {
+		"message": "Kratki IoB osvježen"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "Nema flote na planetu\/mjesecu"
+	},
+	"gt_fleetpagefound": {
+		"message": "Stranica flote nađena"
+	},
+	"gt_shipyardfound": {
+		"message": "Stranica tvornice brodova nađena"
+	},
+	"gt_techpagefound": {
+		"message": "Stranica istraživanja nađena"
+	},
+	"gt_defensepagefound": {
+		"message": "Stranica obrane nađena"
+	},
+	"gt_buildingpagefound": {
+		"message": "Stranica zgrada nađena"
+	},
+	"gt_techtreefound": {
+		"message": "Stablo tehnologije nađeno"
+	},
+	"gt_techtreeparsed": {
+		"message": "Stablo tehnologija prevedeno"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Stablo tehnologija nije prevedeno"
+	},
+	"gt_nodatafound": {
+		"message": "Nema podataka"
+	},
+	"gt_movementfound": {
+		"message": "Kretanje flote nađeno"
+	},
+	"gt_movementupdated": {
+		"message": "Kretanje flote osvježeno"
+	},
+	"gt_error_invalidxml": {
+		"message": "Nevaljan XML"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "Akcija špijunaže nije osvježena!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "Poruka igrača nije osvježena!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "Kratki IoB nije osvježen!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Kretanje flote nije osvježeno!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Galaxytool Usluga nedostupna - server vjerojatno u modu održavanja"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "Tehnologija špijunaže preniska!"
+	},
+	"gt_allypagefound": {
+		"message": "Stranica saveza pronađena"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Dodaj postavke u Galaxytool plugin!"
+	},
+	"gt_empirefound": {
+		"message": "Pregled imperije pronađen"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "Economy-Stats ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Military points built-Stats ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Military points destroyed-Stats ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Military points lost-Stats ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Honour Points-Stats ."
+	},
+	"gt_settings_changed": {
+		"message": "The settings haven't been saved. Do you want to proceed?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "Your Galaxytool is outdated!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"toolbar_activate": {
+		"message": "Aktiviraj GTD"
+	},
+	"toolbar_activate_t": {
+		"message": "Aktiviraj Galaxytool Dodatak"
+	},
+	"toolbar_options": {
+		"message": "GTD Opcije"
+	},
+	"toolbar_options_t": {
+		"message": "Opcije Galaxytool Dodatka"
+	},
+	"toolbar_reports": {
+		"message": "Dohvati Izvještaje"
+	},
+	"toolbar_statusLabel": {
+		"message": "Status:"
+	},
+	"toolbar_statusInfo": {
+		"message": "ništa"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytools"
+	},
+	"dialog_tab2": {
+		"message": "Opcije Dodatka"
+	},
+	"dialog_title": {
+		"message": "Galaxyplugin Opcije"
+	},
+	"dialog_ogameurl": {
+		"message": "OGame Naziv Servera"
+	},
+	"dialog_ogameuni": {
+		"message": "Univerzum"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "Galaxytool URL"
+	},
+	"dialog_username": {
+		"message": "Korisničko Ime"
+	},
+	"dialog_password": {
+		"message": "Lozinka"
+	},
+	"dialog_autoreports": {
+		"message": "Pošalji izvještaje automatski"
+	},
+	"dialog_debug": {
+		"message": "Pokaži debug informacije"
+	},
+	"dialog_show_statuswindow": {
+		"message": "Pokaži statusni prozor"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Pošalji pregled galaksije"
+	},
+	"dialog_submib_stats": {
+		"message": "Pošalji statistike igrača i saveza"
+	},
+	"dialog_submib_reports": {
+		"message": "Pošalji izvještaje"
+	},
+	"dialog_submib_allypage": {
+		"message": "Pošalji stranicu članova saveza"
+	},
+	"dialog_submib_buildings": {
+		"message": "Pošalji zgrade"
+	},
+	"dialog_submib_research": {
+		"message": "Pošalji istraživanja"
+	},
+	"dialog_submib_fleet": {
+		"message": "Pošalji flotu"
+	},
+	"dialog_submib_defense": {
+		"message": "Pošalji obranu"
+	},
+	"dialog_status_window": {
+		"message": "Prozor Statusa"
+	},
+	"dialog_status_style": {
+		"message": "Definiraj CSS Stilove"
+	},
+	"dialog_status_style_window": {
+		"message": "Prozor"
+	},
+	"dialog_status_style_header": {
+		"message": "Zaglavlje"
+	},
+	"dialog_status_style_results": {
+		"message": "Pregled statusa"
+	},
+	"dialog_general_data": {
+		"message": "Osnovni Podaci"
+	},
+	"dialog_add_tool": {
+		"message": "Dodaj novi alat"
+	},
+	"dialog_delete": {
+		"message": "Obriši"
+	},
+	"dialog_name": {
+		"message": "Naziv"
+	},
+	"dialog_uni_data": {
+		"message": "Podaci univerzuma"
+	},
+	"dialog_own_data": {
+		"message": "Vlastiti podaci"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Galaxytool Verzija"
+	},
+	"dialog_submib_empire": {
+		"message": "Pošalji pogled Imperije"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Pošalji Tvornicu Brodova"
+	},
+	"dialog_espionage_action": {
+		"message": "Pošalji neprijateljske akcije špijunaže"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Pošalji poglede falange"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Pošalji kretanje vlastite flote"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Pošalji kratki IoB"
+	},
+	"dialog_submib_player_message": {
+		"message": "Pošalji poruke igrača (aktivnost)"
+	},
+	"dialog_submib_message_content": {
+		"message": "Pošalji također i sadržaj poruka igrača"
+	},
+	"dialog_check_btn": {
+		"message": "Provjeri"
+	},
+	"dialog_own_player_id": {
+		"message": "Zatraži vlastiti OGame ID igrača"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Onemogući ako te odlogira odmah nakon pristupa igri"
+	},
+	"dialog_token": {
+		"message": "Pristupni ključ"
+	}
+}

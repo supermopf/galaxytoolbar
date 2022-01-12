@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Dodatek"
+	},
+	"gt_submit_fmovments": {
+		"message": "Preberi premike flot iz strani"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "Preberi vohunska poročila z strani"
+	},
+	"gt_status_window": {
+		"message": "Galaxietool Stanje ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "glaksija ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". najdeno"
+	},
+	"gt_statsfound": {
+		"message": "statistika najdena"
+	},
+	"gt_reportsfound": {
+		"message": "vohunska poročila najdena"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Igralci -"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Aliansa-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "Top lista - Točke ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": ".Flota - Točke ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "Raziskave - Točke ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". naloženo"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Sistem ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". naložen"
+	},
+	"gt_reportsupdated": {
+		"message": "Poročila naložena"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "Aliansa posodobljena"
+	},
+	"gt_error_unknownuni": {
+		"message": "Neznano vesolje!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Bad Ready State: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Bad status code: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Dostop zavrnjen!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Stran ni najdena!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "Ne najdem galaxytool strežnika!"
+	},
+	"gt_error_wrongpage": {
+		"message": "Stran najdena, a ni galaxyplugin stran!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Sistem ni naložen!"
+	},
+	"gt_error_reporterror": {
+		"message": "Najmanj eno poročilo ni bilo naloženo!"
+	},
+	"gt_error_statserror": {
+		"message": "Statistika ni posodobljena!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "Zgodovina alianse ni naložena!"
+	},
+	"gt_error_foxgame": {
+		"message": "Napačne Foxgame nastavitve - vstavlanje preklicano!"
+	},
+	"gt_error_unknown": {
+		"message": "Nepričakovan odgovor od strežnika!"
+	},
+	"gt_error_wrong_universe": {
+		"message": "Napačno vesolje\/server!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Toolbar zastarel!"
+	},
+	"gt_error_statssort": {
+		"message": "Stat. napačno razporejena!"
+	},
+	"gt_toolbar_activate": {
+		"message": "Aktiviraj GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Aktiviraj Galaxytool Plugin"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Toolbar Inaktiven!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Onemogoči GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Onemogoči Galaxytool Plugin"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Toolbar Aktiviran."
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "nič"
+	},
+	"gt_erroralert": {
+		"message": "Nastala je napaka: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "Najmanj en neznan vnos: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Prosimo obiščite Drevo gradnje, da posodobite jezik.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Pritisnite OK, da se Drevo gradnje pojavi v novem oknu. Potem osvežite stran in poskusite ponovno.."
+	},
+	"gt_noreportsfound": {
+		"message": "Ni najdenih vohunskih poročil!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "Ni neprebranih vohunskih poročil!"
+	},
+	"gt_phalanxfound": {
+		"message": "Najdeno: Poročilo na falangi"
+	},
+	"gt_espionagefound": {
+		"message": "Najdeno: misija vohunjenje"
+	},
+	"gt_espionageupdated": {
+		"message": "Misija vohunjenje posodobljena"
+	},
+	"gt_pmessagefound": {
+		"message": "Najden pogovor"
+	},
+	"gt_pmessageupdated": {
+		"message": "Pogovor naložen"
+	},
+	"gt_shortcrfound": {
+		"message": "Short CR found"
+	},
+	"gt_shortcrupdated": {
+		"message": "Short CR updated"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "Ni flote na planetu\/luni"
+	},
+	"gt_fleetpagefound": {
+		"message": "Najdena stran: Flota"
+	},
+	"gt_shipyardfound": {
+		"message": "Najdena stran: Ladjedelnica"
+	},
+	"gt_techpagefound": {
+		"message": "Najdena stran: Laboratorij"
+	},
+	"gt_defensepagefound": {
+		"message": "Najdena stran: Obramba"
+	},
+	"gt_buildingpagefound": {
+		"message": "Najdena stran: Zgradbe"
+	},
+	"gt_techtreefound": {
+		"message": "Najdeno: Drevo gradnje"
+	},
+	"gt_techtreeparsed": {
+		"message": "Drevo gradnje posodobljen"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Drevo gradnje ni posodobljen"
+	},
+	"gt_nodatafound": {
+		"message": "Ni najdenih podatkov"
+	},
+	"gt_movementfound": {
+		"message": "Najdeno: Premiki flot"
+	},
+	"gt_movementupdated": {
+		"message": "Posodobljeno: Premiki flot"
+	},
+	"gt_error_invalidxml": {
+		"message": "Neveljaven XML"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "Vohunsko dejanje ni posodobljeno!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "Pogovor ni posodobljen!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "Short CR not updated!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Premiki flot ni posodobljeno!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Galaxytool Strežnik ni na voljo - Strežnik je vrjetno v gradnji"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "Vohunska tehn. je prenizka!"
+	},
+	"gt_allypagefound": {
+		"message": "Najdena stran alianse"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Dodaj nastavitve za Galaxytool plugin!"
+	},
+	"gt_empirefound": {
+		"message": "Najden pogled imperija"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "Economy-Stats ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Military points built-Stats ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Military points destroyed-Stats ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Military points lost-Stats ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Honour Points-Stats ."
+	},
+	"gt_settings_changed": {
+		"message": "The settings haven't been saved. Do you want to proceed?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "Your Galaxytool is outdated!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Dodatek"
+	},
+	"toolbar_activate": {
+		"message": "Omogoči GTP"
+	},
+	"toolbar_activate_t": {
+		"message": "Omogoči Galaxytool Plugin"
+	},
+	"toolbar_options": {
+		"message": "GTP Nastavitve"
+	},
+	"toolbar_options_t": {
+		"message": "Galaxytool Plugin Nastavitve"
+	},
+	"toolbar_reports": {
+		"message": "Pridobi poročila"
+	},
+	"toolbar_statusLabel": {
+		"message": "Stanje:"
+	},
+	"toolbar_statusInfo": {
+		"message": "nič"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytool"
+	},
+	"dialog_tab2": {
+		"message": "Plugin Nastavitve"
+	},
+	"dialog_title": {
+		"message": "Galaxyplugin Nastavitve"
+	},
+	"dialog_ogameurl": {
+		"message": "OGame Servername"
+	},
+	"dialog_ogameuni": {
+		"message": "Vesolje"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "Galaxytool URL"
+	},
+	"dialog_username": {
+		"message": "Uporabniško ime"
+	},
+	"dialog_password": {
+		"message": "Geslo"
+	},
+	"dialog_autoreports": {
+		"message": "Samodejno pošiljal poročila"
+	},
+	"dialog_debug": {
+		"message": "Pokaži debug informacije"
+	},
+	"dialog_show_statuswindow": {
+		"message": "Pokaži stanje"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Nalagaj pregled galaksij"
+	},
+	"dialog_submib_stats": {
+		"message": "Nalagaj statistiko"
+	},
+	"dialog_submib_reports": {
+		"message": "Nalagaj poročila"
+	},
+	"dialog_submib_allypage": {
+		"message": "Nalagaj člane alianse"
+	},
+	"dialog_submib_buildings": {
+		"message": "Nalagaj zgradbe"
+	},
+	"dialog_submib_research": {
+		"message": "Nalagaj raziskave"
+	},
+	"dialog_submib_fleet": {
+		"message": "Nalagaj floto"
+	},
+	"dialog_submib_defense": {
+		"message": "Nalagaj obrambo"
+	},
+	"dialog_status_window": {
+		"message": "Status okno"
+	},
+	"dialog_status_style": {
+		"message": "CSS Slogi"
+	},
+	"dialog_status_style_window": {
+		"message": "Okno"
+	},
+	"dialog_status_style_header": {
+		"message": "Header line"
+	},
+	"dialog_status_style_results": {
+		"message": "Pogled Stanja"
+	},
+	"dialog_general_data": {
+		"message": "Splošni podatki"
+	},
+	"dialog_add_tool": {
+		"message": "Dodaj nov račun"
+	},
+	"dialog_delete": {
+		"message": "Izbriši"
+	},
+	"dialog_name": {
+		"message": "Ime"
+	},
+	"dialog_uni_data": {
+		"message": "Podatki vesolja"
+	},
+	"dialog_own_data": {
+		"message": "Svoji podatki"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Galaxytool Verzija"
+	},
+	"dialog_submib_empire": {
+		"message": "Nalagaj Pogled Imperija"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Nalagaj ladjedelnico"
+	},
+	"dialog_espionage_action": {
+		"message": "Nalagaj sovražna vohunska dejanja"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Nalagaj poročila z falange"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Nalagaj lastne premike flot"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Submit short CRs"
+	},
+	"dialog_submib_player_message": {
+		"message": "Nalagaj pogovore (activity)"
+	},
+	"dialog_submib_message_content": {
+		"message": "Vnašaj tudi vsebino pogovorov"
+	},
+	"dialog_check_btn": {
+		"message": "Preveri"
+	},
+	"dialog_own_player_id": {
+		"message": "Zahtevaj ID svojega računa"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Onemogoči, če se odjavite takoj po dostopu OGame"
+	},
+	"dialog_token": {
+		"message": "Ključ"
+	}
+}

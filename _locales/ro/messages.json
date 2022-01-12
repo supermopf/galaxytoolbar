@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"gt_submit_fmovments": {
+		"message": "Citeste pagina miscarilor flotei"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "Citeste Rapoarte de Spionare de pe pagina"
+	},
+	"gt_status_window": {
+		"message": "Status Galaxietool ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "galaxie ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". gasit"
+	},
+	"gt_statsfound": {
+		"message": "statistici gasite"
+	},
+	"gt_reportsfound": {
+		"message": "pagina cu rapoarte gasita"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Jucator-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Alianta-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "Scor-Statistici ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": ".Flota-Statistici ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "Cercetari-Statistici ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". actualizat"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Vederea Galaxiei ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". actualizata"
+	},
+	"gt_reportsupdated": {
+		"message": "Rapaorte transferate"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "Istoria aliantei transferata"
+	},
+	"gt_error_unknownuni": {
+		"message": "Univers necunoscut!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Bad Ready State: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Cod de status gresit: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Acces interzis!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Pagina negasita!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "Nu s-a putut gasi serverul galaxytool!"
+	},
+	"gt_error_wrongpage": {
+		"message": "S-a gasit o pagina dar nu a fost o pagina pentru pluginul galaxy!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Vederea galaxiei neactualizata!"
+	},
+	"gt_error_reporterror": {
+		"message": "Cel putin un raport a esuat!"
+	},
+	"gt_error_statserror": {
+		"message": "Statistici neactualizate!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "Istoria aliantei neactualizata!"
+	},
+	"gt_error_foxgame": {
+		"message": "Setari Gresite pentru Foxgame - inserare anulata!"
+	},
+	"gt_error_unknown": {
+		"message": "Rezultat neasteptat de la server!"
+	},
+	"gt_error_wrong_universe": {
+		"message": "Univers gresit!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Toolbar invechit!"
+	},
+	"gt_error_statssort": {
+		"message": "Statistici sortate intr-un mod gresit!"
+	},
+	"gt_toolbar_activate": {
+		"message": "Activeaza GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Activeaza Pluginul Galaxytool"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Toolbar Inactiv!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Dezactiveaza GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Dezactiveaza Pluginul Galaxytool"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Toolbar Activat."
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "nimic"
+	},
+	"gt_erroralert": {
+		"message": "O eroare a avut loc: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "Cel putin o intrare necunoscuta: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Va rugam vizitati rata dezvoltarii pentru a actualiza informatia limbii.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Apasati butonul OK si rata dezvoltarii se va deschideintr-o fereastra noua. Dupa aceea reincarcati paginaaceasta si reincercati.."
+	},
+	"gt_noreportsfound": {
+		"message": "Niciun raport de spionare gasit!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "Niciun raport de spionare necitit gasit!"
+	},
+	"gt_phalanxfound": {
+		"message": "Raport phalanx gasit"
+	},
+	"gt_espionagefound": {
+		"message": "Actiune de spinare gasita"
+	},
+	"gt_espionageupdated": {
+		"message": "Actiune de spionare actualizata"
+	},
+	"gt_pmessagefound": {
+		"message": "Mesajul jucatorului gasit"
+	},
+	"gt_pmessageupdated": {
+		"message": "Mesajul jucatorului actualizat"
+	},
+	"gt_shortcrfound": {
+		"message": "CR scurt gasit"
+	},
+	"gt_shortcrupdated": {
+		"message": "CR scurt actualizat"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "Nicio flota pe planeta\/luna"
+	},
+	"gt_fleetpagefound": {
+		"message": "Pagina flotei gasita"
+	},
+	"gt_shipyardfound": {
+		"message": "Pagina santierului naval gasita"
+	},
+	"gt_techpagefound": {
+		"message": "Pagina tehnologiei"
+	},
+	"gt_defensepagefound": {
+		"message": "Pagina apararii gasita"
+	},
+	"gt_buildingpagefound": {
+		"message": "Pagina cladirilor gasita"
+	},
+	"gt_techtreefound": {
+		"message": "Rata dezvoltarii gasita"
+	},
+	"gt_techtreeparsed": {
+		"message": "Rata dezvoltarii introdusa"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Rata dezvoltarii nu a fost introdusa"
+	},
+	"gt_nodatafound": {
+		"message": "Nicio informatie gasita"
+	},
+	"gt_movementfound": {
+		"message": "Miscarea flotei gasita"
+	},
+	"gt_movementupdated": {
+		"message": "Miscarea flotei actualizata"
+	},
+	"gt_error_invalidxml": {
+		"message": "XML invalid"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "Actiune de spionare neactualizata!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "Mesajul jucatorului neactualizat!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "CR scurt neactualizat!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Miscarea flotei neactualizata!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Serviciul Galaxytool indisponibil - server posibil in modul de mentenanta"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "Tehnologia spionajului prea mica!"
+	},
+	"gt_allypagefound": {
+		"message": "Pagina aliantei gasita"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Adauga setari la pluginul Galaxytool!"
+	},
+	"gt_empirefound": {
+		"message": "Vederea Imperiului gasita"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "-Economie-Statistici ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Puncte de armata ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Puncte de armata distrusa-Statistici ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Puncte de armata pierdute-Statistici ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Puncte de Onoare-Statisici ."
+	},
+	"gt_settings_changed": {
+		"message": "Setarile nu au fost salvate. Doresti sa continui?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "Galaxytool tau este expirat!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"toolbar_activate": {
+		"message": "Activeaza GTP"
+	},
+	"toolbar_activate_t": {
+		"message": "Activeaza Pluginul Galaxytool"
+	},
+	"toolbar_options": {
+		"message": "Optiuni GTP"
+	},
+	"toolbar_options_t": {
+		"message": "Optiunile Pluginului Galaxytool"
+	},
+	"toolbar_reports": {
+		"message": "Ia rapoarte"
+	},
+	"toolbar_statusLabel": {
+		"message": "Status:"
+	},
+	"toolbar_statusInfo": {
+		"message": "nimic"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytool-uri"
+	},
+	"dialog_tab2": {
+		"message": "Optiuni Plugin"
+	},
+	"dialog_title": {
+		"message": "Optiuni Galaxyplugin"
+	},
+	"dialog_ogameurl": {
+		"message": "Nume Server OGame"
+	},
+	"dialog_ogameuni": {
+		"message": "Univers"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "URL Galaxytool"
+	},
+	"dialog_username": {
+		"message": "Utilizator"
+	},
+	"dialog_password": {
+		"message": "Parola"
+	},
+	"dialog_autoreports": {
+		"message": "Introdu rapoarte automat"
+	},
+	"dialog_debug": {
+		"message": "Arata informatiile pentru debug"
+	},
+	"dialog_show_statuswindow": {
+		"message": "Arata fereastra de status"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Introdu vedere galaxie"
+	},
+	"dialog_submib_stats": {
+		"message": "Introdu statisticile pentru jucator si alianta"
+	},
+	"dialog_submib_reports": {
+		"message": "Introdu rapoarte"
+	},
+	"dialog_submib_allypage": {
+		"message": "Introdu pagina aliantei membrului"
+	},
+	"dialog_submib_buildings": {
+		"message": "Introdu cladiri"
+	},
+	"dialog_submib_research": {
+		"message": "Introdu cercetari"
+	},
+	"dialog_submib_fleet": {
+		"message": "Introdu flota"
+	},
+	"dialog_submib_defense": {
+		"message": "Introdu aparare"
+	},
+	"dialog_status_window": {
+		"message": "Fereastra de status"
+	},
+	"dialog_status_style": {
+		"message": "Defineste Stilurile CSS"
+	},
+	"dialog_status_style_window": {
+		"message": "Fereastra"
+	},
+	"dialog_status_style_header": {
+		"message": "Linia Antetului"
+	},
+	"dialog_status_style_results": {
+		"message": "Vederea statusului"
+	},
+	"dialog_general_data": {
+		"message": "Informatii Generale"
+	},
+	"dialog_add_tool": {
+		"message": "Adauga unealta noua"
+	},
+	"dialog_delete": {
+		"message": "Sterge"
+	},
+	"dialog_name": {
+		"message": "Nume"
+	},
+	"dialog_uni_data": {
+		"message": "Informatiile universului"
+	},
+	"dialog_own_data": {
+		"message": "Date proprii"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Versiunea Galaxytool"
+	},
+	"dialog_submib_empire": {
+		"message": "Introdu Vederea Imperiului"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Introdu santier naval"
+	},
+	"dialog_espionage_action": {
+		"message": "Introdu actiune de spionare ostila"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Introdu rapoarte phalanx"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Introdu propia miscare a flotei"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Introdu CR-uri scurte"
+	},
+	"dialog_submib_player_message": {
+		"message": "Introdu mesajele jucatorului (activitate)"
+	},
+	"dialog_submib_message_content": {
+		"message": "Introdu de asemenea continutul mesajelor jucatorului"
+	},
+	"dialog_check_btn": {
+		"message": "Verifica"
+	},
+	"dialog_own_player_id": {
+		"message": "Cere ID propriu de jucator OGame"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Dezactivati daca sunteti delogat imediat dupa ce accesati OGame"
+	},
+	"dialog_token": {
+		"message": "Cheie de Logare"
+	}
+}

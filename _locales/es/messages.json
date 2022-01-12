@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Barra de Herramientas Galaxytool"
+	},
+	"gt_submit_fmovments": {
+		"message": "Transferir movimientos de flotas mostrados"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "Leer Informe de Espionaje desde la pagina"
+	},
+	"gt_status_window": {
+		"message": "Galaxietool Status ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "galaxia ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". encontrada"
+	},
+	"gt_statsfound": {
+		"message": "estadisticas encontradas"
+	},
+	"gt_reportsfound": {
+		"message": "pagina de informes encontrada"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Jugador-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Alianza-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "Estadisticas-Puntos ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": ".Estadisticas-Flotas ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "Estadisticas-Investigaciones ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". actualizado"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Vista de Galaxia ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". actualizada"
+	},
+	"gt_reportsupdated": {
+		"message": "Informe Transferido"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "Historico de Alianza Transferido"
+	},
+	"gt_error_unknownuni": {
+		"message": "Universo Desconocido!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Estado de Lectura Erroneo: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Estado de Codigo Erroneo: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Permiso Denegado!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Pagina no Encontrada!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "No se ha podido encontrar el Servidor de Galaxytool!"
+	},
+	"gt_error_wrongpage": {
+		"message": "Pagina encontrada, pero no es una pagina de galaxyplugin!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Vista de Galaxia no actualizada!"
+	},
+	"gt_error_reporterror": {
+		"message": "Al menos un informe ha fallado!"
+	},
+	"gt_error_statserror": {
+		"message": "Estadisticas no actualizada!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "Historico de Alianza no actualizado!"
+	},
+	"gt_error_foxgame": {
+		"message": "Error en la configuración de Foxgame - Inserción Abortada!"
+	},
+	"gt_error_unknown": {
+		"message": "Resultado inesperado desde el servidor."
+	},
+	"gt_error_wrong_universe": {
+		"message": "Wrong universe!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Toolbar outdated!"
+	},
+	"gt_error_statssort": {
+		"message": "Stats sorted in a wrong way."
+	},
+	"gt_toolbar_activate": {
+		"message": "Activar GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Activar Galaxytool Plugin"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Barra de Herramientas Inactiva!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Desactivar GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Desactivar Galaxytool Plugin"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Barra de Herramientas Activa!"
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "Nada"
+	},
+	"gt_erroralert": {
+		"message": "Ha ocurrido un errro: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "Como mínimo una entrada desconocida: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Por favor visita el Árbol Tecnológico, para actualizar las informaciones de tu idioma.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Haz clic en OK y el Árbol Tecnológico se abrirá en una ventana nueva. Actualiza después esta página y vuelve a intentarlo.."
+	},
+	"gt_noreportsfound": {
+		"message": "¡No se han encontrado informes de espionaje!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "¡No se han encontrado informes de espionaje sin leer!"
+	},
+	"gt_phalanxfound": {
+		"message": "Encontrado informe phalanx"
+	},
+	"gt_espionagefound": {
+		"message": "Encontrada acción de espionaje"
+	},
+	"gt_espionageupdated": {
+		"message": "Transmitida acción de espionaje"
+	},
+	"gt_pmessagefound": {
+		"message": "Encontrado mensaje de jugador"
+	},
+	"gt_pmessageupdated": {
+		"message": "Transmitido mensaje de jugador"
+	},
+	"gt_shortcrfound": {
+		"message": "Visión general informes batalla encontrada"
+	},
+	"gt_shortcrupdated": {
+		"message": "Visión general informes batalla transmitida"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "Ninguna flota en planeta\/luna"
+	},
+	"gt_fleetpagefound": {
+		"message": "Encontrada página de flota"
+	},
+	"gt_shipyardfound": {
+		"message": "Encontrada página de hangar"
+	},
+	"gt_techpagefound": {
+		"message": "Encontrada página de investigaciones"
+	},
+	"gt_defensepagefound": {
+		"message": "Encontrada página de defensa"
+	},
+	"gt_buildingpagefound": {
+		"message": "Encontrada página de edificios"
+	},
+	"gt_techtreefound": {
+		"message": "Árbol tecnológico encontrado"
+	},
+	"gt_techtreeparsed": {
+		"message": "Árbol tecnológico leído"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Árbol tecnológico no leído"
+	},
+	"gt_nodatafound": {
+		"message": "No se han encontrado datos"
+	},
+	"gt_movementfound": {
+		"message": "Encontrado movimiento de flota"
+	},
+	"gt_movementupdated": {
+		"message": "Movimiento de flota transmitido"
+	},
+	"gt_error_invalidxml": {
+		"message": "XML erróneo"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "¡Acción de espionaje no transmitida!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "¡Mensaje de jugador no transmitido!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "¡Visión general de informes batalla no transmitida!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Movimiento de flota no transmitido"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Servicio Galaxytool no disponible - el servidor quizás esté en mantenimiento"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "¡Tecnología de espionaje demasiado baja!"
+	},
+	"gt_allypagefound": {
+		"message": "Página de Alianza encontrada"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "¡Añadir Opciones al Plugin de Galaxytool!"
+	},
+	"gt_empirefound": {
+		"message": "Visión de Imperio encontrada"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "Estadísticas-Economía ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Estadísticas-Puntos militares construidos ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Estadísticas-Puntos militares destruidos ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Estadísticas-Puntos militares perdidos ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Estadísticas-Puntos de honor ."
+	},
+	"gt_settings_changed": {
+		"message": "No se han guardado las Opciones. ¿Quieres continuar?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "¡Tu Galaxytool está anticuado!"
+	},
+	"toolbar_name": {
+		"message": "Barra de Herramientas Galaxytool"
+	},
+	"toolbar_activate": {
+		"message": "Activar GTP"
+	},
+	"toolbar_activate_t": {
+		"message": "Activar Galaxytool Plugin"
+	},
+	"toolbar_options": {
+		"message": "Opciones GTP"
+	},
+	"toolbar_options_t": {
+		"message": "Opciones Galaxytool Plugin"
+	},
+	"toolbar_reports": {
+		"message": "Obtener Informes"
+	},
+	"toolbar_statusLabel": {
+		"message": "Estado:"
+	},
+	"toolbar_statusInfo": {
+		"message": "nada"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytool Direcciones"
+	},
+	"dialog_tab2": {
+		"message": "Opciones Plugin"
+	},
+	"dialog_title": {
+		"message": "Opciones Galaxyplugin"
+	},
+	"dialog_ogameurl": {
+		"message": "Nombre de Servidor del Universo OGame"
+	},
+	"dialog_ogameuni": {
+		"message": "Universo"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "URL Galaxytool"
+	},
+	"dialog_username": {
+		"message": "Usuario"
+	},
+	"dialog_password": {
+		"message": "Clave"
+	},
+	"dialog_autoreports": {
+		"message": "envio automatico de informes de espionaje"
+	},
+	"dialog_debug": {
+		"message": "Mostrar informacion de debug"
+	},
+	"dialog_show_statuswindow": {
+		"message": "Mostrar la ventana de estado"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Enviar Vista de Galaxia"
+	},
+	"dialog_submib_stats": {
+		"message": "Enviar estadisticas de jugadores y alianzas"
+	},
+	"dialog_submib_reports": {
+		"message": "Enviar espionajes"
+	},
+	"dialog_submib_allypage": {
+		"message": "Enviar miembros de la Pagina de Alianza"
+	},
+	"dialog_submib_buildings": {
+		"message": "Enviar edificios"
+	},
+	"dialog_submib_research": {
+		"message": "Enviar Investigaciones"
+	},
+	"dialog_submib_fleet": {
+		"message": "Enviar flota"
+	},
+	"dialog_submib_defense": {
+		"message": "Enviar defensas"
+	},
+	"dialog_status_window": {
+		"message": "Ventana Estado"
+	},
+	"dialog_status_style": {
+		"message": "Fijar CSS Styles"
+	},
+	"dialog_status_style_window": {
+		"message": "Ventana"
+	},
+	"dialog_status_style_header": {
+		"message": "Titulo"
+	},
+	"dialog_status_style_results": {
+		"message": "Estado"
+	},
+	"dialog_general_data": {
+		"message": "Datos Generales"
+	},
+	"dialog_add_tool": {
+		"message": "Añadir nuevo Tool"
+	},
+	"dialog_delete": {
+		"message": "Borrar"
+	},
+	"dialog_name": {
+		"message": "Nombre"
+	},
+	"dialog_uni_data": {
+		"message": "Datos Universo"
+	},
+	"dialog_own_data": {
+		"message": "Datos propios"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Versión Galaxytool"
+	},
+	"dialog_submib_empire": {
+		"message": "Enviando Visión de Imperio"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Transmitiendo Hangar"
+	},
+	"dialog_espionage_action": {
+		"message": "Transmitiendo acciones de espionaje enemigas"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Transmitiendo informes Phalanx"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Transmitiendo movimientos de propia flota"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Transmitiendo visiones generales-informes batalla"
+	},
+	"dialog_submib_player_message": {
+		"message": "Transmitiendo mensajes de jugadores (actividad)"
+	},
+	"dialog_submib_message_content": {
+		"message": "Transmitiendo también el contenido de mensajes de jugadores"
+	},
+	"dialog_check_btn": {
+		"message": "Comprobando"
+	},
+	"dialog_own_player_id": {
+		"message": "Averiguar propia ID de Jugador de OGame"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Desactiva esta opción, si directamente tras loguearte eres deslogueado de OGame"
+	},
+	"dialog_token": {
+		"message": "Llave Login"
+	}
+}

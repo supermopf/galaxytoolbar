@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"gt_submit_fmovments": {
+		"message": "Διάβασε τις κινήσεις στόλου από τη σελίδα"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "Διάβασε τις Αναφορές Κατασκοπείας από τη σελίδα"
+	},
+	"gt_status_window": {
+		"message": "Κατάσταση Galaxytool ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "Γαλαξίας ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". βρέθηκε"
+	},
+	"gt_statsfound": {
+		"message": "Στατιστικά βρέθηκαν"
+	},
+	"gt_reportsfound": {
+		"message": "Σελίδα αναφορών βρέθηκε"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Παίκτης-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Συμμαχία-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "Πόντοι-Στατιστικά ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": ".Στόλος-Στατιστικά ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "Έρευνα-Στατιστικά ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". ενημερώθηκε"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Γαλαξίας ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". ενημερώθηκε"
+	},
+	"gt_reportsupdated": {
+		"message": "Αναφορές μεταφέρθηκαν"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "Ιστορικό Συμμαχίας μεταφέρθηκε"
+	},
+	"gt_error_unknownuni": {
+		"message": "Άγνωστο Σύμπαν!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Κακή κατάσταση ετοιμότητας: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Κακός κώδικας κατάστασης: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Άρνηση εισόδου!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Σελίδα δεν βρέθηκε!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "Δεν μπορεί να βρεθεί ο galaxytool server!"
+	},
+	"gt_error_wrongpage": {
+		"message": "Βρέθηκε μια σελίδα,αλλά δεν ήταν σελίδα galaxyplugin!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Γαλαξίας δεν ενημερώθηκε!"
+	},
+	"gt_error_reporterror": {
+		"message": "Μια τουλάχιστον αναφορά απέτυχε!"
+	},
+	"gt_error_statserror": {
+		"message": "Δεν ενημερώθηκαν τα στατιστικά!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "Δεν ενημερώθηκε το ιστορικό Συμμαχίας!"
+	},
+	"gt_error_foxgame": {
+		"message": "Λάθος ρυθμίσεις Foxgame - αναβλήθηκε η είσοδος!"
+	},
+	"gt_error_unknown": {
+		"message": "Απροσδόκητο αποτέλεσμα από τον server!"
+	},
+	"gt_error_wrong_universe": {
+		"message": "Λάθος Σύμπαν!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Toolbar ξεπερασμένη!"
+	},
+	"gt_error_statssort": {
+		"message": "Στατιστικά τακτοποιήθηκαν με λάθος τρόπο!"
+	},
+	"gt_toolbar_activate": {
+		"message": "Ενεργοποίησε τη GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Ενεργοποίησε το Galaxytool Plugin"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Toolbar Ανενεργή!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Απενεργοποίησε το GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Απενεργοποίησε το Galaxytool Plugin"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Toolbar Ενεργοποιήθηκε."
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "τίποτα"
+	},
+	"gt_erroralert": {
+		"message": "προκλήθηκε λάθος: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "Τουλάχιστον μια άγνωστη εισοδος: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Παρακαλώ επισκεφτείτε τις τεχνολογίες σας για να ενημερώσετε τις πληροφορίες για τη γλώσσα σας.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Πατήστε το κουμπί-OK κ οι Τεχνολογίες σας θα ανοίξουν σε νέο παράθυρο. Μετά από αυτό ξαναφορτώστε τη σελίδα κ ξαναπροσπαθήστε.."
+	},
+	"gt_noreportsfound": {
+		"message": "Δεν βρεθήκαν αναφορές κατασκοπείας!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "Δεν βρεθήκαν αδιάβαστες αναφορές κατασκοπείας!"
+	},
+	"gt_phalanxfound": {
+		"message": "Βρέθηκε αναφορά Φάλαγγας"
+	},
+	"gt_espionagefound": {
+		"message": "Βρέθηκε δράση κατασκοπείας"
+	},
+	"gt_espionageupdated": {
+		"message": "Δράση κατασκοπείας ενημερώθηκε"
+	},
+	"gt_pmessagefound": {
+		"message": "Βρέθηκε μήνυμα παίκτη"
+	},
+	"gt_pmessageupdated": {
+		"message": "Μήνυμα παίκτη ενημερώθηκε"
+	},
+	"gt_shortcrfound": {
+		"message": "Βρέθηκε μικρή CR"
+	},
+	"gt_shortcrupdated": {
+		"message": "Μικρή CR ενημερώθηκε"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "Καθόλου στόλος σε πλανήτη\/φεγγάρι"
+	},
+	"gt_fleetpagefound": {
+		"message": "Σελίδα στόλου βρέθηκε"
+	},
+	"gt_shipyardfound": {
+		"message": "Σελίδα ναυπηγείου βρέθηκε"
+	},
+	"gt_techpagefound": {
+		"message": "Σελίδα ερευνών βρέθηκε"
+	},
+	"gt_defensepagefound": {
+		"message": "Σελίδα άμυνας βρέθηκε"
+	},
+	"gt_buildingpagefound": {
+		"message": "Σελίδα κτηρίων βρέθηκε"
+	},
+	"gt_techtreefound": {
+		"message": "Τεχνολογίες βρεθήκαν"
+	},
+	"gt_techtreeparsed": {
+		"message": "Τεχνολογίες αναλύθηκαν"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Τεχνολογίες δεν αναλύθηκαν"
+	},
+	"gt_nodatafound": {
+		"message": "Δεν βρεθήκαν δεδομένα"
+	},
+	"gt_movementfound": {
+		"message": "Δεν βρέθηκε κίνηση στόλου"
+	},
+	"gt_movementupdated": {
+		"message": "Κίνηση στόλου ενημερώθηκε"
+	},
+	"gt_error_invalidxml": {
+		"message": "Άκυρη XML"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "Δράση κατασκοπείας δεν ενημερώθηκε!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "Μήνυμα παίκτη δεν ενημερώθηκε!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "Μικρή CR δεν ενημερώθηκε!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Κίνηση στόλου δεν ενημερώθηκε!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Η υπηρεσία Galaxytool μη διαθέσιμη - ο server ενδεχομένως σε mode συντήρησης"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "Τεχνολογία κατασκοπείας πολύ χαμηλή!"
+	},
+	"gt_allypagefound": {
+		"message": "Σελίδα συμμαχίας δεν βρέθηκε"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Πατήστε για ρύθμιση του Galaxytool plugin!"
+	},
+	"gt_empirefound": {
+		"message": "Προβολή αυτοκρατορίας βρέθηκε"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "Economy-Stats ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Military points built-Stats ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Military points destroyed-Stats ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Military points lost-Stats ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Honour Points-Stats ."
+	},
+	"gt_settings_changed": {
+		"message": "The settings haven't been saved. Do you want to proceed?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "Your Galaxytool is outdated!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"toolbar_activate": {
+		"message": "Ενεργοποίησε τη GTP"
+	},
+	"toolbar_activate_t": {
+		"message": "Ενεργοποίησε το Galaxytool Plugin"
+	},
+	"toolbar_options": {
+		"message": "Επιλογές της GTP"
+	},
+	"toolbar_options_t": {
+		"message": "Επιλογές του Galaxytool Plugin"
+	},
+	"toolbar_reports": {
+		"message": "Πάρε τις Αναφορές"
+	},
+	"toolbar_statusLabel": {
+		"message": "Κατάσταση:"
+	},
+	"toolbar_statusInfo": {
+		"message": "τίποτα"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytools"
+	},
+	"dialog_tab2": {
+		"message": "Επιλογές του Plugin"
+	},
+	"dialog_title": {
+		"message": "Επιλογές του Galaxytool Plugin"
+	},
+	"dialog_ogameurl": {
+		"message": "Όνομα Server OGame"
+	},
+	"dialog_ogameuni": {
+		"message": "Σύμπαν"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "Galaxytool URL"
+	},
+	"dialog_username": {
+		"message": "Όνομα χρήστη"
+	},
+	"dialog_password": {
+		"message": "Συνθηματικό"
+	},
+	"dialog_autoreports": {
+		"message": "Υπέβαλε τις αναφορές αυτόματα"
+	},
+	"dialog_debug": {
+		"message": "Δείξτε τις πληροφορίες διόρθωσης"
+	},
+	"dialog_show_statuswindow": {
+		"message": "Δείξε το παράθυρο κατάστασης"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Υπέβαλε γαλαξία"
+	},
+	"dialog_submib_stats": {
+		"message": "Υπέβαλε στατιστικά παίκτη κ συμμαχίας"
+	},
+	"dialog_submib_reports": {
+		"message": "Υπέβαλε αναφορές"
+	},
+	"dialog_submib_allypage": {
+		"message": "Υπέβαλε τη σελίδα μελών συμμαχίας"
+	},
+	"dialog_submib_buildings": {
+		"message": "Υπέβαλε τα κτήρια"
+	},
+	"dialog_submib_research": {
+		"message": "Υπέβαλε την έρευνα"
+	},
+	"dialog_submib_fleet": {
+		"message": "Υπέβαλε το στόλο"
+	},
+	"dialog_submib_defense": {
+		"message": "Υπέβαλε την άμυνα"
+	},
+	"dialog_status_window": {
+		"message": "Παράθυρο κατάστασης"
+	},
+	"dialog_status_style": {
+		"message": "Καθόρισε τα στυλ CSS"
+	},
+	"dialog_status_style_window": {
+		"message": "Παράθυρο"
+	},
+	"dialog_status_style_header": {
+		"message": "Γραμμή γραφής"
+	},
+	"dialog_status_style_results": {
+		"message": "Όψη κατάστασης"
+	},
+	"dialog_general_data": {
+		"message": "Γενικά δεδομένα"
+	},
+	"dialog_add_tool": {
+		"message": "Πρόσθεσε νέο εργαλείο"
+	},
+	"dialog_delete": {
+		"message": "Διαγραφή"
+	},
+	"dialog_name": {
+		"message": "Όνομα"
+	},
+	"dialog_uni_data": {
+		"message": "Δεδομένα Σύμπαντος"
+	},
+	"dialog_own_data": {
+		"message": "Προσωπικά Δεδομένα"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Galaxytool Version"
+	},
+	"dialog_submib_empire": {
+		"message": "Υπέβαλε όψη Αυτοκρατορίας"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Υπέβαλε ναυπηγείο"
+	},
+	"dialog_espionage_action": {
+		"message": "Υπέβαλε εχθρικές πράξεις κατασκοπείας"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Υπέβαλε αναφορές φάλαγγας"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Υπέβαλε τις δικές σου κινήσεις στόλου"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Υπέβαλε μικρές CRs"
+	},
+	"dialog_submib_player_message": {
+		"message": "Υπέβαλε μηνύματα παίκτη (δραστηριότητα)"
+	},
+	"dialog_submib_message_content": {
+		"message": "Υπέβαλε επίσης το περιεχόμενο από τα μηνύματα παίκτη"
+	},
+	"dialog_check_btn": {
+		"message": "Έλεγχος"
+	},
+	"dialog_own_player_id": {
+		"message": "Ζήτησε το δικό σου ID παίκτη OGame"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Απενεργοποίησε εάν αποσυνδεθείτε αμέσως μόλις αποκτήσετε πρόσβαση στο OGame"
+	},
+	"dialog_token": {
+		"message": "Κλειδί Εισόδου"
+	}
+}

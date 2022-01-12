@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxietool Toolbar"
+	},
+	"gt_submit_fmovments": {
+		"message": "angezeigte Flottenbewegungen übertragen"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "angezeigte Spionageberichte zum Galaxietool senden"
+	},
+	"gt_status_window": {
+		"message": "Galaxietool Status ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "Galaxieansicht ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". gefunden"
+	},
+	"gt_statsfound": {
+		"message": "Stats gefunden"
+	},
+	"gt_reportsfound": {
+		"message": "Spioberichte gefunden"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Spieler-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Allianz-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "Punkte-Stats ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": "Flotten-Stats ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "Forschungs-Stats ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". aktualisiert"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Galaxieansicht ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". aktualisiert"
+	},
+	"gt_reportsupdated": {
+		"message": "Spioberichte übertragen"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "Allianzdaten übertragen"
+	},
+	"gt_error_unknownuni": {
+		"message": "Unbekanntes Universum!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Bad Ready State: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Bad status code: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Zugang verweigert!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Seite nicht gefunden!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "Galaxietool nicht gefunden!"
+	},
+	"gt_error_wrongpage": {
+		"message": "Falsche Seite bei Galaxietool URL eingetragen!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Galaxieansicht nicht aktualisiert!"
+	},
+	"gt_error_reporterror": {
+		"message": "Mindestens ein Report wurde nicht eingetragen!"
+	},
+	"gt_error_statserror": {
+		"message": "Stats nicht aktualisiert!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "Allianzdaten nicht aktualisiert!"
+	},
+	"gt_error_foxgame": {
+		"message": "Falsche Foxgame settings - Eintragung abgebrochen."
+	},
+	"gt_error_unknown": {
+		"message": "Unerwartetes Ergebnis vom Server bekommen."
+	},
+	"gt_error_wrong_universe": {
+		"message": "Falsches Universum!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Toolbar zu alt!"
+	},
+	"gt_error_statssort": {
+		"message": "Stats falsch sortiert."
+	},
+	"gt_toolbar_activate": {
+		"message": "Aktivieren"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Toolbar aktivieren"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Toolbar Inaktiv!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Toolbar deaktivieren"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Deaktiviere die Toolbar"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Toolbar Aktiviert!"
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "nichts"
+	},
+	"gt_erroralert": {
+		"message": "Ein Fehler trat auf: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "Mindestens ein unbekannter Eintrag: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Bitte besuche den Techtree, um deine Sprachinformationen zu aktualisieren.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Klicke auf OK, und der Techtree öffnet sich in einem neuen Fenster. Aktualisiere danach diese Seite und versuche es erneut.."
+	},
+	"gt_noreportsfound": {
+		"message": "Keine Spionageberichte gefunden!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "Keine ungelesenen Spionageberichte gefunden!"
+	},
+	"gt_phalanxfound": {
+		"message": "Phalanxbericht gefunden"
+	},
+	"gt_espionagefound": {
+		"message": "Spionageaktion gefunden"
+	},
+	"gt_espionageupdated": {
+		"message": "Spionageaktion übertragen"
+	},
+	"gt_pmessagefound": {
+		"message": "Spielernachricht gefunden"
+	},
+	"gt_pmessageupdated": {
+		"message": "Spielernachricht übertragen"
+	},
+	"gt_shortcrfound": {
+		"message": "KB-Übersicht gefunden"
+	},
+	"gt_shortcrupdated": {
+		"message": "KB-Übersicht übertragen"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "Keine Flotte auf Planet\/Mond"
+	},
+	"gt_fleetpagefound": {
+		"message": "Flottenseite gefunden"
+	},
+	"gt_shipyardfound": {
+		"message": "Schiffswerftseite gefunden"
+	},
+	"gt_techpagefound": {
+		"message": "Forschungsseite gefunden"
+	},
+	"gt_defensepagefound": {
+		"message": "Verteidigungsseite gefunden"
+	},
+	"gt_buildingpagefound": {
+		"message": "Gebäudeseite gefunden"
+	},
+	"gt_techtreefound": {
+		"message": "Techtree gefunden"
+	},
+	"gt_techtreeparsed": {
+		"message": "Techtree eingelesen"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Techtree nicht eingelesen"
+	},
+	"gt_nodatafound": {
+		"message": "Keine Daten gefunden"
+	},
+	"gt_movementfound": {
+		"message": "Flottenbewegung gefunden"
+	},
+	"gt_movementupdated": {
+		"message": "Flottenbewegung übertragen"
+	},
+	"gt_error_invalidxml": {
+		"message": "Fehlerhaftes XML"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "Spionageaktion nicht übertragen!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "Spielernachricht nicht übertragen!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "KB-Übersicht nicht übertragen!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Flottenbewegung nicht übertragen!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Galaxytool Service nicht verfügbar - der Server ist möglicherweise im Wartungsmodus"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "Spionagetechnik ist zu niedrig!"
+	},
+	"gt_allypagefound": {
+		"message": "Allianzseite gefunden"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Einstellungen zum Galaxietool Plugin hinzufügen!"
+	},
+	"gt_empirefound": {
+		"message": "Imperiumsansicht gefunden"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "Ökonomie-Stats ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Gebaute Militärpunkte-Stats ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Zerstörte Militärpunkte-Stats ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Verlorene Militärpunkte-Stats ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Ehrenpunkte-Stats ."
+	},
+	"gt_settings_changed": {
+		"message": "Die Einstellungen wurden noch nicht gesichert. Möchtest du fortfahren?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "Dein Galaxytool ist veraltet!"
+	},
+	"toolbar_name": {
+		"message": "Galaxietool Toolbar"
+	},
+	"toolbar_activate": {
+		"message": "Aktivieren"
+	},
+	"toolbar_activate_t": {
+		"message": "Toolbar aktivieren"
+	},
+	"toolbar_options": {
+		"message": "Optionen"
+	},
+	"toolbar_options_t": {
+		"message": "Toolbar Optionen"
+	},
+	"toolbar_reports": {
+		"message": "Spioberichte"
+	},
+	"toolbar_statusLabel": {
+		"message": "Status:"
+	},
+	"toolbar_statusInfo": {
+		"message": "nichts"
+	},
+	"dialog_tab1": {
+		"message": "Galaxietool Adressen"
+	},
+	"dialog_tab2": {
+		"message": "Plugin Einstellungen"
+	},
+	"dialog_title": {
+		"message": "Galaxietool Firefox Plugin Optionen"
+	},
+	"dialog_ogameurl": {
+		"message": "OGame Servername"
+	},
+	"dialog_ogameuni": {
+		"message": "Universum"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "Galaxietool URL"
+	},
+	"dialog_username": {
+		"message": "Nutzername"
+	},
+	"dialog_password": {
+		"message": "Passwort"
+	},
+	"dialog_autoreports": {
+		"message": "Automatisches Absenden von Spionagereports"
+	},
+	"dialog_debug": {
+		"message": "Zeige Debuginformationen"
+	},
+	"dialog_show_statuswindow": {
+		"message": "Zeige Statusfenster"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Übertrage Galaxieansicht"
+	},
+	"dialog_submib_stats": {
+		"message": "Übertrage Spieler- und Allianzstatistiken"
+	},
+	"dialog_submib_reports": {
+		"message": "Übertrage Spionageberichte"
+	},
+	"dialog_submib_allypage": {
+		"message": "Übertrage Allianzmitgliederseite"
+	},
+	"dialog_submib_buildings": {
+		"message": "Übertrage Gebäude"
+	},
+	"dialog_submib_research": {
+		"message": "Übertrage Forschung"
+	},
+	"dialog_submib_fleet": {
+		"message": "Übertrage Flotte"
+	},
+	"dialog_submib_defense": {
+		"message": "Übertrage Verteidigung"
+	},
+	"dialog_status_window": {
+		"message": "Status Fenster"
+	},
+	"dialog_status_style": {
+		"message": "CSS Styles festlegen"
+	},
+	"dialog_status_style_window": {
+		"message": "Fenster"
+	},
+	"dialog_status_style_header": {
+		"message": "Kopfzeile"
+	},
+	"dialog_status_style_results": {
+		"message": "Statusanzeige"
+	},
+	"dialog_general_data": {
+		"message": "Allgemeine Daten"
+	},
+	"dialog_add_tool": {
+		"message": "Neues Tool"
+	},
+	"dialog_delete": {
+		"message": "Löschen"
+	},
+	"dialog_name": {
+		"message": "Name"
+	},
+	"dialog_uni_data": {
+		"message": "Universumsdaten"
+	},
+	"dialog_own_data": {
+		"message": "Eigene Daten"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Galaxietool Version"
+	},
+	"dialog_submib_empire": {
+		"message": "Übertrage Imperiumsansicht"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Übertrage Schiffswerft"
+	},
+	"dialog_espionage_action": {
+		"message": "Übertrage feindliche Spionageaktionen"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Übertrage Phalanxberichte"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Übertrage eigene Flottenbewegung"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Übertrage KB-Übersichten"
+	},
+	"dialog_submib_player_message": {
+		"message": "Übertrage Spielernachrichten (Aktivität)"
+	},
+	"dialog_submib_message_content": {
+		"message": "Übertrage auch den Inhalt von Spielernachrichten"
+	},
+	"dialog_check_btn": {
+		"message": "Prüfe"
+	},
+	"dialog_own_player_id": {
+		"message": "Eigene OGame Spieler ID ermitteln"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Deaktiviere diese Option, wenn du direkt nach dem Einloggen aus OGame ausgeloggt wirst"
+	},
+	"dialog_token": {
+		"message": "Loginschlüssel"
+	}
+}

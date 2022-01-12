@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"gt_submit_fmovments": {
+		"message": "Lezen van vloot bewegingen"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "Lees spionagerapporten uit van pagina"
+	},
+	"gt_status_window": {
+		"message": "Galaxietool Status ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "Zonnestelsel ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". gevonden"
+	},
+	"gt_statsfound": {
+		"message": "Statistieken gevonden"
+	},
+	"gt_reportsfound": {
+		"message": "Spionagerapporten gevonden"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Speler-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Alliantie-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "Score-Stats ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": ".Vloot-Stats ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "Onderzoek-Stats ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". bijgewerkt"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Zonnestelsel ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". bijgewerkt"
+	},
+	"gt_reportsupdated": {
+		"message": "Spionagerapporten verzonden"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "Alliantie geschiedenis verzonden"
+	},
+	"gt_error_unknownuni": {
+		"message": "Onbekende Universum!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Bad Ready State: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Bad status code: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Toegang geweigerd!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Pagina niet gevonden!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "Kan de galaxytool server niet vinden!"
+	},
+	"gt_error_wrongpage": {
+		"message": "Pagina gevonden, alleen NIET de galaxyplugin pagina!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Zonnestelsel NIET bijgewerkt!"
+	},
+	"gt_error_reporterror": {
+		"message": "NIET alle spionagerapporten zijn verzonden!"
+	},
+	"gt_error_statserror": {
+		"message": "Statistieken NIET bijgewerkt!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "Alliantie geschiedenis NIET bijgewerkt!"
+	},
+	"gt_error_foxgame": {
+		"message": "Verkeerde FoxGame instellingen - toevoegen is gestopt!"
+	},
+	"gt_error_unknown": {
+		"message": "Onverwachte fout van de server!"
+	},
+	"gt_error_wrong_universe": {
+		"message": "Verkeerde universum!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Installeer nieuwe versie van de Toolbar!"
+	},
+	"gt_error_statssort": {
+		"message": "Statistieken verkeerd gesorteerd!"
+	},
+	"gt_toolbar_activate": {
+		"message": "Activeer GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Activeer Galaxytool Plugin"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Toolbar Inactief!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Uitschakelen GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Uitschakelen Galaxytool Plugin"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Toolbar geactiveerd."
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "niets"
+	},
+	"gt_erroralert": {
+		"message": "Er is een probleem opgetreden: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "Tenminste één missende technologie: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Ga naar de techtree om je taalinformatie te updaten.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Klik op de OK-knop en de technologieboom zal in een nieuw venster geopend worden. Herlaad daarna deze pagina en probeer het opnieuw.."
+	},
+	"gt_noreportsfound": {
+		"message": "Geen Spionage rapporten gevonden!!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "Geen ongelezen spionage rapporten gevonden!"
+	},
+	"gt_phalanxfound": {
+		"message": "Phalanx repport gevonden"
+	},
+	"gt_espionagefound": {
+		"message": "Spionage activiteit gevonden"
+	},
+	"gt_espionageupdated": {
+		"message": "Spionage activiteit bijgewerkt"
+	},
+	"gt_pmessagefound": {
+		"message": "Privé bericht gevonden"
+	},
+	"gt_pmessageupdated": {
+		"message": "Privé bericht bijgewerkt"
+	},
+	"gt_shortcrfound": {
+		"message": "Kort gevechtsrapport gevonden"
+	},
+	"gt_shortcrupdated": {
+		"message": "Kort gevechtsrapport bijgewerkt"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "Geen vloot op planeet\/maan"
+	},
+	"gt_fleetpagefound": {
+		"message": "Vloot pagina gevonden"
+	},
+	"gt_shipyardfound": {
+		"message": "Werf pagina gevonden"
+	},
+	"gt_techpagefound": {
+		"message": "Tech pagina gevonden"
+	},
+	"gt_defensepagefound": {
+		"message": "Verdedig pagina gevonden"
+	},
+	"gt_buildingpagefound": {
+		"message": "Gebouwen pagina gevonden"
+	},
+	"gt_techtreefound": {
+		"message": "Techtree gevonden"
+	},
+	"gt_techtreeparsed": {
+		"message": "Techtree geladen"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Techtree niet geladen"
+	},
+	"gt_nodatafound": {
+		"message": "Geen data gevonden"
+	},
+	"gt_movementfound": {
+		"message": "Vloot beweging gevonden"
+	},
+	"gt_movementupdated": {
+		"message": "Vloot beweging geupdate"
+	},
+	"gt_error_invalidxml": {
+		"message": "Ongeldige XML"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "Spionage activiteit niet bijgewerkt!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "Privé bericht niet bijgewerkt!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "Kort gevechtsrapport niet bijgewerkt!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Vloot beweging niet geupdate"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Galaxytool momenteel niet berijkbaar - Server is mogelijk in onderhoud"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "Spionage technologie te laag!"
+	},
+	"gt_allypagefound": {
+		"message": "Alliantie pagina gevonden"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Voeg settings toe aan Galaxytool plugin!"
+	},
+	"gt_empirefound": {
+		"message": "Koninkrijksoverzicht gevonden"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "Economie-Stats ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Militaire punten gebouwd-Stats ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Militaire punten vernietigd-Stats ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Militaire punten verlorent-Stats ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Erepunten-Stats ."
+	},
+	"gt_settings_changed": {
+		"message": "De instellingen zijn nog niet opgeslagen. Wil je hiermee doorgaan?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "Galaxytool is niet meer up to date!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"toolbar_activate": {
+		"message": "Activeer GTP"
+	},
+	"toolbar_activate_t": {
+		"message": "Activeer Galaxytool Plugin"
+	},
+	"toolbar_options": {
+		"message": "GTP Opties"
+	},
+	"toolbar_options_t": {
+		"message": "Galaxytool Plugin Opties"
+	},
+	"toolbar_reports": {
+		"message": "Verkrijg rapporten"
+	},
+	"toolbar_statusLabel": {
+		"message": "Status:"
+	},
+	"toolbar_statusInfo": {
+		"message": "niets"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytools"
+	},
+	"dialog_tab2": {
+		"message": "Plugin Opties"
+	},
+	"dialog_title": {
+		"message": "Galaxyplugin Opties"
+	},
+	"dialog_ogameurl": {
+		"message": "OGame Servernaam"
+	},
+	"dialog_ogameuni": {
+		"message": "Universum"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "Galaxytool URL"
+	},
+	"dialog_username": {
+		"message": "Gebruikersnaam"
+	},
+	"dialog_password": {
+		"message": "Wachtwoord"
+	},
+	"dialog_autoreports": {
+		"message": "Automatisch verzenden van rapporten."
+	},
+	"dialog_debug": {
+		"message": "Toon debug informatie."
+	},
+	"dialog_show_statuswindow": {
+		"message": "Toon status venster"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Verzend Galaxy overzicht"
+	},
+	"dialog_submib_stats": {
+		"message": "Verzend Speler en Alliantie statistieken"
+	},
+	"dialog_submib_reports": {
+		"message": "Verzend Spionagerapporten"
+	},
+	"dialog_submib_allypage": {
+		"message": "Verzend Alliantie ledenpagina"
+	},
+	"dialog_submib_buildings": {
+		"message": "Verzend eigen gebouwen"
+	},
+	"dialog_submib_research": {
+		"message": "Verzend eigen onderzoek"
+	},
+	"dialog_submib_fleet": {
+		"message": "Verzend eigen vloot"
+	},
+	"dialog_submib_defense": {
+		"message": "Verzend eigen verdediging"
+	},
+	"dialog_status_window": {
+		"message": "Status Venster Opties:"
+	},
+	"dialog_status_style": {
+		"message": "Bewerk CSS Stijl"
+	},
+	"dialog_status_style_window": {
+		"message": "Venster"
+	},
+	"dialog_status_style_header": {
+		"message": "Header regel"
+	},
+	"dialog_status_style_results": {
+		"message": "Status overzicht"
+	},
+	"dialog_general_data": {
+		"message": "Algemene gegevens"
+	},
+	"dialog_add_tool": {
+		"message": "Voeg nieuwe tool toe"
+	},
+	"dialog_delete": {
+		"message": "Verwijderen"
+	},
+	"dialog_name": {
+		"message": "Naam"
+	},
+	"dialog_uni_data": {
+		"message": "Universum gegevens"
+	},
+	"dialog_own_data": {
+		"message": "Eigen gegevens"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Galaxytool Versie"
+	},
+	"dialog_submib_empire": {
+		"message": "Verzend eigen Koninkrijk-Overzicht"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Verstuur werf"
+	},
+	"dialog_espionage_action": {
+		"message": "Doorgeven vijandige spionage acties"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Verstuur phalanx repporten"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Verstuur eigen vloot beweging"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Korte gevechtsrapporten doorgeven"
+	},
+	"dialog_submib_player_message": {
+		"message": "Doorgeven privé berichten (activiteit)"
+	},
+	"dialog_submib_message_content": {
+		"message": "Doorgeven inhoud van privé berichten"
+	},
+	"dialog_check_btn": {
+		"message": "Nakijken"
+	},
+	"dialog_own_player_id": {
+		"message": "Opvragen eigen OGame speler ID"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Uitschakelen als men nadien uitgelogd wordt bij het opstarten van OGame"
+	},
+	"dialog_token": {
+		"message": "Verificatie sleutel"
+	}
+}

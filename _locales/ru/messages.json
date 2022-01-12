@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"gt_submit_fmovments": {
+		"message": "Прочитать передвижение флота со страницы"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "Считать шпионский доклад со страницы"
+	},
+	"gt_status_window": {
+		"message": "Состояние Galaxietool ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "галактика ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". обнаружена"
+	},
+	"gt_statsfound": {
+		"message": "статистика обнаружена"
+	},
+	"gt_reportsfound": {
+		"message": "доклады обнаружены"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Игрок-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Альянс-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "Статистика по очкам ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": ".Статистика по флоту ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "Статистика по исследованиям ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". обновлена"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Обзор галактики ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". обновлен"
+	},
+	"gt_reportsupdated": {
+		"message": "Доклады переданы"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "История альянса передана"
+	},
+	"gt_error_unknownuni": {
+		"message": "Неизвестная Вселенная!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Состояние ошибки: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Код ошибки: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Доступ запрещен!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Страница не найдена!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "Невозможно найти сервер galaxytool!"
+	},
+	"gt_error_wrongpage": {
+		"message": "Была найдена страница, отличная от страницы galaxyplugin!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Обзор галактики не обновлен!"
+	},
+	"gt_error_reporterror": {
+		"message": "По крайней мере, один доклад с ошибкой!"
+	},
+	"gt_error_statserror": {
+		"message": "Статистика не обновлена!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "История альянса не обновлена!"
+	},
+	"gt_error_foxgame": {
+		"message": "Неверные настройки Foxgame - вставка отменена!"
+	},
+	"gt_error_unknown": {
+		"message": "Неожиданный ответ от сервера!"
+	},
+	"gt_error_wrong_universe": {
+		"message": "Неверная Вселенная!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Дополнение устарело!"
+	},
+	"gt_error_statssort": {
+		"message": "Статистика отсортирована в ином порядке!"
+	},
+	"gt_toolbar_activate": {
+		"message": "Включить GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Включить плагин Galaxytool"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Дополнение неактивно!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Отключить GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Отключить плагин Galaxytool"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Дополнение активировано."
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "простаиваю"
+	},
+	"gt_erroralert": {
+		"message": "Произошла ошибка: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "Минимум одно неизвестное название: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Пожалуйста, откройте Дерево технологий, чтобы обновить список названий.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Нажмите OK, чтобы открыть Дерево технологий в новом окне. После этого обновите эту страницу и попробуйте снова.."
+	},
+	"gt_noreportsfound": {
+		"message": "Разведрапорт не найден!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "Непрочитанный разведрапорт не найден!"
+	},
+	"gt_phalanxfound": {
+		"message": "Найден Фаланг рапорт"
+	},
+	"gt_espionagefound": {
+		"message": "Замечен акт шпионажа"
+	},
+	"gt_espionageupdated": {
+		"message": "Акт шпионажа обновлен"
+	},
+	"gt_pmessagefound": {
+		"message": "Найдено сообщение игрока"
+	},
+	"gt_pmessageupdated": {
+		"message": "Сообщение игрока обновлено"
+	},
+	"gt_shortcrfound": {
+		"message": "Найден короткий боевой рапорт"
+	},
+	"gt_shortcrupdated": {
+		"message": "Короткий боевой рапорт обновлен"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "На планете\/луне флот не обнаружен"
+	},
+	"gt_fleetpagefound": {
+		"message": "Найдена страница флотов"
+	},
+	"gt_shipyardfound": {
+		"message": "Найдена страница верфи"
+	},
+	"gt_techpagefound": {
+		"message": "Найдена страница исследований"
+	},
+	"gt_defensepagefound": {
+		"message": "Найдена страница обороны"
+	},
+	"gt_buildingpagefound": {
+		"message": "Найдена страница фабрик"
+	},
+	"gt_techtreefound": {
+		"message": "Найдено Технологическое древо"
+	},
+	"gt_techtreeparsed": {
+		"message": "Технологическое древо проанализировано"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Технологическое древо не проанализировано"
+	},
+	"gt_nodatafound": {
+		"message": "Информация не найдена"
+	},
+	"gt_movementfound": {
+		"message": "Замечено движение флота"
+	},
+	"gt_movementupdated": {
+		"message": "Движение флота обновлено"
+	},
+	"gt_error_invalidxml": {
+		"message": "Неправильный XML"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "Разведрапорт не обновлен!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "Сообщение игрока не обновлено!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "Короткий боевой рапорт не обновлен!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Передвижение флота не обновлено!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Galaxytool сервис недоступен - возможно сервер в режиме обслуживания"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "Уровень шпионажа слишком низок!"
+	},
+	"gt_allypagefound": {
+		"message": "Страница альянса найдена"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Добавьте настройки в плагин Galaxytool!"
+	},
+	"gt_empirefound": {
+		"message": "Обзор Империи найден"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "Economy-Stats ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Military points built-Stats ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Military points destroyed-Stats ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Military points lost-Stats ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Honour Points-Stats ."
+	},
+	"gt_settings_changed": {
+		"message": "The settings haven't been saved. Do you want to proceed?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "Your Galaxytool is outdated!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"toolbar_activate": {
+		"message": "Включить GTP"
+	},
+	"toolbar_activate_t": {
+		"message": "Включить плагин Galaxytool"
+	},
+	"toolbar_options": {
+		"message": "Настройки GTP"
+	},
+	"toolbar_options_t": {
+		"message": "Настройки плагина Galaxytool"
+	},
+	"toolbar_reports": {
+		"message": "Получить доклад"
+	},
+	"toolbar_statusLabel": {
+		"message": "Состояние:"
+	},
+	"toolbar_statusInfo": {
+		"message": "простаиваю"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytools"
+	},
+	"dialog_tab2": {
+		"message": "Настройки плагина"
+	},
+	"dialog_title": {
+		"message": "Настройки Galaxyplugin"
+	},
+	"dialog_ogameurl": {
+		"message": "Адрес сервера OGame (URL)"
+	},
+	"dialog_ogameuni": {
+		"message": "Вселенная"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "Адрес сервера Galaxytool (URL)"
+	},
+	"dialog_username": {
+		"message": "Логин"
+	},
+	"dialog_password": {
+		"message": "Пароль"
+	},
+	"dialog_autoreports": {
+		"message": "Отправлять отчёты автоматически"
+	},
+	"dialog_debug": {
+		"message": "Показывать отладочную информацию"
+	},
+	"dialog_show_statuswindow": {
+		"message": "Показывать окно состояния"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Отправлять данные из обзора галактики"
+	},
+	"dialog_submib_stats": {
+		"message": "Отправлять данные по статистике для игроков и альянсов"
+	},
+	"dialog_submib_reports": {
+		"message": "Отправлять данные из докладов"
+	},
+	"dialog_submib_allypage": {
+		"message": "Отправлять данные со страницы членов альянса"
+	},
+	"dialog_submib_buildings": {
+		"message": "Отправлять данные по постройкам"
+	},
+	"dialog_submib_research": {
+		"message": "Отправлять данные по технологиям"
+	},
+	"dialog_submib_fleet": {
+		"message": "Отправлять данные по флоту"
+	},
+	"dialog_submib_defense": {
+		"message": "Отправлять данные по обороне"
+	},
+	"dialog_status_window": {
+		"message": "Окно состояния"
+	},
+	"dialog_status_style": {
+		"message": "Определить стили CSS"
+	},
+	"dialog_status_style_window": {
+		"message": "Окно"
+	},
+	"dialog_status_style_header": {
+		"message": "Строка заголовка"
+	},
+	"dialog_status_style_results": {
+		"message": "Вид состояния"
+	},
+	"dialog_general_data": {
+		"message": "Общие сведения"
+	},
+	"dialog_add_tool": {
+		"message": "Создать новый профиль"
+	},
+	"dialog_delete": {
+		"message": "Удалить"
+	},
+	"dialog_name": {
+		"message": "Имя"
+	},
+	"dialog_uni_data": {
+		"message": "Данные по Вселенной"
+	},
+	"dialog_own_data": {
+		"message": "Ваши данные"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Версия Galaxytool"
+	},
+	"dialog_submib_empire": {
+		"message": "Отправлять обзор Империи"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Внести верфь"
+	},
+	"dialog_espionage_action": {
+		"message": "Внести вражеские разведдействия"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Внести фаланг рапорт"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Внести передвижение собственного флота"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Внести короткий боевой рапорт"
+	},
+	"dialog_submib_player_message": {
+		"message": "Внести сообщения игрока(активность)"
+	},
+	"dialog_submib_message_content": {
+		"message": "Внести так-же содержание сообщений."
+	},
+	"dialog_check_btn": {
+		"message": "Проверить"
+	},
+	"dialog_own_player_id": {
+		"message": "Автоматически запрашивать свой идентификатор игрока"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Отключите эту опцию, если Вас выбрасывает с аккаунта сразу после входа в игру"
+	},
+	"dialog_token": {
+		"message": "Ключ авторизации"
+	}
+}

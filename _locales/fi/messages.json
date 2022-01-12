@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Plugin"
+	},
+	"gt_submit_fmovments": {
+		"message": "Lue laivueliikenteistä sivulta"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "Lue vakoiluraportit sivulta"
+	},
+	"gt_status_window": {
+		"message": "Galaxytoolin tila ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "galaksi ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". löydetty"
+	},
+	"gt_statsfound": {
+		"message": "tilastot löydetty"
+	},
+	"gt_reportsfound": {
+		"message": "raporttisivu löydetty"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Pelaaja-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Liittolainen-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "Pistetilastot ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": ".Laivastotilastot ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "Tutkimustilastot ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". päivitetty"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Galaksinäkymä ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". päivitetty"
+	},
+	"gt_reportsupdated": {
+		"message": "Raportit siirretty"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "Liittouman historia siirretty"
+	},
+	"gt_error_unknownuni": {
+		"message": "Tuntematon universumi!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Epäkelpo valmiustila: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Epäkelpo tilakoodi: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Pääsy evätty!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Sivua ei löydy!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "Galaxytoolin palvelinta ei löydy!"
+	},
+	"gt_error_wrongpage": {
+		"message": "Löytynyt sivu ei ollut galaxypluginin sivu!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Galaksinäkymää ei päivitetty!"
+	},
+	"gt_error_reporterror": {
+		"message": "Vähintään yksi raportointi epäonnistui!"
+	},
+	"gt_error_statserror": {
+		"message": "Tilastoja ei päivitetty!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "Liittouman historiaa ei päivitetty!"
+	},
+	"gt_error_foxgame": {
+		"message": "Väärät Foxgamen asetukset - päivitys keskeytetty!"
+	},
+	"gt_error_unknown": {
+		"message": "Odottamaton tulos palvelimelta."
+	},
+	"gt_error_wrong_universe": {
+		"message": "Väärä universumi!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Plugin vanhentunut!"
+	},
+	"gt_error_statssort": {
+		"message": "Tilastot järjestetty väärällä tavalla."
+	},
+	"gt_toolbar_activate": {
+		"message": "Aktivoi GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Aktivoi Galaxytool Plugin"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Plugin ei käytössä!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Deaktivoi GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Deaktivoi Galaxytool Plugin"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Plugin käytössä!"
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "ei mitään"
+	},
+	"gt_erroralert": {
+		"message": "Tapahtui virhe: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "Ainakin yksi tuntematon syöttö: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Ole hyvä ja vieraile teknologiapuussa, jotta kielitiedot päivittyvät.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Paina OK-nappulaa, jolloin teknologiapuu aukeaa uuteen ikkunaan. Tämän jälkeen päivitä tämä ikkuna ja yritä uudelleen.."
+	},
+	"gt_noreportsfound": {
+		"message": "Vakoiluraportteja ei löydy!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "Lukemattomia vakoiluraportteja ei löydy!"
+	},
+	"gt_phalanxfound": {
+		"message": "Sensoriraportti löytyi"
+	},
+	"gt_espionagefound": {
+		"message": "Vakoilutoimintaa löytyi"
+	},
+	"gt_espionageupdated": {
+		"message": "Vakoilutoiminta päivitetty"
+	},
+	"gt_pmessagefound": {
+		"message": "Viesti löytyi"
+	},
+	"gt_pmessageupdated": {
+		"message": "Viesti päivitetty"
+	},
+	"gt_shortcrfound": {
+		"message": "Lyhyt taisteluraportti löytyi"
+	},
+	"gt_shortcrupdated": {
+		"message": "Lyhyt taisteluraportti päivitetty"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "Ei laivuetta planeetalla\/kuussa"
+	},
+	"gt_fleetpagefound": {
+		"message": "Laivue-sivu löytyi"
+	},
+	"gt_shipyardfound": {
+		"message": "Telakka-sivu löytyi"
+	},
+	"gt_techpagefound": {
+		"message": "Tutkimus-sivu löytyi"
+	},
+	"gt_defensepagefound": {
+		"message": "Puolustus-sivu löytyi"
+	},
+	"gt_buildingpagefound": {
+		"message": "Rakennukset-sivu löytyi"
+	},
+	"gt_techtreefound": {
+		"message": "Teknologiapuu löytyi"
+	},
+	"gt_techtreeparsed": {
+		"message": "Teknologiapuu jäsennelty"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Teknologiapuuta ei ole jäsennelty"
+	},
+	"gt_nodatafound": {
+		"message": "Tietoa ei löydy"
+	},
+	"gt_movementfound": {
+		"message": "Laivueliikennettä löytyi"
+	},
+	"gt_movementupdated": {
+		"message": "Laivueliikenne päivitetty"
+	},
+	"gt_error_invalidxml": {
+		"message": "Epäkelpo XML"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "Vakoilutoimintaa ei päivitetty!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "Viestiä ei päivitetty!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "Lyhyttä taisteluraporttia ei päivitetty!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Laivueliikennettä ei päivitetty!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Galaxytool-palvelu ei saatavilla - palvelin mahdollisesti huoltotilassa"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "Vakoiluteknologia liian matala!"
+	},
+	"gt_allypagefound": {
+		"message": "Liittoutuman sivu löydetty!"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Muuta Galaxytoolin lisäosan asetuksia!"
+	},
+	"gt_empirefound": {
+		"message": "Valtakuntanäkymä löydetty!"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "Talous-Tilastot ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Sotilaspisteet Rakentuminen-Tilastot ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Sotilaspisteet Tuhoaminen-Tilastot ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Sotilaspisteet Häviäminen-Tilastot ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Kunniapisteet-Tilastot ."
+	},
+	"gt_settings_changed": {
+		"message": "Asetuksia ei ole tallennettu. Haluatko silti jatkaa?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "Sinulla on vanha versio Galaxytoolista!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Plugin"
+	},
+	"toolbar_activate": {
+		"message": "Aktivoi GTP"
+	},
+	"toolbar_activate_t": {
+		"message": "Aktivoi Galaxytool Plugin"
+	},
+	"toolbar_options": {
+		"message": "GTP:n asetukset"
+	},
+	"toolbar_options_t": {
+		"message": "Galaxytool Pluginin asetukset"
+	},
+	"toolbar_reports": {
+		"message": "Hae raportit"
+	},
+	"toolbar_statusLabel": {
+		"message": "Tila:"
+	},
+	"toolbar_statusInfo": {
+		"message": "ei mitään"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytoolit"
+	},
+	"dialog_tab2": {
+		"message": "Pluginin asetukset"
+	},
+	"dialog_title": {
+		"message": "Galaxypluginin asetukset"
+	},
+	"dialog_ogameurl": {
+		"message": "OGamen palvelin"
+	},
+	"dialog_ogameuni": {
+		"message": "Universumi"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "Galaxytoolin URL"
+	},
+	"dialog_username": {
+		"message": "Käyttäjänimi"
+	},
+	"dialog_password": {
+		"message": "Salasana"
+	},
+	"dialog_autoreports": {
+		"message": "Lähetä raportit automaattisesti"
+	},
+	"dialog_debug": {
+		"message": "Näytä debug-tiedot"
+	},
+	"dialog_show_statuswindow": {
+		"message": "Näytä tilaikkuna"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Lähetä galaksinäkymä"
+	},
+	"dialog_submib_stats": {
+		"message": "Lähetä pelaajien ja liittoumien tilastot"
+	},
+	"dialog_submib_reports": {
+		"message": "Lähetä raportit"
+	},
+	"dialog_submib_allypage": {
+		"message": "Lähetä liittouman jäsensivu"
+	},
+	"dialog_submib_buildings": {
+		"message": "Lähetä rakennukset"
+	},
+	"dialog_submib_research": {
+		"message": "Lähetä tutkimukset"
+	},
+	"dialog_submib_fleet": {
+		"message": "Lähetä laivueet"
+	},
+	"dialog_submib_defense": {
+		"message": "Lähetä puolustukset"
+	},
+	"dialog_status_window": {
+		"message": "Tilaikkuna"
+	},
+	"dialog_status_style": {
+		"message": "Määritä CSS-tyylit"
+	},
+	"dialog_status_style_window": {
+		"message": "Ikkuna"
+	},
+	"dialog_status_style_header": {
+		"message": "Otsikkorivi"
+	},
+	"dialog_status_style_results": {
+		"message": "Tilan näyttö"
+	},
+	"dialog_general_data": {
+		"message": "Yleiset tiedot"
+	},
+	"dialog_add_tool": {
+		"message": "Lisää uusi työkalu"
+	},
+	"dialog_delete": {
+		"message": "Poista"
+	},
+	"dialog_name": {
+		"message": "Nimi"
+	},
+	"dialog_uni_data": {
+		"message": "Universumi tiedot"
+	},
+	"dialog_own_data": {
+		"message": "Omat tiedot"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Galaxytool Versio"
+	},
+	"dialog_submib_empire": {
+		"message": "Lähetä Valtakunnan Näkymä"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Lähetä telakka"
+	},
+	"dialog_espionage_action": {
+		"message": "Lähetä vihamieliset vakoilutoiminnat"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Lähetä sensoriraportit"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Lähetä omat laivueliikenteet"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Lähetä lyhyet taisteluraportit"
+	},
+	"dialog_submib_player_message": {
+		"message": "Lähetä viestit (aktiivisuus)"
+	},
+	"dialog_submib_message_content": {
+		"message": "Lähetä myös viestien sisältö"
+	},
+	"dialog_check_btn": {
+		"message": "Tarkista"
+	},
+	"dialog_own_player_id": {
+		"message": "Ano oma OGame pelaajatunnus"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Kytke pois päältä, jos lennät pelistä ulos, kun yrität kirjautua OGameen"
+	},
+	"dialog_token": {
+		"message": "Kirjautumisavain"
+	}
+}

@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"gt_submit_fmovments": {
+		"message": "已读取舰队移动情况"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "已读取间谍报告"
+	},
+	"gt_status_window": {
+		"message": "Galaxytool 状态 ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "银河系 ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". 个"
+	},
+	"gt_statsfound": {
+		"message": "发现状态"
+	},
+	"gt_reportsfound": {
+		"message": "发现报告页"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "玩家-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "联盟-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "总分-统计 ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": "舰队-统计 ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "科技-统计 ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". 已更新"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "星图 ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". 已更新"
+	},
+	"gt_reportsupdated": {
+		"message": "报告已传达"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "联盟历史已传达"
+	},
+	"gt_error_unknownuni": {
+		"message": "未知宇宙!"
+	},
+	"gt_error_badreadystate": {
+		"message": "准备时发生错误: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "发送时发生错误: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "没有权限!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "页面未找到!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "不能连接到服务器!"
+	},
+	"gt_error_wrongpage": {
+		"message": "连上了，但不是galaxyplugin!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "星图未更新!"
+	},
+	"gt_error_reporterror": {
+		"message": "至少一个报告失败了!"
+	},
+	"gt_error_statserror": {
+		"message": "状态没有更新!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "联盟历史没有更新!"
+	},
+	"gt_error_foxgame": {
+		"message": "Foxgame设置有误 - 插入终止!"
+	},
+	"gt_error_unknown": {
+		"message": "服务器返回不可识别结果!"
+	},
+	"gt_error_wrong_universe": {
+		"message": "不是这个宇宙!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Toolbar凹凸了!"
+	},
+	"gt_error_statssort": {
+		"message": "状态排序错误!"
+	},
+	"gt_toolbar_activate": {
+		"message": "激活GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "激活Galaxytool Plugin"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Toolbar未激活!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "禁用GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "禁用Galaxytool Plugin"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Toolbar已激活."
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "无"
+	},
+	"gt_erroralert": {
+		"message": "发生了错误: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "至少一个未知项: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". 打开科技树可以更新翻译信息.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "点击确认按钮，会在新窗口打开科技树. 然后刷新本页后重试.."
+	},
+	"gt_noreportsfound": {
+		"message": "没有找到间谍报告!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "没有找到维度间谍报告!"
+	},
+	"gt_phalanxfound": {
+		"message": "发现感应阵报告"
+	},
+	"gt_espionagefound": {
+		"message": "发现间谍行动"
+	},
+	"gt_espionageupdated": {
+		"message": "间谍行动已更新"
+	},
+	"gt_pmessagefound": {
+		"message": "发现玩家信息"
+	},
+	"gt_pmessageupdated": {
+		"message": "玩家信息已更新"
+	},
+	"gt_shortcrfound": {
+		"message": "发现短战斗报告"
+	},
+	"gt_shortcrupdated": {
+		"message": "短战斗报告已更新"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "次星球\/月球没有发现舰队"
+	},
+	"gt_fleetpagefound": {
+		"message": "发现舰队页面"
+	},
+	"gt_shipyardfound": {
+		"message": "发现造船厂页面"
+	},
+	"gt_techpagefound": {
+		"message": "发现科技页面"
+	},
+	"gt_defensepagefound": {
+		"message": "发现防御页面"
+	},
+	"gt_buildingpagefound": {
+		"message": "发现建筑页面"
+	},
+	"gt_techtreefound": {
+		"message": "发现科技树"
+	},
+	"gt_techtreeparsed": {
+		"message": "科技树解析成功"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "科技树解析失败"
+	},
+	"gt_nodatafound": {
+		"message": "没有找到数据"
+	},
+	"gt_movementfound": {
+		"message": "发现舰队移动情况"
+	},
+	"gt_movementupdated": {
+		"message": "舰队移动情况已更新"
+	},
+	"gt_error_invalidxml": {
+		"message": "XML解析失败"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "间谍活动未更新!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "玩家信息未更新!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "短战斗报告未更新!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "舰队移动情况未更新!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Galaxytool服务不可用 - 服务器可能正在维护"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "间谍技术太低!"
+	},
+	"gt_allypagefound": {
+		"message": "找到联盟页"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "把设置添加到Galaxytool plugin!"
+	},
+	"gt_empirefound": {
+		"message": "发现帝国视图"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "经济-统计 ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "军事建造分-统计 ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "军事摧毁分-统计 ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "军事损失分-统计 ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "荣誉分-统计 ."
+	},
+	"gt_settings_changed": {
+		"message": "还有设置项尚未保存. 是否继续?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "你的Galaxytool凹凸了!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"toolbar_activate": {
+		"message": "激活GTP"
+	},
+	"toolbar_activate_t": {
+		"message": "激活Galaxytool插件"
+	},
+	"toolbar_options": {
+		"message": "GTP选项"
+	},
+	"toolbar_options_t": {
+		"message": "Galaxytool 插件选项"
+	},
+	"toolbar_reports": {
+		"message": "获取报告"
+	},
+	"toolbar_statusLabel": {
+		"message": "状态:"
+	},
+	"toolbar_statusInfo": {
+		"message": "无结果"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytools"
+	},
+	"dialog_tab2": {
+		"message": "插件选项"
+	},
+	"dialog_title": {
+		"message": "Galaxyplugin 选项"
+	},
+	"dialog_ogameurl": {
+		"message": "OGame 服务器名称"
+	},
+	"dialog_ogameuni": {
+		"message": "宇宙"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "Galaxytool URL"
+	},
+	"dialog_username": {
+		"message": "用户名"
+	},
+	"dialog_password": {
+		"message": "密码"
+	},
+	"dialog_autoreports": {
+		"message": "自动提交报告"
+	},
+	"dialog_debug": {
+		"message": "显示调试信息"
+	},
+	"dialog_show_statuswindow": {
+		"message": "显示状态 窗口"
+	},
+	"dialog_submib_galaxy": {
+		"message": "提交星图"
+	},
+	"dialog_submib_stats": {
+		"message": "提交玩家和联盟排名统计"
+	},
+	"dialog_submib_reports": {
+		"message": "提交间谍报告"
+	},
+	"dialog_submib_allypage": {
+		"message": "提交联盟成员页"
+	},
+	"dialog_submib_buildings": {
+		"message": "提交建筑情况"
+	},
+	"dialog_submib_research": {
+		"message": "提交科技情况"
+	},
+	"dialog_submib_fleet": {
+		"message": "提交舰队情况"
+	},
+	"dialog_submib_defense": {
+		"message": "提交防御情况"
+	},
+	"dialog_status_window": {
+		"message": "状态窗口"
+	},
+	"dialog_status_style": {
+		"message": "定义CSS Styles"
+	},
+	"dialog_status_style_window": {
+		"message": "窗口"
+	},
+	"dialog_status_style_header": {
+		"message": "标头"
+	},
+	"dialog_status_style_results": {
+		"message": "状态结果"
+	},
+	"dialog_general_data": {
+		"message": "一般数据"
+	},
+	"dialog_add_tool": {
+		"message": "添加新宇宙"
+	},
+	"dialog_delete": {
+		"message": "删除"
+	},
+	"dialog_name": {
+		"message": "名称"
+	},
+	"dialog_uni_data": {
+		"message": "宇宙数据"
+	},
+	"dialog_own_data": {
+		"message": "自身数据"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Galaxytool版本"
+	},
+	"dialog_submib_empire": {
+		"message": "提交帝国视图"
+	},
+	"dialog_submib_shipyard": {
+		"message": "提交造船厂信息"
+	},
+	"dialog_espionage_action": {
+		"message": "提交被探测动作"
+	},
+	"dialog_submib_phalanx": {
+		"message": "提交感应阵报告"
+	},
+	"dialog_submib_fmovement": {
+		"message": "提交自己的舰队移动情况"
+	},
+	"dialog_submib_short_cr": {
+		"message": "提交短的战斗报告"
+	},
+	"dialog_submib_player_message": {
+		"message": "提交 玩家消息(活跃状况)"
+	},
+	"dialog_submib_message_content": {
+		"message": "同时提交玩家消息内容"
+	},
+	"dialog_check_btn": {
+		"message": "检测"
+	},
+	"dialog_own_player_id": {
+		"message": "Request own OGame player ID"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Disable if you get logged out right after accessing OGame"
+	},
+	"dialog_token": {
+		"message": "登录密钥"
+	}
+}

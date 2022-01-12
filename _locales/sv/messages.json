@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"gt_submit_fmovments": {
+		"message": "Läs flottmeddelande från sidan"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "Läs spionrapporter från aktuell sida"
+	},
+	"gt_status_window": {
+		"message": "Galaxietool Status ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "Galax ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". funnen"
+	},
+	"gt_statsfound": {
+		"message": "Stats funnen"
+	},
+	"gt_reportsfound": {
+		"message": "Rapportsida funnen"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Spelare-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Allians-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "Poängstatistik ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": ".Flottstatistik ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "Forskningsstatistik ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". uppdaterad"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Galaxvy ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". uppdaterad"
+	},
+	"gt_reportsupdated": {
+		"message": "Rapporter överförda"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "Allianshistoria överförd"
+	},
+	"gt_error_unknownuni": {
+		"message": "Okänt universum!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Felaktig redo-status: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Felaktig statuskod: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Tillstånd nekad!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Sidan kan inte hittas!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "Kunde inte hitta Galaxytool-servern!"
+	},
+	"gt_error_wrongpage": {
+		"message": "Sidqan hittad, men det var ingen Galaxyplugin-sida!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Galaxvyn ej uppdaterad!"
+	},
+	"gt_error_reporterror": {
+		"message": "Minst en rapport misslyckades!"
+	},
+	"gt_error_statserror": {
+		"message": "Statistik ej uppdaterad!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "Allianshistoria ej uppdaterad!"
+	},
+	"gt_error_foxgame": {
+		"message": "Felaktiga Foxgameinställningar, överföring avbruten!"
+	},
+	"gt_error_unknown": {
+		"message": "Okänt svar från servern!"
+	},
+	"gt_error_wrong_universe": {
+		"message": "Fel universum!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Toolbar gammal!"
+	},
+	"gt_error_statssort": {
+		"message": "Statistik sorterad fel!"
+	},
+	"gt_toolbar_activate": {
+		"message": "Aktivera GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Aktivera Galaxytool Plugin"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Toolbar Inaktiverad!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Inaktivera GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Inaktivera Galaxytool Plugin"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Toolbar Aktiverad."
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "ingenting"
+	},
+	"gt_erroralert": {
+		"message": "Ett fel har uppstått: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "Minst en okänd spionrapport post: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Var snäll besök teknologiträdet för att updatera din språk information.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Tryck på OK för att öppna teknologiträd i nytt fönster. Efter det uppdatera denna sida och försök igen.."
+	},
+	"gt_noreportsfound": {
+		"message": "Inga spionrapporter funna!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "Inga olästa spionrapporter funna!"
+	},
+	"gt_phalanxfound": {
+		"message": "Radarrapport funnen"
+	},
+	"gt_espionagefound": {
+		"message": "Spionrapport funnen"
+	},
+	"gt_espionageupdated": {
+		"message": "Spionrapport uppdaterad"
+	},
+	"gt_pmessagefound": {
+		"message": "Spelarmeddelande funnet"
+	},
+	"gt_pmessageupdated": {
+		"message": "Spelarmeddelande uppdaterat"
+	},
+	"gt_shortcrfound": {
+		"message": "Kort CR funnet"
+	},
+	"gt_shortcrupdated": {
+		"message": "Kort CR uppdaterat"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "Ingen flotta på planet\/måne"
+	},
+	"gt_fleetpagefound": {
+		"message": "Flottsida funnen"
+	},
+	"gt_shipyardfound": {
+		"message": "Skeppsvarv funnet"
+	},
+	"gt_techpagefound": {
+		"message": "Techsidan funnen"
+	},
+	"gt_defensepagefound": {
+		"message": "Försvarssidan funnen"
+	},
+	"gt_buildingpagefound": {
+		"message": "Byggnadssidan funnen"
+	},
+	"gt_techtreefound": {
+		"message": "Teknologiträd funnet"
+	},
+	"gt_techtreeparsed": {
+		"message": "Teknologiträd analyserat"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Teknologiträd ej analyserat"
+	},
+	"gt_nodatafound": {
+		"message": "Ingen data funnen"
+	},
+	"gt_movementfound": {
+		"message": "Flottrörelse funnen"
+	},
+	"gt_movementupdated": {
+		"message": "Flottrörelse uppdaterad"
+	},
+	"gt_error_invalidxml": {
+		"message": "Ogiltig XML"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "Spionrapport inte uppdaterad!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "Spelarmeddelande inte uppdaterad!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "Kort CR inte uppdaterad!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Flottrörelse inte uppdaterad!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Galaxytool Service otillgänglig - Servern eventuellt i underhållsläge."
+	},
+	"gt_error_espionagetoolow": {
+		"message": "Spionteknologi för låg!"
+	},
+	"gt_allypagefound": {
+		"message": "Allianssida hittad"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Lägg till inställningar!"
+	},
+	"gt_empirefound": {
+		"message": "Imperieöversikt hittad"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "Economy-Stats ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Military points built-Stats ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Military points destroyed-Stats ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Military points lost-Stats ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Honour Points-Stats ."
+	},
+	"gt_settings_changed": {
+		"message": "The settings haven't been saved. Do you want to proceed?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "Your Galaxytool is outdated!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"toolbar_activate": {
+		"message": "Aktivera GTP"
+	},
+	"toolbar_activate_t": {
+		"message": "Aktivera Galaxytool Plugin"
+	},
+	"toolbar_options": {
+		"message": "GTP Alternativ"
+	},
+	"toolbar_options_t": {
+		"message": "Galaxytool Plugin Alternativ"
+	},
+	"toolbar_reports": {
+		"message": "Läs rapporter"
+	},
+	"toolbar_statusLabel": {
+		"message": "Status:"
+	},
+	"toolbar_statusInfo": {
+		"message": "ingenting"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytools"
+	},
+	"dialog_tab2": {
+		"message": "Plugin Alternativ"
+	},
+	"dialog_title": {
+		"message": "Galaxyplugin Alternativ"
+	},
+	"dialog_ogameurl": {
+		"message": "OGame Servernamn"
+	},
+	"dialog_ogameuni": {
+		"message": "Universum"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "Galaxytool URL"
+	},
+	"dialog_username": {
+		"message": "Användarnamn"
+	},
+	"dialog_password": {
+		"message": "Lösenord"
+	},
+	"dialog_autoreports": {
+		"message": "Skicka rapporter automatiskt"
+	},
+	"dialog_debug": {
+		"message": "Visa felsökningsinformation"
+	},
+	"dialog_show_statuswindow": {
+		"message": "Visa statusfönster"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Skicka galaxvy"
+	},
+	"dialog_submib_stats": {
+		"message": "Skicka spelar- och alliansstatistik"
+	},
+	"dialog_submib_reports": {
+		"message": "Skicka rapporter"
+	},
+	"dialog_submib_allypage": {
+		"message": "Skicka allianssens medlemssida"
+	},
+	"dialog_submib_buildings": {
+		"message": "Skicka byggnader"
+	},
+	"dialog_submib_research": {
+		"message": "Skicka forskning"
+	},
+	"dialog_submib_fleet": {
+		"message": "Skicka flotta"
+	},
+	"dialog_submib_defense": {
+		"message": "Skicka försvar"
+	},
+	"dialog_status_window": {
+		"message": "Statusfönster"
+	},
+	"dialog_status_style": {
+		"message": "Definiera CSS Stil"
+	},
+	"dialog_status_style_window": {
+		"message": "Fönster"
+	},
+	"dialog_status_style_header": {
+		"message": "Huvud"
+	},
+	"dialog_status_style_results": {
+		"message": "Status vy"
+	},
+	"dialog_general_data": {
+		"message": "Generell data"
+	},
+	"dialog_add_tool": {
+		"message": "Lägg till nytt Galaxytool"
+	},
+	"dialog_delete": {
+		"message": "Ta bort"
+	},
+	"dialog_name": {
+		"message": "Namn"
+	},
+	"dialog_uni_data": {
+		"message": "Universum data"
+	},
+	"dialog_own_data": {
+		"message": "Personlig data"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Galaxytool Version"
+	},
+	"dialog_submib_empire": {
+		"message": "Skicka Imperium Visa"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Skicka skeppsvarv"
+	},
+	"dialog_espionage_action": {
+		"message": "Skicka fientlig spionaktivitet"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Skcika radarrapport"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Skicka egen skeppsförflyttning"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Skicka korta CR"
+	},
+	"dialog_submib_player_message": {
+		"message": "Skicka spelarmeddelanden (aktivitet)"
+	},
+	"dialog_submib_message_content": {
+		"message": "skicka även innehållet i meddelandet"
+	},
+	"dialog_check_btn": {
+		"message": "Kontroll"
+	},
+	"dialog_own_player_id": {
+		"message": "Efterfrågning av ditt spelar-ID"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Stäng av om du blir utloggad direkt efter att ha loggat in i OGame"
+	},
+	"dialog_token": {
+		"message": "Inloggningsnyckel"
+	}
+}

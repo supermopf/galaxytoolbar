@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"gt_submit_fmovments": {
+		"message": "Læs flådebevægelser fra siden"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "Overfør Spionagerapporter Fra Siden"
+	},
+	"gt_status_window": {
+		"message": "Galaxietool Status ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "Galakse ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". fundet"
+	},
+	"gt_statsfound": {
+		"message": "Statistikker fundet"
+	},
+	"gt_reportsfound": {
+		"message": "Rapport-siden er fundet"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Spiller-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Ally-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "Pointstatistik ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": ".Flådestatistik ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "Forskningsstatistik ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". opdateret"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Galaksevisning ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". updateret"
+	},
+	"gt_reportsupdated": {
+		"message": "Rapporter overført"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "Alliancehistorik overført"
+	},
+	"gt_error_unknownuni": {
+		"message": "Ukendt univers!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Bad Ready State: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Bad status code: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Permission denied!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Siden blev ikke fundet!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "Kunne ikke finde GalaxyTool-server!"
+	},
+	"gt_error_wrongpage": {
+		"message": "Fandt en side, men det var ikke en Galaxyplugin-side!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Galakse ikke opdateret!"
+	},
+	"gt_error_reporterror": {
+		"message": "Mindst én rapport fejlede!"
+	},
+	"gt_error_statserror": {
+		"message": "Statistik ikke opdateret!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "Alliancehistorik ikke opdateret!"
+	},
+	"gt_error_foxgame": {
+		"message": "Forkerte Foxgame-indstillinger - indsættelse afbrudt!"
+	},
+	"gt_error_unknown": {
+		"message": "Uventede resultater fra server!."
+	},
+	"gt_error_wrong_universe": {
+		"message": "Forkert univers!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Toolbar uddateret!"
+	},
+	"gt_error_statssort": {
+		"message": "Statistikker sorteret i forkert rækkefølge!."
+	},
+	"gt_toolbar_activate": {
+		"message": "Aktiver GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Aktiver Galaxytool Plugin"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Toolbar Inaktiv!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Deaktiver GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Deaktiver Galaxytool Plugin"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Toolbar Aktiveret!"
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "ingenting"
+	},
+	"gt_erroralert": {
+		"message": "Der er opstået en fejl: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "Mindst en ukendt spionage rapport: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Besøg teknologitræet for updatering af sprog.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Tryk på OK-knappen og teknologitræet vil åbne i et nyt vindue. Genlæs herefter siden og prøv igen.."
+	},
+	"gt_noreportsfound": {
+		"message": "Ingen spionagerapporter fundet!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "Ingen nye spionagerapporter fundet!"
+	},
+	"gt_phalanxfound": {
+		"message": "Phalanx rapport fundet"
+	},
+	"gt_espionagefound": {
+		"message": "Spionageaktion fundet"
+	},
+	"gt_espionageupdated": {
+		"message": "Spionageaktion opdateret"
+	},
+	"gt_pmessagefound": {
+		"message": "Spillermeddelse fundet"
+	},
+	"gt_pmessageupdated": {
+		"message": "Spillermeddelse opdateret"
+	},
+	"gt_shortcrfound": {
+		"message": "Kort kamprapport fundet"
+	},
+	"gt_shortcrupdated": {
+		"message": "Kort kamprapport opdateret"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "Ingen flåde på planet\/måne"
+	},
+	"gt_fleetpagefound": {
+		"message": "Flådeside fundet"
+	},
+	"gt_shipyardfound": {
+		"message": "Skibsværftsside fundet"
+	},
+	"gt_techpagefound": {
+		"message": "Teknologiside fundet"
+	},
+	"gt_defensepagefound": {
+		"message": "Forsvarsside fundet"
+	},
+	"gt_buildingpagefound": {
+		"message": "Bygningsside fundet"
+	},
+	"gt_techtreefound": {
+		"message": "Teknologitræ fundet"
+	},
+	"gt_techtreeparsed": {
+		"message": "Teknologitræ analyseret"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Teknologitræ ikke analyseret"
+	},
+	"gt_nodatafound": {
+		"message": "Ingen data fundet"
+	},
+	"gt_movementfound": {
+		"message": "Flådebevægelser fundet"
+	},
+	"gt_movementupdated": {
+		"message": "Flådebevægelser opdateret"
+	},
+	"gt_error_invalidxml": {
+		"message": "Ugyldig XML"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "Spionageaktion ikke opdateret!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "Spillermeddelse ikke opdateret!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "Kort kamprapport ikke opdateret!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Flådebevægelser ikke opdateret!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Galaxytool tjenesten er ikke tilgængelig - muligvis på grund af server vedligeholdelse"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "For lav spionageteknologi!"
+	},
+	"gt_allypagefound": {
+		"message": "Alliance side fundet"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Tilføj indstillinger til Galaxytool plugin!"
+	},
+	"gt_empirefound": {
+		"message": "Imperium oversigt fundet"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "Økonomi-Stats ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Militær points bygget-Stats ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Militær point ødelagt-Stats ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Militær points tabt-Stats ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Honour Points-Stats ."
+	},
+	"gt_settings_changed": {
+		"message": "Indstillingerne er ikke blevet gemt. Vil du fortsætte?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "Din Galaxytool er forældet!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"toolbar_activate": {
+		"message": "Aktiver GTP"
+	},
+	"toolbar_activate_t": {
+		"message": "Aktiver Galaxytool Plugin"
+	},
+	"toolbar_options": {
+		"message": "GTP Indstillinger"
+	},
+	"toolbar_options_t": {
+		"message": "Galaxytool Plugin Indstillinger"
+	},
+	"toolbar_reports": {
+		"message": "Overfør Rapporter"
+	},
+	"toolbar_statusLabel": {
+		"message": "Status:"
+	},
+	"toolbar_statusInfo": {
+		"message": "intet"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytools"
+	},
+	"dialog_tab2": {
+		"message": "Plugin-indstillinger"
+	},
+	"dialog_title": {
+		"message": "Galaxyplugin Indstillinger"
+	},
+	"dialog_ogameurl": {
+		"message": "OGame-Univers Servernavn"
+	},
+	"dialog_ogameuni": {
+		"message": "Univers"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "Galaxytool URL"
+	},
+	"dialog_username": {
+		"message": "Brugernavn"
+	},
+	"dialog_password": {
+		"message": "Kodeord"
+	},
+	"dialog_autoreports": {
+		"message": "Upload rapporter automatisk"
+	},
+	"dialog_debug": {
+		"message": "Vis debug-information"
+	},
+	"dialog_show_statuswindow": {
+		"message": "Vis statusinfo"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Upload GalaxyView"
+	},
+	"dialog_submib_stats": {
+		"message": "Upload spiller- og ally-statistik"
+	},
+	"dialog_submib_reports": {
+		"message": "Upload rapporter"
+	},
+	"dialog_submib_allypage": {
+		"message": "Upload alliance-medlemssiden"
+	},
+	"dialog_submib_buildings": {
+		"message": "Upload bygninger"
+	},
+	"dialog_submib_research": {
+		"message": "Upload forskning"
+	},
+	"dialog_submib_fleet": {
+		"message": "Upload flåde"
+	},
+	"dialog_submib_defense": {
+		"message": "Upload forsvar"
+	},
+	"dialog_status_window": {
+		"message": "Status info"
+	},
+	"dialog_status_style": {
+		"message": "Definer CSS Styles"
+	},
+	"dialog_status_style_window": {
+		"message": "Vindue"
+	},
+	"dialog_status_style_header": {
+		"message": "Overskrift"
+	},
+	"dialog_status_style_results": {
+		"message": "Status"
+	},
+	"dialog_general_data": {
+		"message": "Generelle Data"
+	},
+	"dialog_add_tool": {
+		"message": "Tilføj ny"
+	},
+	"dialog_delete": {
+		"message": "Slet"
+	},
+	"dialog_name": {
+		"message": "Navn"
+	},
+	"dialog_uni_data": {
+		"message": "Universdata"
+	},
+	"dialog_own_data": {
+		"message": "Egne data"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Galaxytool Version"
+	},
+	"dialog_submib_empire": {
+		"message": "Indsend imperium"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Upload skibsværft"
+	},
+	"dialog_espionage_action": {
+		"message": "Upload fjendtlige spionageaktioner"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Upload phalanx rapporter"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Upload egne flådebevægelser"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Upload korte kamprapporter"
+	},
+	"dialog_submib_player_message": {
+		"message": "Upload spillermeddelser (aktivitet)"
+	},
+	"dialog_submib_message_content": {
+		"message": "Upload indhold af spillermeddelser"
+	},
+	"dialog_check_btn": {
+		"message": "Check"
+	},
+	"dialog_own_player_id": {
+		"message": "Anmod om eget OGame spiller ID"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Deaktiver hvis du bliver logget ud lige efter at du er logget på OGame"
+	},
+	"dialog_token": {
+		"message": "Logon Key"
+	}
+}

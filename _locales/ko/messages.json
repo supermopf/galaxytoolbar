@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "겔럭시툴 툴바"
+	},
+	"gt_submit_fmovments": {
+		"message": "이 페이지에서 함대 현황 읽기"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "이 페이지에서 정찰 보고서 읽기"
+	},
+	"gt_status_window": {
+		"message": "겔툴바 창"
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "좌표보기 ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". 발견"
+	},
+	"gt_statsfound": {
+		"message": "통계 발견"
+	},
+	"gt_reportsfound": {
+		"message": "보고서 페이지 발견"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "플레이어-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "동맹-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "점수- ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": "함대- ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "연구- ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". 업데이트"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "은하계 보기 ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". 업데이트"
+	},
+	"gt_reportsupdated": {
+		"message": "보고서 전송"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "동맹 기록 전송"
+	},
+	"gt_error_unknownuni": {
+		"message": "확인되지 않은 은하!"
+	},
+	"gt_error_badreadystate": {
+		"message": "잘못된 준비 상태: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Bad status code: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "권한이 거부됨!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "페이지를 찾을수 없습니다!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "겔럭시툴 서버를 찾을 수 없습니다!"
+	},
+	"gt_error_wrongpage": {
+		"message": "이 페이지는 겔럭시툴 페이지가 아닙니다!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "은하계 보기가 업데이트 안됨!"
+	},
+	"gt_error_reporterror": {
+		"message": "정탐 정보가 입력 안됨!"
+	},
+	"gt_error_statserror": {
+		"message": "통계가 업데이트 되지 않습니다!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "동맹 기록이 업데이트되지 않습니다!"
+	},
+	"gt_error_foxgame": {
+		"message": "잘못된 Foxgame 설정 - 잘못된 입력!"
+	},
+	"gt_error_unknown": {
+		"message": "서버에서 예상치 못한  결과!"
+	},
+	"gt_error_wrong_universe": {
+		"message": "잘못된 은하계!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "오래된 툴바!"
+	},
+	"gt_error_statssort": {
+		"message": "잘못된 정렬"
+	},
+	"gt_toolbar_activate": {
+		"message": "활성화 GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "활성화 겔툴 Plugin"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "툴바 비활성!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "비활성화 GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "비활성화 겔툴 Plugin"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "툴바 활성."
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "없음"
+	},
+	"gt_erroralert": {
+		"message": "오류가 발생했습니다: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "알수 없는 항목이 있습니다. : \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". 당신의 언어 정보를 업데이트 하는 기술트리를 참조하세요.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "확인- 버튼을 누르면 기술트리는 새 창에서 열립니다. 페이지를 로드 하신 후 다시 시도 하세요.."
+	},
+	"gt_noreportsfound": {
+		"message": "정탐 보고서를 찾을 수 없습니다."
+	},
+	"gt_nounreadreportsfound": {
+		"message": "정탐 보고서를 읽을 수 없습니다."
+	},
+	"gt_phalanxfound": {
+		"message": "밀집 보고서 발견"
+	},
+	"gt_espionagefound": {
+		"message": "정찰 활동 발견"
+	},
+	"gt_espionageupdated": {
+		"message": "정찰 활동 업데이트됨"
+	},
+	"gt_pmessagefound": {
+		"message": "플레이어 메시지 발견"
+	},
+	"gt_pmessageupdated": {
+		"message": "플레이어 메시지가 업데이트됨"
+	},
+	"gt_shortcrfound": {
+		"message": "짧은 전투로그 발견"
+	},
+	"gt_shortcrupdated": {
+		"message": "짧은 전투로그 업데이트됨"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "행성\/달에 함대 없음"
+	},
+	"gt_fleetpagefound": {
+		"message": "함대를 발견"
+	},
+	"gt_shipyardfound": {
+		"message": "조선소를 발견"
+	},
+	"gt_techpagefound": {
+		"message": "연구를 발견"
+	},
+	"gt_defensepagefound": {
+		"message": "방어 시설을 발견"
+	},
+	"gt_buildingpagefound": {
+		"message": "건물 페이지를 발견"
+	},
+	"gt_techtreefound": {
+		"message": "테크트리 발견"
+	},
+	"gt_techtreeparsed": {
+		"message": "테크트리가 분석됨"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "테크트리가 분석되지 않음!"
+	},
+	"gt_nodatafound": {
+		"message": "데이터가 없습니다."
+	},
+	"gt_movementfound": {
+		"message": "함대 현황을 찾을 수 없습니다."
+	},
+	"gt_movementupdated": {
+		"message": "함대 현황이 업데이트 되었습니다."
+	},
+	"gt_error_invalidxml": {
+		"message": "잘못된 XML!"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "정찰 활동이 업데이트 되지 않았습니다.!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "플레이어 메시지가 업데이트 되지 않았습니다!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "짧은 전투보고서가 업데이트 되지 않았습니다!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "함대 상황이 업데이트 되지 않았습니다.!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "겔럭시툴 서비스를 이용할 수 없습니다. - 서버가 점검중에 있습니다."
+	},
+	"gt_error_espionagetoolow": {
+		"message": "정탐 연구가 너무 낮습니다!"
+	},
+	"gt_allypagefound": {
+		"message": "동맹 페이지를 찾을 수 없습니다."
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "겔툴 플러그인 설정을 추가!"
+	},
+	"gt_empirefound": {
+		"message": "제국 보기 발견"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "경제 통계 ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "종합 군사 순위 통계 ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "군사 파괴 점수 통계 ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "잃은 군사 점수 통계 ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "명예 점수 통계 ."
+	},
+	"gt_settings_changed": {
+		"message": "설정이 저장되지 않았습니다. 계속 진행하시겠습니까?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "귀하의 겔럭시툴은 구버전입니다!"
+	},
+	"toolbar_name": {
+		"message": "겔럭시툴 툴바"
+	},
+	"toolbar_activate": {
+		"message": "GTP 활성"
+	},
+	"toolbar_activate_t": {
+		"message": "플러그인 작동"
+	},
+	"toolbar_options": {
+		"message": "GTP 옵션"
+	},
+	"toolbar_options_t": {
+		"message": "플러그인 옵션"
+	},
+	"toolbar_reports": {
+		"message": "보고서 수집"
+	},
+	"toolbar_statusLabel": {
+		"message": "상태:"
+	},
+	"toolbar_statusInfo": {
+		"message": "nothing"
+	},
+	"dialog_tab1": {
+		"message": "서버 설정"
+	},
+	"dialog_tab2": {
+		"message": "플러그인 옵션"
+	},
+	"dialog_title": {
+		"message": "겔툴 플러그인 옵션"
+	},
+	"dialog_ogameurl": {
+		"message": "오게임 서버"
+	},
+	"dialog_ogameuni": {
+		"message": "은하"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "겔툴 URL"
+	},
+	"dialog_username": {
+		"message": "유저이름"
+	},
+	"dialog_password": {
+		"message": "비밀번호"
+	},
+	"dialog_autoreports": {
+		"message": "보고서 자동 제출"
+	},
+	"dialog_debug": {
+		"message": "오류 정보 표시"
+	},
+	"dialog_show_statuswindow": {
+		"message": "윈도우 창으로 상황 표시"
+	},
+	"dialog_submib_galaxy": {
+		"message": "좌표 업데이트"
+	},
+	"dialog_submib_stats": {
+		"message": "플레이어 및 동맹 통계"
+	},
+	"dialog_submib_reports": {
+		"message": "보고서 제출"
+	},
+	"dialog_submib_allypage": {
+		"message": "동맹 멤버 페이지"
+	},
+	"dialog_submib_buildings": {
+		"message": "건물"
+	},
+	"dialog_submib_research": {
+		"message": "연구"
+	},
+	"dialog_submib_fleet": {
+		"message": "함대"
+	},
+	"dialog_submib_defense": {
+		"message": "방어시설"
+	},
+	"dialog_status_window": {
+		"message": "윈도우 표시"
+	},
+	"dialog_status_style": {
+		"message": "Define CSS Styles"
+	},
+	"dialog_status_style_window": {
+		"message": "Window"
+	},
+	"dialog_status_style_header": {
+		"message": "Header line"
+	},
+	"dialog_status_style_results": {
+		"message": "Status view"
+	},
+	"dialog_general_data": {
+		"message": "일반 자료"
+	},
+	"dialog_add_tool": {
+		"message": "새로운 서버 추가"
+	},
+	"dialog_delete": {
+		"message": "삭제"
+	},
+	"dialog_name": {
+		"message": "서버명"
+	},
+	"dialog_uni_data": {
+		"message": "일반 정보 제출"
+	},
+	"dialog_own_data": {
+		"message": "개인 정보 제출"
+	},
+	"dialog_galaxytool_version": {
+		"message": "겔럭시툴 버전"
+	},
+	"dialog_submib_empire": {
+		"message": "제국 보기 제출"
+	},
+	"dialog_submib_shipyard": {
+		"message": "쉽야드 제출"
+	},
+	"dialog_espionage_action": {
+		"message": "정탐정보 제출"
+	},
+	"dialog_submib_phalanx": {
+		"message": "밀집 정보 제출"
+	},
+	"dialog_submib_fmovement": {
+		"message": "함대 현황 제출"
+	},
+	"dialog_submib_short_cr": {
+		"message": "짧은 전투보고서 제출"
+	},
+	"dialog_submib_player_message": {
+		"message": "플레이어 메시지 제출(접률체크)"
+	},
+	"dialog_submib_message_content": {
+		"message": "플레이어가 보낸 메시지 제출"
+	},
+	"dialog_check_btn": {
+		"message": "확인"
+	},
+	"dialog_own_player_id": {
+		"message": "자신의 오게임 플레이어 ID를 요청"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Disable if you get logged out right after accessing OGame"
+	},
+	"dialog_token": {
+		"message": "인증 키"
+	}
+}

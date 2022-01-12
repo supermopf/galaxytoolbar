@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"gt_submit_fmovments": {
+		"message": "Read fleet movements from page"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "Read Spy Reports from page"
+	},
+	"gt_status_window": {
+		"message": "Galaxytool Status ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "galaxy ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". found"
+	},
+	"gt_statsfound": {
+		"message": "stats found"
+	},
+	"gt_reportsfound": {
+		"message": "reports page found"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Player-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Ally-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "Score-Stats ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": "Fleet-Stats ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "Research-Stats ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". updated"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Galaxyview ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". updated"
+	},
+	"gt_reportsupdated": {
+		"message": "Reports transfered"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "Alliance history transfered"
+	},
+	"gt_error_unknownuni": {
+		"message": "Unknown universe!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Bad Ready State: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Bad status code: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Permission denied!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Page not found!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "Could not find the galaxytool server!"
+	},
+	"gt_error_wrongpage": {
+		"message": "Found a page but it was not a galaxyplugin page!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Galaxyview not updated!"
+	},
+	"gt_error_reporterror": {
+		"message": "At least one report failed!"
+	},
+	"gt_error_statserror": {
+		"message": "Stats not updated!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "Alliance history not updated!"
+	},
+	"gt_error_foxgame": {
+		"message": "Wrong Foxgame settings - insert aborted!"
+	},
+	"gt_error_unknown": {
+		"message": "Unexpected result from server!"
+	},
+	"gt_error_wrong_universe": {
+		"message": "Wrong universe!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Toolbar outdated!"
+	},
+	"gt_error_statssort": {
+		"message": "Stats sorted in a wrong way!"
+	},
+	"gt_toolbar_activate": {
+		"message": "Activate GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Activate Galaxytool Plugin"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Toolbar Inactive!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Deactivate GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Deactivate Galaxytool Plugin"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Toolbar Activated."
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "nothing"
+	},
+	"gt_erroralert": {
+		"message": "An error has occured: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "At least one unknown entry: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Please visit the techtree to update your language information.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Click on the OK-Button and the techtree will open in a new window. After that reload this page and try again.."
+	},
+	"gt_noreportsfound": {
+		"message": "No espionage reports found!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "No unread espionage reports found!"
+	},
+	"gt_phalanxfound": {
+		"message": "Phalanx report found"
+	},
+	"gt_espionagefound": {
+		"message": "Espionage action found"
+	},
+	"gt_espionageupdated": {
+		"message": "Espionage action updated"
+	},
+	"gt_pmessagefound": {
+		"message": "Player message found"
+	},
+	"gt_pmessageupdated": {
+		"message": "Player message updated"
+	},
+	"gt_shortcrfound": {
+		"message": "Short CR found"
+	},
+	"gt_shortcrupdated": {
+		"message": "Short CR updated"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "No fleet on planet\/moon"
+	},
+	"gt_fleetpagefound": {
+		"message": "Fleet page found"
+	},
+	"gt_shipyardfound": {
+		"message": "Shipyard page found"
+	},
+	"gt_techpagefound": {
+		"message": "Tech page found"
+	},
+	"gt_defensepagefound": {
+		"message": "Defense page found"
+	},
+	"gt_buildingpagefound": {
+		"message": "Building page found"
+	},
+	"gt_techtreefound": {
+		"message": "Techtree found"
+	},
+	"gt_techtreeparsed": {
+		"message": "Techtree parsed"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Techtree not parsed"
+	},
+	"gt_nodatafound": {
+		"message": "No data found"
+	},
+	"gt_movementfound": {
+		"message": "Fleet movement found"
+	},
+	"gt_movementupdated": {
+		"message": "Fleet movement updated"
+	},
+	"gt_error_invalidxml": {
+		"message": "Invalid XML"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "Espionage action not updated!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "Player message not updated!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "Short CR not updated!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Fleet movement not updated!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Galaxytool Service unavailable - server possibly in maintenance mode"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "Espionage tech too low!"
+	},
+	"gt_allypagefound": {
+		"message": "Alliance page found"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Add settings to Galaxytool plugin!"
+	},
+	"gt_empirefound": {
+		"message": "Empire view found"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "Economy-Stats ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Military points built-Stats ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Military points destroyed-Stats ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Military points lost-Stats ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Honour Points-Stats ."
+	},
+	"gt_settings_changed": {
+		"message": "The settings haven't been saved. Do you want to proceed?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "Your Galaxytool is outdated!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"toolbar_activate": {
+		"message": "Activate GTP"
+	},
+	"toolbar_activate_t": {
+		"message": "Activate Galaxytool Plugin"
+	},
+	"toolbar_options": {
+		"message": "GTP Options"
+	},
+	"toolbar_options_t": {
+		"message": "Galaxytool Plugin Options"
+	},
+	"toolbar_reports": {
+		"message": "Get Reports"
+	},
+	"toolbar_statusLabel": {
+		"message": "Status:"
+	},
+	"toolbar_statusInfo": {
+		"message": "nothing"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytools"
+	},
+	"dialog_tab2": {
+		"message": "Plugin Options"
+	},
+	"dialog_title": {
+		"message": "Galaxyplugin Options"
+	},
+	"dialog_ogameurl": {
+		"message": "OGame Servername"
+	},
+	"dialog_ogameuni": {
+		"message": "Universe"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "Galaxytool URL"
+	},
+	"dialog_username": {
+		"message": "Username"
+	},
+	"dialog_password": {
+		"message": "Password"
+	},
+	"dialog_autoreports": {
+		"message": "Submit reports automatically"
+	},
+	"dialog_debug": {
+		"message": "Show debug information"
+	},
+	"dialog_show_statuswindow": {
+		"message": "Show status window"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Submit galaxyview"
+	},
+	"dialog_submib_stats": {
+		"message": "Submit player and alliance statistics"
+	},
+	"dialog_submib_reports": {
+		"message": "Submit reports"
+	},
+	"dialog_submib_allypage": {
+		"message": "Submit alliance member page"
+	},
+	"dialog_submib_buildings": {
+		"message": "Submit buildings"
+	},
+	"dialog_submib_research": {
+		"message": "Submit research"
+	},
+	"dialog_submib_fleet": {
+		"message": "Submit fleet"
+	},
+	"dialog_submib_defense": {
+		"message": "Submit defense"
+	},
+	"dialog_status_window": {
+		"message": "Status window"
+	},
+	"dialog_status_style": {
+		"message": "Define CSS Styles"
+	},
+	"dialog_status_style_window": {
+		"message": "Window"
+	},
+	"dialog_status_style_header": {
+		"message": "Header line"
+	},
+	"dialog_status_style_results": {
+		"message": "Status view"
+	},
+	"dialog_general_data": {
+		"message": "General Data"
+	},
+	"dialog_add_tool": {
+		"message": "Add new tool"
+	},
+	"dialog_delete": {
+		"message": "Delete"
+	},
+	"dialog_name": {
+		"message": "Name"
+	},
+	"dialog_uni_data": {
+		"message": "Universe data"
+	},
+	"dialog_own_data": {
+		"message": "Own data"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Galaxytool Version"
+	},
+	"dialog_submib_empire": {
+		"message": "Submit Empire View"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Submit shipyard"
+	},
+	"dialog_espionage_action": {
+		"message": "Submit hostile espionage actions"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Submit phalanx reports"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Submit own fleet movement"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Submit short CRs"
+	},
+	"dialog_submib_player_message": {
+		"message": "Submit player messages (activity)"
+	},
+	"dialog_submib_message_content": {
+		"message": "Submit also the contents of player messages"
+	},
+	"dialog_check_btn": {
+		"message": "Check"
+	},
+	"dialog_own_player_id": {
+		"message": "Request own OGame player ID"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Disable if you get logged out right after accessing OGame"
+	},
+	"dialog_token": {
+		"message": "Logon Key"
+	}
+}

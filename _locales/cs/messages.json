@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"gt_submit_fmovments": {
+		"message": "Načítat ze stránek pohyby letek"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "Číst špionážní zprávy ze stránky"
+	},
+	"gt_status_window": {
+		"message": "Stav Galaxytoolu ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "přehled galaxie ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". nalezen"
+	},
+	"gt_statsfound": {
+		"message": "statistiky nalezeny"
+	},
+	"gt_reportsfound": {
+		"message": "stránka s hlášeními nalezena"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Hráč-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Aliance-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "Statistika-Body ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": ".Statistika-Letky ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "Statistika-Výzkumy ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". aktualizováno"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Přehled galaxie ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". aktualizováno"
+	},
+	"gt_reportsupdated": {
+		"message": "Zprávy přeneseny"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "Historie aliancí přenesena"
+	},
+	"gt_error_unknownuni": {
+		"message": "Neznámý vesmír!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Špatný Stav Připravenosti: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Špatný stavový kód: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Přístup odepřen!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Stránka nenalezena!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "Galaxytool server nezle nalézt!"
+	},
+	"gt_error_wrongpage": {
+		"message": "Stránka nalezena, ale nebyla to stránka galaxypluginu!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Přehled galaxie nebyl aktualizován!"
+	},
+	"gt_error_reporterror": {
+		"message": "Přinejmenším jedna zpráva je špatně!"
+	},
+	"gt_error_statserror": {
+		"message": "Statistiky nebyly aktualizovány!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "Historie aliancí nebyla aktualizována!"
+	},
+	"gt_error_foxgame": {
+		"message": "Špatné nastavení Foxgame- vkládání zrušeno!"
+	},
+	"gt_error_unknown": {
+		"message": "Neočekávaná odpověď serveru!"
+	},
+	"gt_error_wrong_universe": {
+		"message": "Špatný vesmír!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Toolbar je zastaralý!"
+	},
+	"gt_error_statssort": {
+		"message": "Statistiky seřazeny ve špatném pořadí!"
+	},
+	"gt_toolbar_activate": {
+		"message": "Aktivovat GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Aktivovat Galaxytool Plugin"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Toolbar deaktivován!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Deaktivovat GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Deaktivovat Galaxytool Plugin"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Toolbar aktivován."
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "nic"
+	},
+	"gt_erroralert": {
+		"message": "Vyskytla se chyba: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "Alespoň jedna neznámá položka špionážní zprávy: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Otevřete prosím strom Technologie pro aktualizaci jazykových informací.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Kliknutím na OK otevřete strom Technologie v novém okně. Poté znovunačtěte tuto stránku a zkuste to znovu.."
+	},
+	"gt_noreportsfound": {
+		"message": "Nenalezeny žádné špionážní zprávy!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "Nenalezeny žádné nepřečtené špionážní zprávy!"
+	},
+	"gt_phalanxfound": {
+		"message": "Nalezena falanga"
+	},
+	"gt_espionagefound": {
+		"message": "Nalezena špionáž"
+	},
+	"gt_espionageupdated": {
+		"message": "Špionáž aktualizována"
+	},
+	"gt_pmessagefound": {
+		"message": "Nalezena PM hráče"
+	},
+	"gt_pmessageupdated": {
+		"message": "PM hráče aktualizována"
+	},
+	"gt_shortcrfound": {
+		"message": "Nalezena zkrácená BZ"
+	},
+	"gt_shortcrupdated": {
+		"message": "Zkrácená BZ aktualizována"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "Žádná letka na planetě\/měsíci"
+	},
+	"gt_fleetpagefound": {
+		"message": "Nalezena stránka letek"
+	},
+	"gt_shipyardfound": {
+		"message": "Nalezena stránka hangáru"
+	},
+	"gt_techpagefound": {
+		"message": "Nalezena stránka výzkumu"
+	},
+	"gt_defensepagefound": {
+		"message": "Nalezena stránka obrany"
+	},
+	"gt_buildingpagefound": {
+		"message": "Nalezena stránka budov"
+	},
+	"gt_techtreefound": {
+		"message": "Nalezen Tech strom"
+	},
+	"gt_techtreeparsed": {
+		"message": "Tech strom zpracován"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Techtree nebyl zpracován"
+	},
+	"gt_nodatafound": {
+		"message": "Nenalezena žádná data"
+	},
+	"gt_movementfound": {
+		"message": "Nalezen pohyb letek"
+	},
+	"gt_movementupdated": {
+		"message": "Pohyb letek aktualizován"
+	},
+	"gt_error_invalidxml": {
+		"message": "Neplatné XML"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "Špionáž nebyla aktualizována!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "PM hráče nebyla aktualizována!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "Zkrácená BZ nebyla aktualizována!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Pohyb letek nebyl aktualizován!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Galaxytool server je nedostupný - server je pravděpodobně v režimu údržby"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "Příliž nízká úroveň Špionážní technologie!"
+	},
+	"gt_allypagefound": {
+		"message": "Alliance page found"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Add settings to Galaxytool plugin!"
+	},
+	"gt_empirefound": {
+		"message": "Empire view found"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "Economy-Stats ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Military points built-Stats ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Military points destroyed-Stats ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Military points lost-Stats ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Honour Points-Stats ."
+	},
+	"gt_settings_changed": {
+		"message": "The settings haven't been saved. Do you want to proceed?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "Your Galaxytool is outdated!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"toolbar_activate": {
+		"message": "Aktivovat GTP"
+	},
+	"toolbar_activate_t": {
+		"message": "Aktivovat Galaxytool Plugin"
+	},
+	"toolbar_options": {
+		"message": "Nastavení GTP"
+	},
+	"toolbar_options_t": {
+		"message": "Galaxytool Plugin-Nastavení"
+	},
+	"toolbar_reports": {
+		"message": "Získat hlášení"
+	},
+	"toolbar_statusLabel": {
+		"message": "Stav:"
+	},
+	"toolbar_statusInfo": {
+		"message": "nic"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytools"
+	},
+	"dialog_tab2": {
+		"message": "Plugin-Nastavení"
+	},
+	"dialog_title": {
+		"message": "Galaxyplugin-Nastavení"
+	},
+	"dialog_ogameurl": {
+		"message": "Název OGame serveru"
+	},
+	"dialog_ogameuni": {
+		"message": "Vesmír"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "URL Galaxytoolu"
+	},
+	"dialog_username": {
+		"message": "Uživatelské jméno"
+	},
+	"dialog_password": {
+		"message": "Heslo"
+	},
+	"dialog_autoreports": {
+		"message": "Potvrdit hlášení automaticky"
+	},
+	"dialog_debug": {
+		"message": "Ukázat debug informace"
+	},
+	"dialog_show_statuswindow": {
+		"message": "Ukázat okno se stavem"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Potvrdit přehled galaxie"
+	},
+	"dialog_submib_stats": {
+		"message": "Potvrdit statistiky hráče a aliance"
+	},
+	"dialog_submib_reports": {
+		"message": "Potvrdit hlášení"
+	},
+	"dialog_submib_allypage": {
+		"message": "Potvrdit stránku se členy aliance"
+	},
+	"dialog_submib_buildings": {
+		"message": "Potvrdit budovy"
+	},
+	"dialog_submib_research": {
+		"message": "Potvrdit výzkum"
+	},
+	"dialog_submib_fleet": {
+		"message": "Potvrdit letku"
+	},
+	"dialog_submib_defense": {
+		"message": "Potvrdit obranu"
+	},
+	"dialog_status_window": {
+		"message": "Okno stavu"
+	},
+	"dialog_status_style": {
+		"message": "Definovat CSS styly"
+	},
+	"dialog_status_style_window": {
+		"message": "Okno"
+	},
+	"dialog_status_style_header": {
+		"message": "Záhlaví"
+	},
+	"dialog_status_style_results": {
+		"message": "Vzhled stavu"
+	},
+	"dialog_general_data": {
+		"message": "Obecná data"
+	},
+	"dialog_add_tool": {
+		"message": "Přidat nový Galaxytool"
+	},
+	"dialog_delete": {
+		"message": "Smazat"
+	},
+	"dialog_name": {
+		"message": "Název"
+	},
+	"dialog_uni_data": {
+		"message": "Informace o vesmíru"
+	},
+	"dialog_own_data": {
+		"message": "Vlastní data"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Verze Galaxytool"
+	},
+	"dialog_submib_empire": {
+		"message": "Odeslat pohled Impéria"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Odesílat hangár"
+	},
+	"dialog_espionage_action": {
+		"message": "Odesílat nepřátelské špionáže"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Odesílat zprávy z falangy"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Odesílat vlastní pohyb letek"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Odesílat zkrácené BZ"
+	},
+	"dialog_submib_player_message": {
+		"message": "Odesílat PM hráčů (aktivita)"
+	},
+	"dialog_submib_message_content": {
+		"message": "Odesílat také obsah zpráv"
+	},
+	"dialog_check_btn": {
+		"message": "Zkontrolovat"
+	},
+	"dialog_own_player_id": {
+		"message": "Získat vlastní OGame ID hráče"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Vypněte pokud Vás OGame ihned odhlašuje"
+	},
+	"dialog_token": {
+		"message": "Logon Key"
+	}
+}

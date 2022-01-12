@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"gt_submit_fmovments": {
+		"message": "Flotta mozgás beolvasása az oldaról"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "Kémjelentések olvasása a lapról"
+	},
+	"gt_status_window": {
+		"message": "Galaxietool Státusz ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "galaxis ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". talált"
+	},
+	"gt_statsfound": {
+		"message": "státuszt talált"
+	},
+	"gt_reportsfound": {
+		"message": "kémjelentést talált"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "Játokos-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "Szövetség-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "Helyezés-Státusz ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": ".Flotta-Státusz ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "Kutatás-Státusz ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". frissítve"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "Galaxyview ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". frissítve"
+	},
+	"gt_reportsupdated": {
+		"message": "Jelentések elküldve"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "Szövetségi események elküldve"
+	},
+	"gt_error_unknownuni": {
+		"message": "Ismeretlen univerzum!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Rossz hozzáférési kód: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Rossz státusz kód: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "Hozzáférés megtagadva!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "Lap nem található!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "Name találom a galaxytool szervert!"
+	},
+	"gt_error_wrongpage": {
+		"message": "Találtam egy lapot, ami nem egy galaxyplugin lap!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "Galaxisnézet nincs frissítve!"
+	},
+	"gt_error_reporterror": {
+		"message": "Legalább egy jelentés hibás!"
+	},
+	"gt_error_statserror": {
+		"message": "Státusz nincs frissítve!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "Szövetségi jelentés nincs frissítve !"
+	},
+	"gt_error_foxgame": {
+		"message": "Rossz Foxgame beállítások - beillesztés megszakítva!"
+	},
+	"gt_error_unknown": {
+		"message": "Váratlán válasz a szervertől."
+	},
+	"gt_error_wrong_universe": {
+		"message": "Rossz univerzum!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Toolbar idejétmúlt!"
+	},
+	"gt_error_statssort": {
+		"message": "Státusok rossz irányba vannak rendezve."
+	},
+	"gt_toolbar_activate": {
+		"message": "Aktív GTP"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "Aktív Galaxytool Plugin"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "Toolbar nem aktív!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "Nem aktív GTP"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "Nem aktív Galaxytool Plugin"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "Toolbar Aktív!"
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "semmi"
+	},
+	"gt_erroralert": {
+		"message": "Hiba lépett fel: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "Legalább egy ismeretlen kémjelentés: \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\". Tekintse meg a Technológiai áttekintést (Techfa) a friss nyelvi információkért.."
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "Kattints az OK-Gombra és a Techfa megjelenik egy új ablakban, ezekután töltsd újra ezt a lapot és próbáld újra.."
+	},
+	"gt_noreportsfound": {
+		"message": "Nincs kémjelentés!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "Nincs olvasatlan kémjelentés!"
+	},
+	"gt_phalanxfound": {
+		"message": "Új phalanx jelentés"
+	},
+	"gt_espionagefound": {
+		"message": "Új kémjelentés"
+	},
+	"gt_espionageupdated": {
+		"message": "Kémjelentés frissítve"
+	},
+	"gt_pmessagefound": {
+		"message": "Új játékos üzenet"
+	},
+	"gt_pmessageupdated": {
+		"message": "Játékos üzenet frissítve"
+	},
+	"gt_shortcrfound": {
+		"message": "Új rövid CR"
+	},
+	"gt_shortcrupdated": {
+		"message": "CR frissítve"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "Nincs flotta a bolygón\/holdon"
+	},
+	"gt_fleetpagefound": {
+		"message": "Flotta oldal"
+	},
+	"gt_shipyardfound": {
+		"message": "Hajógyár oldal"
+	},
+	"gt_techpagefound": {
+		"message": "Kutatás oldal"
+	},
+	"gt_defensepagefound": {
+		"message": "Védelem oldal"
+	},
+	"gt_buildingpagefound": {
+		"message": "Épületek oldal"
+	},
+	"gt_techtreefound": {
+		"message": "Techfa oldal"
+	},
+	"gt_techtreeparsed": {
+		"message": "Részletes techfa"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "Nincs részletes techfa"
+	},
+	"gt_nodatafound": {
+		"message": "Nincs adat"
+	},
+	"gt_movementfound": {
+		"message": "Flotta mozgás"
+	},
+	"gt_movementupdated": {
+		"message": "Flotta mozgás frissítve"
+	},
+	"gt_error_invalidxml": {
+		"message": "Hibás XML"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "Kémjelentés nem frissült!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "Játékos üzenet nem frissült!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "Rövid CR nem frissült!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "Flotta mozgás nem frissült!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Galaxytool nem üzemel - lehetséges szerver karbantartás miatt."
+	},
+	"gt_error_espionagetoolow": {
+		"message": "Kém tech szint nagyon alacsony!"
+	},
+	"gt_allypagefound": {
+		"message": "Alliance page found"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Add settings to Galaxytool plugin!"
+	},
+	"gt_empirefound": {
+		"message": "Empire view found"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "Economy-Stats ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "Military points built-Stats ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "Military points destroyed-Stats ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "Military points lost-Stats ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "Honour Points-Stats ."
+	},
+	"gt_settings_changed": {
+		"message": "The settings haven't been saved. Do you want to proceed?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "Your Galaxytool is outdated!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"toolbar_activate": {
+		"message": "Aktív GTP"
+	},
+	"toolbar_activate_t": {
+		"message": "Aktív Galaxytool Plugin"
+	},
+	"toolbar_options": {
+		"message": "GTP Opciók"
+	},
+	"toolbar_options_t": {
+		"message": "Galaxytool Plugin Opciók"
+	},
+	"toolbar_reports": {
+		"message": "Jelentés betöltése"
+	},
+	"toolbar_statusLabel": {
+		"message": "Státusz:"
+	},
+	"toolbar_statusInfo": {
+		"message": "semmi"
+	},
+	"dialog_tab1": {
+		"message": "Galaxytools"
+	},
+	"dialog_tab2": {
+		"message": "Plugin Opciók"
+	},
+	"dialog_title": {
+		"message": "Galaxyplugin Opciók"
+	},
+	"dialog_ogameurl": {
+		"message": "OGame Szervernév"
+	},
+	"dialog_ogameuni": {
+		"message": "Univerzum"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "Galaxytool URL"
+	},
+	"dialog_username": {
+		"message": "Felhasználónév"
+	},
+	"dialog_password": {
+		"message": "Jelszó"
+	},
+	"dialog_autoreports": {
+		"message": "Riportok autómatikus küldése"
+	},
+	"dialog_debug": {
+		"message": "Debug információk megjelenítése"
+	},
+	"dialog_show_statuswindow": {
+		"message": "Státusz ablak megjelenítése"
+	},
+	"dialog_submib_galaxy": {
+		"message": "Galaxisnézet küldése"
+	},
+	"dialog_submib_stats": {
+		"message": "Játékos és szövetség statisztikák küldése"
+	},
+	"dialog_submib_reports": {
+		"message": "Riportok küldése"
+	},
+	"dialog_submib_allypage": {
+		"message": "Szövetségi tagok küldése"
+	},
+	"dialog_submib_buildings": {
+		"message": "Épületek küldése"
+	},
+	"dialog_submib_research": {
+		"message": "Kutatások küldése"
+	},
+	"dialog_submib_fleet": {
+		"message": "Flotta küldése"
+	},
+	"dialog_submib_defense": {
+		"message": "Védelem küldése"
+	},
+	"dialog_status_window": {
+		"message": "Státusz ablak"
+	},
+	"dialog_status_style": {
+		"message": "CSS Stílus definiciók"
+	},
+	"dialog_status_style_window": {
+		"message": "Ablek"
+	},
+	"dialog_status_style_header": {
+		"message": "Fejléc"
+	},
+	"dialog_status_style_results": {
+		"message": "Státusz nézet"
+	},
+	"dialog_general_data": {
+		"message": "Általános adat"
+	},
+	"dialog_add_tool": {
+		"message": "Új szerver hozzáadása"
+	},
+	"dialog_delete": {
+		"message": "Törlés"
+	},
+	"dialog_name": {
+		"message": "Név"
+	},
+	"dialog_uni_data": {
+		"message": "Univerzum beállítás"
+	},
+	"dialog_own_data": {
+		"message": "Saját beállítások"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Galaxytool Verzió"
+	},
+	"dialog_submib_empire": {
+		"message": "Birodalomnézet feltöltése"
+	},
+	"dialog_submib_shipyard": {
+		"message": "Hajógyár küldése"
+	},
+	"dialog_espionage_action": {
+		"message": "Kémjelentés küldése"
+	},
+	"dialog_submib_phalanx": {
+		"message": "Phalanx jelentés küldése"
+	},
+	"dialog_submib_fmovement": {
+		"message": "Saját flottamozgás küldése"
+	},
+	"dialog_submib_short_cr": {
+		"message": "Rövid CR küldése"
+	},
+	"dialog_submib_player_message": {
+		"message": "Játékos üzenet küldése (aktivitás)"
+	},
+	"dialog_submib_message_content": {
+		"message": "Játékos üzenet tartalmának küldése"
+	},
+	"dialog_check_btn": {
+		"message": "Ellenõrzés"
+	},
+	"dialog_own_player_id": {
+		"message": "Saját OGame azonosító lekérése"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Ki kell kapcsolni, ha bejelentkezés után kiléptet az OGame"
+	},
+	"dialog_token": {
+		"message": "Logon Key"
+	}
+}

@@ -1,0 +1,404 @@
+{
+	"gt_toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"gt_submit_fmovments": {
+		"message": "ページからスパイ レポートを送信"
+	},
+	"gt_submit_espionage_msg": {
+		"message": "ページから艦隊の動きを読込む"
+	},
+	"gt_status_window": {
+		"message": "Galaxietool Status ."
+	},
+	"gt_galaxyfound_prefix": {
+		"message": "銀河 ."
+	},
+	"gt_galaxyfound_suffix": {
+		"message": ". 検出"
+	},
+	"gt_statsfound": {
+		"message": "ランキング 検出"
+	},
+	"gt_reportsfound": {
+		"message": "スパイ レポート 検出"
+	},
+	"gt_statsupdated_playerprefix": {
+		"message": "プレイヤー-"
+	},
+	"gt_statsupdated_allyprefix": {
+		"message": "同盟-"
+	},
+	"gt_statsupdated_scoreinfix": {
+		"message": "ポイント-ランキング ."
+	},
+	"gt_statsupdated_fleetinfix": {
+		"message": ".艦隊-ランキング ."
+	},
+	"gt_statsupdated_researchinfix": {
+		"message": "リサーチ-ランキング ."
+	},
+	"gt_statsupdated_suffix": {
+		"message": ". 更新完了"
+	},
+	"gt_galaxyupdated_prefix": {
+		"message": "銀河ビュー ."
+	},
+	"gt_galaxyupdated_suffix": {
+		"message": ". 更新完了"
+	},
+	"gt_reportsupdated": {
+		"message": "レポート送信完了"
+	},
+	"gt_allyhistoryupdated": {
+		"message": "同盟履歴 送信完了"
+	},
+	"gt_error_unknownuni": {
+		"message": "不明な宇宙!"
+	},
+	"gt_error_badreadystate": {
+		"message": "Bad Ready State: ."
+	},
+	"gt_error_badstatuscode": {
+		"message": "Bad status code: ."
+	},
+	"gt_error_permissiondenied": {
+		"message": "権限がありません!"
+	},
+	"gt_error_pagenotfound": {
+		"message": "ページが見つかりません!"
+	},
+	"gt_error_gtserveronotfound": {
+		"message": "galaxytoolサーバが見つかりません!"
+	},
+	"gt_error_wrongpage": {
+		"message": "登録されたURLはgalaxypluginのページではありません!"
+	},
+	"gt_error_gvnotupdated": {
+		"message": "ギャラクシービューは更新されませんでした!"
+	},
+	"gt_error_reporterror": {
+		"message": "少なくとも1つのスパイ レポートが送信されませんでした!!"
+	},
+	"gt_error_statserror": {
+		"message": "ランキングは更新されませんでした!"
+	},
+	"gt_error_allyhistoryerror": {
+		"message": "同盟履歴は更新されませんでした!"
+	},
+	"gt_error_foxgame": {
+		"message": "Foxgameの設定が不正です - 挿入は中止されました!"
+	},
+	"gt_error_unknown": {
+		"message": "サーバから予期しない応答がありました!"
+	},
+	"gt_error_wrong_universe": {
+		"message": "宇宙が違います!"
+	},
+	"gt_error_toolbar_outdated": {
+		"message": "Toolbarの期限が切れています!"
+	},
+	"gt_error_statssort": {
+		"message": "ランキングの分類が不正です!"
+	},
+	"gt_toolbar_activate": {
+		"message": "GTP 有効化"
+	},
+	"gt_toolbar_activate_t": {
+		"message": "ツールバーを有効化する"
+	},
+	"gt_toolbar_activate_status": {
+		"message": "ツールバー無効化!"
+	},
+	"gt_toolbar_deactivate": {
+		"message": "GTP 無効化"
+	},
+	"gt_toolbar_deactivate_t": {
+		"message": "ツールバーを無効化する"
+	},
+	"gt_toolbar_deactivate_status": {
+		"message": "ツールバー有効化."
+	},
+	"gt_toolbar_status_nothing": {
+		"message": "無し"
+	},
+	"gt_erroralert": {
+		"message": "エラー: ."
+	},
+	"gt_error_missing_techs_prefix": {
+		"message": "1つ以上の未知の項目が有ります:  \""
+	},
+	"gt_error_missing_techs_suffix": {
+		"message": "\"言語情報を更新するため、テックツリーを表示してください。"
+	},
+	"gt_error_missing_techs_confirmation": {
+		"message": "OKボタンを押すと、テックツリーが新しいウィンドウで表示されます。その後このページをリロードしてください。"
+	},
+	"gt_noreportsfound": {
+		"message": "スパイレポート無し!"
+	},
+	"gt_nounreadreportsfound": {
+		"message": "未読のスパイレポート無し!"
+	},
+	"gt_phalanxfound": {
+		"message": "月のセンサーレポート検出"
+	},
+	"gt_espionagefound": {
+		"message": "スパイアクション検出"
+	},
+	"gt_espionageupdated": {
+		"message": "スパイアクション更新"
+	},
+	"gt_pmessagefound": {
+		"message": "プレイヤーメッセージ検出"
+	},
+	"gt_pmessageupdated": {
+		"message": "プレイヤーメッセージ更新"
+	},
+	"gt_shortcrfound": {
+		"message": "対戦レポート検出"
+	},
+	"gt_shortcrupdated": {
+		"message": "対戦レポート更新"
+	},
+	"gt_fleetpagenofleet": {
+		"message": "惑星\/月に戦艦はありません"
+	},
+	"gt_fleetpagefound": {
+		"message": "艦隊ページ検出"
+	},
+	"gt_shipyardfound": {
+		"message": "造船所ページ検出"
+	},
+	"gt_techpagefound": {
+		"message": "リサーチページ検出"
+	},
+	"gt_defensepagefound": {
+		"message": "防衛ページ検出"
+	},
+	"gt_buildingpagefound": {
+		"message": "建造物ページ検出"
+	},
+	"gt_techtreefound": {
+		"message": "テックツリー検出"
+	},
+	"gt_techtreeparsed": {
+		"message": "テックツリー解析"
+	},
+	"gt_error_techtreenotparsed": {
+		"message": "テックツリー解析不能"
+	},
+	"gt_nodatafound": {
+		"message": "データがありません"
+	},
+	"gt_movementfound": {
+		"message": "艦隊の動き検出"
+	},
+	"gt_movementupdated": {
+		"message": "艦隊の動き更新"
+	},
+	"gt_error_invalidxml": {
+		"message": "無効な XML"
+	},
+	"gt_error_espionagenotupdated": {
+		"message": "スパイアクション更新不能!"
+	},
+	"gt_error_pmessagenotupdated": {
+		"message": "プレイヤーメッセージ更新不能!"
+	},
+	"gt_error_shortcrnotupdated": {
+		"message": "対戦レポート更新不能!"
+	},
+	"gt_error_movementnotupdated": {
+		"message": "艦隊の動き更新不能!"
+	},
+	"gt_error_gtmaintenance_mode": {
+		"message": "Galaxytoolサービス利用不能 - メンテナンス中?"
+	},
+	"gt_error_espionagetoolow": {
+		"message": "スパイ活動技術レベルが不足!"
+	},
+	"gt_allypagefound": {
+		"message": "同盟ページ検出"
+	},
+	"gt_addsettingstotoolbar": {
+		"message": "Galaxytoolプラグインに設定を追加!"
+	},
+	"gt_empirefound": {
+		"message": "帝国ビュー検出"
+	},
+	"gt_statsupdated_economyinfix": {
+		"message": "エコノミーポイント-ランキング ."
+	},
+	"gt_statsupdated_builtfleetinfix": {
+		"message": "総合ミリタリーポイント-ランキング ."
+	},
+	"gt_statsupdated_destroyedfleetinfix": {
+		"message": "破壊した分のミリタリーポイント-ランキング ."
+	},
+	"gt_statsupdated_lostfleetinfix": {
+		"message": "喪失した分のミリタリーポイント-ランキング ."
+	},
+	"gt_statsupdated_honorinfix": {
+		"message": "名誉ポイント-ランキング ."
+	},
+	"gt_settings_changed": {
+		"message": "設定が保存されていません。続行しますか?"
+	},
+	"gt_error_tool_outdated": {
+		"message": "あなたのGalaxytoolは古くなっています!"
+	},
+	"toolbar_name": {
+		"message": "Galaxytool Toolbar"
+	},
+	"toolbar_activate": {
+		"message": "GTP 有効化"
+	},
+	"toolbar_activate_t": {
+		"message": "ツールバーを有効化する"
+	},
+	"toolbar_options": {
+		"message": "ツールバーを設定"
+	},
+	"toolbar_options_t": {
+		"message": "ツールバーの設定"
+	},
+	"toolbar_reports": {
+		"message": "スパイ レポート"
+	},
+	"toolbar_statusLabel": {
+		"message": "状況:"
+	},
+	"toolbar_statusInfo": {
+		"message": "無し"
+	},
+	"dialog_tab1": {
+		"message": "接続先設定"
+	},
+	"dialog_tab2": {
+		"message": "プラグイン設定"
+	},
+	"dialog_title": {
+		"message": "Galaxyplugin設定"
+	},
+	"dialog_ogameurl": {
+		"message": "OGame サーバ名"
+	},
+	"dialog_ogameuni": {
+		"message": "宇宙"
+	},
+	"dialog_galaxytoolurl": {
+		"message": "Galaxytool URL"
+	},
+	"dialog_username": {
+		"message": "ユーザー名"
+	},
+	"dialog_password": {
+		"message": "パスワード"
+	},
+	"dialog_autoreports": {
+		"message": "スパイ レポートを自動的に送信"
+	},
+	"dialog_debug": {
+		"message": "デバグ情報表示"
+	},
+	"dialog_show_statuswindow": {
+		"message": "ステータス ウィンドウを表示"
+	},
+	"dialog_submib_galaxy": {
+		"message": "銀河ビューを送信"
+	},
+	"dialog_submib_stats": {
+		"message": "ランキングを送信"
+	},
+	"dialog_submib_reports": {
+		"message": "スパイ レポートを送信"
+	},
+	"dialog_submib_allypage": {
+		"message": "同盟 メンバーリストを送信"
+	},
+	"dialog_submib_buildings": {
+		"message": "建物を送信"
+	},
+	"dialog_submib_research": {
+		"message": "リサーチを送信"
+	},
+	"dialog_submib_fleet": {
+		"message": "艦隊を送信"
+	},
+	"dialog_submib_defense": {
+		"message": "防衛を送信"
+	},
+	"dialog_status_window": {
+		"message": "ステータス ウィンドウ"
+	},
+	"dialog_status_style": {
+		"message": "CSS Stylesを定義"
+	},
+	"dialog_status_style_window": {
+		"message": "ウィンドウ"
+	},
+	"dialog_status_style_header": {
+		"message": "ヘッダ"
+	},
+	"dialog_status_style_results": {
+		"message": "ステータス"
+	},
+	"dialog_general_data": {
+		"message": "概要情報"
+	},
+	"dialog_add_tool": {
+		"message": "接続先を追加"
+	},
+	"dialog_delete": {
+		"message": "削除"
+	},
+	"dialog_name": {
+		"message": "設定名"
+	},
+	"dialog_uni_data": {
+		"message": "宇宙のデータ"
+	},
+	"dialog_own_data": {
+		"message": "自身のデータ"
+	},
+	"dialog_galaxytool_version": {
+		"message": "Galaxytool バージョン"
+	},
+	"dialog_submib_empire": {
+		"message": "帝国ビューを登録"
+	},
+	"dialog_submib_shipyard": {
+		"message": "造船所を送信"
+	},
+	"dialog_espionage_action": {
+		"message": "非友好的なスパイアクションを送信"
+	},
+	"dialog_submib_phalanx": {
+		"message": "月のセンサーレポートを送信"
+	},
+	"dialog_submib_fmovement": {
+		"message": "自身の艦隊の動きを送信"
+	},
+	"dialog_submib_short_cr": {
+		"message": "対戦レポートを送信"
+	},
+	"dialog_submib_player_message": {
+		"message": "プレイヤーメッセージを送信 (アクティビティー)"
+	},
+	"dialog_submib_message_content": {
+		"message": "プレイヤーメッセージの内容を送信"
+	},
+	"dialog_check_btn": {
+		"message": "チェック"
+	},
+	"dialog_own_player_id": {
+		"message": "自分のOgameプレイヤーIDを要求する。"
+	},
+	"dialog_own_player_id_title": {
+		"message": "Ogameへアクセス直後にログアウトさせられる場合は無効にする。"
+	},
+	"dialog_token": {
+		"message": "ログオンキー"
+	}
+}
