@@ -12,18 +12,20 @@ galaxytoolbar.GTPlugin_options2={
 	request_id : 0,
 	
 	toggleOptions: function(doc) {
-		var inhalt = doc.getElementById("inhalt");
+		var ContentContainerNamer = "middle"
+		var inhalt = doc.getElementById(ContentContainerNamer);
+		
 		if (!inhalt) {
-			inhalt = doc.getElementById("buttonz"); // message page in OGame V6
+			ContentContainerNamer = "buttonz"
+			inhalt = doc.getElementById(ContentContainerNamer); // message page in OGame V6
 		}
 		
 		if (doc.getElementById("GTPlugin-options-window") == null) {
 			this.old_inhalt = inhalt;
 			var og500 = galaxytoolbar.GTPlugin_general.compare_ogame_version_with(doc, 5,0,0);
 			var myinhalt = doc.createElement("div");
-		
-			myinhalt.setAttribute("id",'inhalt');
 			
+			myinhalt.setAttribute("id",'galaxytoolmenu');			
 			
 			var string = '';
 			string += this.open_Elem("div","GTPlugin-options-window");
@@ -244,11 +246,13 @@ galaxytoolbar.GTPlugin_options2={
 					string += this.close_Elem("div");
 				string += this.close_Elem("div");
 			string += this.close_Elem("div");
-			myinhalt.innerHTML = string;	
-			if (inhalt) {
-				inhalt.style.display = 'none';	
+			myinhalt.innerHTML = string;
+
+			for (let i = 0; i < inhalt.children.length; i++) {
+			  this.old_inhalt.children[i].style.display = 'none';
 			}
-			doc.getElementById("contentWrapper").appendChild(myinhalt);
+			
+			doc.getElementById(ContentContainerNamer).appendChild(myinhalt);
 			
 			
 			// load all tools
@@ -271,12 +275,20 @@ galaxytoolbar.GTPlugin_options2={
 				this.createListener(this.listeners[i]);
 				
 		} else {
-			if (doc.getElementById("GTPlugin-options-window").style.display != 'none') {
-				if (this.old_inhalt) this.old_inhalt.style.display = '';
-				doc.getElementById("GTPlugin-options-window").style.display = 'none';
+			if (doc.getElementById("galaxytoolmenu").style.display != 'none') {
+				if (this.old_inhalt){
+					for (let i = 0; i < inhalt.children.length; i++) {
+					  this.old_inhalt.children[i].style.display = '';
+					}
+				}
+				doc.getElementById("galaxytoolmenu").style.display = 'none';
 			} else {
-				if (this.old_inhalt) this.old_inhalt.style.display = 'none';
-				doc.getElementById("GTPlugin-options-window").style.display = '';
+				if (this.old_inhalt){
+					for (let i = 0; i < inhalt.children.length; i++) {
+					  this.old_inhalt.children[i].style.display = 'none';
+					}
+				}
+				doc.getElementById("galaxytoolmenu").style.display = '';
 			}
 		}
 	},
