@@ -525,17 +525,13 @@ galaxytoolbar.GTPlugin_messages={
 			galaxytoolbar.GTPlugin_general.set_status(doc,"galaxyplugin"+1,0,galaxytoolbar.GTPlugin_general.getLocString("shortcrfound"),"All Galaxytools");
 			var coords_exp = /(\d+):(\d+):(\d+)/;
 			
+			var combat_data = JSON.parse(ajax_content.match(/(?<=var combatData = jQuery.parseJSON\(\')(.*)(?=\'\);)/)[0]);
+			
 			// get attacker data from JSON content within a script tag
-			var attacker_data = ajax_content.match(/ogame\.messages\.combatreport\.loadData\((.*),\s*'attacker'\);/);
+			var attacker_data = combat_data.attackerJSON;
+			
 			// get defender data
-			var defender_data = ajax_content.match(/ogame\.messages\.combatreport\.loadData\((.*),\s*'defender'\);/);
-			
-			if (!attacker_data || attacker_data.length < 2 || !defender_data || defender_data.length < 2) {
-				return;
-			}
-			
-			attacker_data = JSON.parse(attacker_data[1]);
-			defender_data = JSON.parse(defender_data[1]);
+			var defender_data = combat_data.defenderJSON;
 			
 			//collect all attacker values
 			var att_coords_galaxy = new Array();			

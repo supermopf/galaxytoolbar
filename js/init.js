@@ -154,7 +154,7 @@ galaxytoolbar.GTPlugin_init = {
 							message_id = message_id[1]; // take over the id
 							// OGame requested to display a message
 							// check for combat report
-							var combat_start = event.data.responseText.indexOf("ogame.messages.combatreport.loadData(");
+							var combat_start = event.data.responseText.indexOf("ogame.messages.combatreport.loadData");
 							if (doc && combat_start >  -1) {
 								galaxytoolbar.GTPlugin_messages.submit_v6_combat_report(doc, message_id, event.data.responseText);
 							}

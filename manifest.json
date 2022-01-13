@@ -1,8 +1,8 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
 
-	"name": "Galaxytoolbar for Chrome",
-	"version": "2.8.4",
+	"name": "Galaxytoolbar Revived for Chrome",
+	"version": "2.9.0",
 	"description": "A Chrome AddOn for the OGame Galaxytool.",
 	"default_locale": "en",
 	"manifest_version": 2,
