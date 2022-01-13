@@ -9,5 +9,5 @@ This tool was once permitted by Gameforge, but the relaunch will probably need a
 # Contributing
 If you want to contribute to this project, feel free to create a pull request and issues of found bugs.
 
-#Screenshots
+# Screenshots
 ![Espionage View](/screenshots/espionage.png?raw=true "Espionage View")
