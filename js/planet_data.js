@@ -5,7 +5,6 @@ if(!galaxytoolbar.GTPlugin_planet_data) galaxytoolbar.GTPlugin_planet_data={};
 galaxytoolbar.GTPlugin_planet_data = {
 	
 	get_resources: function(docroot,element_id) {
-		if (element_id == "resources_energy") return this.getPlanetEnergy(docroot);
 		// this is more efficient than reading the tooltip
 		try {
 			var temp = docroot.getElementById(element_id).innerHTML;
@@ -27,23 +26,6 @@ galaxytoolbar.GTPlugin_planet_data = {
 			return temp;
 		} catch(e) {
 			// no chance to find resources
-			return 0;
-		}
-	},
-	
-	getPlanetEnergy: function(docroot) {
-		try {
-			var temp = galaxytoolbar.GTPlugin_general.get_script_of_page(docroot);
-			
-			temp = temp.match(/"energy":.+?"tooltip":"(.+?<\\\/table>)"/)[1];
-			// remove .5/,5
-			temp = parseInt(temp.split("<td")[2].match(/0|[1-9]{1}\d{0,2}(?:[,\.]\d{3})*/)[0].replace(/\D/g,""));
-			
-			if (isNaN(temp)) {
-				return 0;
-			}
-			return temp;
-		} catch(e) {
 			return 0;
 		}
 	},
@@ -90,6 +72,7 @@ galaxytoolbar.GTPlugin_planet_data = {
 			case 44:	return "Missile Silo";
 			case 15:	return "Nanite Factory";
 			case 33:	return "Terraformer";
+			//case 36:	return "Raumdock";
 			// techs
 			case 113:	return "Energy Technology";
 			case 120:	return "Laser Technology";
@@ -122,6 +105,9 @@ galaxytoolbar.GTPlugin_planet_data = {
 			case 209:	return "Recycler";
 			case 210:	return "Espionage Probe";
 			case 212:	return "Solar Satellite";
+			//case 217:	return "Crawler";
+			//case 218:	return "Reaper";
+			//case 219:	return "Pathfinder";
 			// defense
 			case 401:	return "Rocket Launcher";
 			case 402:	return "Light Laser";
@@ -342,6 +328,9 @@ galaxytoolbar.GTPlugin_planet_data = {
 			case "5f3ca7e91fc0a9b1ee014c3c01ea41"	:
 			case "small_212"						:
 			case "tiny_212"							: return 212;
+			//Crawler
+			case "small_217"						:
+			case "tiny_217"							: return 217;
 			// defense
 			//Rocket Launcher
 			case "4c4fbd313bc449e16f5212f23d6311"	:
@@ -424,7 +413,7 @@ galaxytoolbar.GTPlugin_planet_data = {
 		return translated_names;
 	},
 	
-	getData: function(docroot,param_name,num_childn) {
+	getData: function(docroot,param_name) {
 		var i = 0;
 		var j = 0;
 		var entries;
@@ -436,14 +425,10 @@ galaxytoolbar.GTPlugin_planet_data = {
 				entries = docroot.getElementById(param_name[l]).getElementsByTagName("li");
 				for (i = 0; i < entries.length; i++) {
 					// the building is currently built one level up
-					var num_cn = entries[i].getElementsByClassName("construction").length > 0 ? 0 : num_childn;
+					//var num_cn = entries.length > 0 ? 0 : num_childn;
 					// now we have one entry of the buildings, techs, fleets or defense
 					try {
-						if (entries[i].getElementsByTagName("input").length > 0) {
-							names[j] = this.getEnglishNameForID(parseInt(entries[i].getElementsByTagName("input")[0].getAttribute("id").replace(/\D/g,"")));
-						} else {
-							names[j] = this.getEnglishNameForID(parseInt(entries[i].getElementsByTagName("div")[0].getAttribute("class").replace(/\D/g,"")));
-						}
+						names[j] = this.getEnglishNameForID(parseInt(entries[i].getAttribute("data-technology")));
 					} catch (e) {
 						names[j] = "";
 					}
@@ -451,17 +436,12 @@ galaxytoolbar.GTPlugin_planet_data = {
 					// initialize value to have no gaps in our arrays
 					amount[j] = 0;
 					try {
-						tmp = entries[i].getElementsByClassName("level")[0];
-						// Technocrat = "2 (+2)" at espionage tech
-						// innerHTML: <span class="textlabel">Spionagetechnik </span>17<span class="undermark">(+2)</span>
-						if (tmp.getElementsByTagName("span").length == 2) {
-							if (tmp.getElementsByTagName("span")[1].innerHTML.indexOf("+2") > -1) {
-								amount[j] = parseInt(tmp.childNodes[num_cn].nodeValue.replace(/\D/g,""))+2;
-							} else {
-								amount[j] = parseInt(tmp.childNodes[num_cn].nodeValue.replace(/\D/g,""));
-							}
-						} else {
-							amount[j] = parseInt(tmp.childNodes[num_cn].nodeValue.replace(/\D/g,""));
+						if(entries[i].getElementsByClassName("level").length > 0){
+							//level for buildings
+							amount[j] = parseInt(entries[i].getElementsByClassName("level")[0].getAttribute("data-value"));
+						}else{
+							//amount for ships
+							amount[j] = parseInt(entries[i].getElementsByClassName("amount")[0].getAttribute("data-value"));
 						}
 					} catch(e) {
 						// nothing to do
@@ -469,6 +449,9 @@ galaxytoolbar.GTPlugin_planet_data = {
 					j++;
 				}
 			}
+			
+			console.log(names);
+			console.log(amount);
 			
 			var planet_xml = this.get_planetinfo_header(docroot);
 			if (planet_xml === false)

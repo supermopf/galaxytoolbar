@@ -76,15 +76,15 @@ galaxytoolbar.GTPlugin_init = {
 					
 				if ((doc.URL.search("page=highscore") > -1) ||
 				 (doc.URL.search("page=messages") > -1) ||
-				 (doc.URL.search("page=shipyard") > -1) ||
-				 (doc.URL.search("page=resources") > -1) ||
-				 (doc.URL.search("page=station") > -1) ||
-				 (doc.URL.search("page=defense") > -1) ||
-				 (doc.URL.search("page=research") > -1) ||
-				 (doc.URL.search("page=overview") > -1) ||
-				 (doc.URL.search("page=empire") > -1) ||
-				 (doc.URL.search("page=alliance") > -1) ||
-				 (doc.URL.search("page=galaxy") > -1)) {
+				 (doc.URL.search("component=shipyard") > -1) ||
+				 (doc.URL.search("component=supplies") > -1) ||
+				 (doc.URL.search("component=facilities") > -1) ||
+				 (doc.URL.search("component=defenses") > -1) ||
+				 (doc.URL.search("component=research") > -1) ||
+				 (doc.URL.search("component=overview") > -1) ||
+				 (doc.URL.search("component=empire") > -1) ||
+				 (doc.URL.search("component=alliance") > -1) ||
+				 (doc.URL.search("component=galaxy") > -1)) {
 					
 					this.update_summer_wintertime(general.get_script_of_page(doc));
 				}
@@ -272,8 +272,8 @@ galaxytoolbar.GTPlugin_init = {
 					return;
 				}*/
 				
-				// Allyhistory
-				if (doc.URL.search("page=alliance") > -1) {
+				// Allyhistory @TODO
+				if (doc.URL.search("component=alliance") > -1) {
 					if (galaxytoolbar.GTPlugin_storage.target_tool_exists(doc.URL,"allypage")) {
 						element = doc.getElementById('eins');
 						if (MutationObserver) {
@@ -286,8 +286,8 @@ galaxytoolbar.GTPlugin_init = {
 					return;
 				}
 				
-				// Empire view
-				if (doc.URL.search("page=empire") > -1) {
+				// Empire view @TODO
+				if (doc.URL.search("component=empire") > -1) {
 					if (galaxytoolbar.GTPlugin_storage.target_tool_exists(doc.URL,"empire")) {
 						element = doc.getElementById('mainWrapper');
 						
@@ -319,7 +319,7 @@ galaxytoolbar.GTPlugin_init = {
 					}
 				}
 				
-				if (doc.URL.search("page=overview") > -1) {
+				if (doc.URL.search("component=overview") > -1) {
 					if (galaxytoolbar.GTPlugin_storage.target_tool_exists(doc.URL,"ogeneral")) {
 						galaxytoolbar.GTPlugin_planet_data.get_overview_data(doc);
 					}
@@ -400,17 +400,16 @@ galaxytoolbar.GTPlugin_init = {
 				
 				var tmp;
 				// fleet
-				if (doc.URL.search("page=fleet1") > -1) {
+				if (doc.URL.search("component=fleetdispatch") > -1) {
 					if (galaxytoolbar.GTPlugin_storage.target_tool_exists(doc.URL,"fleet")) {
 						general.set_status(doc, "galaxyplugin"+1 , 0, general.getLocString("fleetpagefound"),"All Galaxytools");
 						if (doc.getElementById("warning") != null) {
 							general.set_status(doc, "galaxyplugin"+1 , 2, general.getLocString("fleetpagenofleet"),"All Galaxytools");
 						} else {
-							tmp = galaxytoolbar.GTPlugin_planet_data.getData(doc,["military","civil"],1); // civil = ID to look for
-							//alert(data2_xml);
+							tmp = galaxytoolbar.GTPlugin_planet_data.getData(doc,["military","civilships"]);
 							if (tmp != "") {
-								general.send(doc,"fleet",tmp,doc.URL);
-						} else {
+									general.send(doc,"fleet",tmp,doc.URL);
+							} else {
 								general.set_status(doc, "galaxyplugin"+1 , 3, general.getLocString("nodatafound"),"All Galaxytools");	
 							}
 						}
@@ -419,11 +418,10 @@ galaxytoolbar.GTPlugin_init = {
 				}
 				
 				// shipyard
-				if (doc.URL.search("page=shipyard") > -1) {
+				if (doc.URL.search("component=shipyard") > -1) {
 					if (galaxytoolbar.GTPlugin_storage.target_tool_exists(doc.URL,"shipyard")) {
 						general.set_status(doc, "galaxyplugin"+1 , 0, general.getLocString("shipyardfound"),"All Galaxytools");
-						tmp = galaxytoolbar.GTPlugin_planet_data.getData(doc,["military","civil"],2); // civil = ID to look for
-						//alert(data2_xml);
+						tmp = galaxytoolbar.GTPlugin_planet_data.getData(doc,["technologies_battle","technologies_civil"]);
 						if (tmp != "") {
 							general.send(doc,"shipyard",tmp,doc.URL);
 						} else {
@@ -438,10 +436,10 @@ galaxytoolbar.GTPlugin_init = {
 				}
 				
 				// resources buildings
-				if (doc.URL.search("page=resources") > -1) {
+				if (doc.URL.search("component=supplies") > -1) {
 					if (galaxytoolbar.GTPlugin_storage.target_tool_exists(doc.URL,"buildings")) {
 						general.set_status(doc, "galaxyplugin"+1 , 0, general.getLocString("buildingpagefound"),"All Galaxytools");
-						tmp = galaxytoolbar.GTPlugin_planet_data.getData(doc,["building","storage"],2); // storage = ID to look for
+						tmp = galaxytoolbar.GTPlugin_planet_data.getData(doc,["producers"]); // storage = ID to look for
 						if (tmp != "") {
 							general.send(doc,"buildings",tmp,doc.URL);
 						} else {
@@ -460,11 +458,10 @@ galaxytoolbar.GTPlugin_init = {
 				}
 				
 				// facilities
-				if (doc.URL.search("page=station") > -1) {
+				if (doc.URL.search("component=facilities") > -1) {
 					if (galaxytoolbar.GTPlugin_storage.target_tool_exists(doc.URL,"buildings")) {
 						general.set_status(doc, "galaxyplugin"+1 , 0, general.getLocString("buildingpagefound"),"All Galaxytools");
-						tmp = galaxytoolbar.GTPlugin_planet_data.getData(doc,["stationbuilding"],2); // stationbuilding = ID to look for
-						//alert(data_xml);
+						tmp = galaxytoolbar.GTPlugin_planet_data.getData(doc,["technologies"]);
 						if (tmp != "") {
 							general.send(doc,"buildings",tmp,doc.URL);
 						} else {
@@ -482,10 +479,10 @@ galaxytoolbar.GTPlugin_init = {
 				}
 				
 				// defense
-				if (doc.URL.search("page=defense") > -1) {
+				if (doc.URL.search("component=defenses") > -1) {
 					if (galaxytoolbar.GTPlugin_storage.target_tool_exists(doc.URL,"defense")) {
 						general.set_status(doc, "galaxyplugin"+1 , 0, general.getLocString("defensepagefound"),"All Galaxytools");
-						tmp = galaxytoolbar.GTPlugin_planet_data.getData(doc,["defensebuilding"],2);
+						tmp = galaxytoolbar.GTPlugin_planet_data.getData(doc,["technologies"]);
 						//alert(data_xml);
 						if (tmp != "") {
 							general.send(doc,"defense",tmp,doc.URL);
@@ -503,11 +500,11 @@ galaxytoolbar.GTPlugin_init = {
 				}
 				
 				// research
-				if (doc.URL.search("page=research") > -1) {
+				if (doc.URL.search("component=research") > -1) {
 					if (galaxytoolbar.GTPlugin_storage.target_tool_exists(doc.URL,"research")) {
 						general.set_status(doc, "galaxyplugin"+1 , 0, general.getLocString("techpagefound"),"All Galaxytools");
 						
-						tmp = galaxytoolbar.GTPlugin_planet_data.getData(doc,["base1","base2","base3","base4"],2);
+						tmp = galaxytoolbar.GTPlugin_planet_data.getData(doc,["technologies_basic","technologies_drive","technologies_advanced","technologies_combat"]);
 						
 						if (tmp != "") {
 							general.send(doc,"techs",tmp,doc.URL);
