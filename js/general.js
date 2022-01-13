@@ -134,15 +134,16 @@ galaxytoolbar.GTPlugin_general = {
 	get_script_of_page: function(doc) {
 		try {
 			var scripts = doc.getElementsByTagName("script");
+			var response = "";
 			for (var i = 0; i < scripts.length; i++) {
 				if (scripts[i].hasAttribute("src")) continue;
-				if (!scripts[i].hasChildNodes()) continue;
-				if (scripts[i].childNodes[0] == undefined) continue;
-				if (!(scripts[i].childNodes[0].nodeValue.indexOf('var timerHandler') > -1)) continue;
-				return scripts[i].innerHTML;
+				//if (!scripts[i].hasChildNodes()) continue;
+				//if (scripts[i].childNodes[0] == undefined) continue;
+				//if (!(scripts[i].childNodes[0].nodeValue.indexOf('var timerHandler') > -1)) continue;
+				//return scripts[i].innerHTML;
+				response += scripts[i].innerHTML;
 			}
-			
-			return "";
+			return response;
 		} catch(e) {
 			return "";
 		}

@@ -293,13 +293,7 @@ galaxytoolbar.GTPlugin_init = {
 						
 						if (MutationObserver) {
 							var observer = new MutationObserver(function(m){ galaxytoolbar.GTPlugin_empire.submit_empiredata_mutation_handler(m,doc); });
-							observer.observe(element, { childList: true});
-						} else {
-							element.addEventListener("DOMNodeInserted", function(e){ galaxytoolbar.GTPlugin_empire.submit_empiredata_event_handler(e, doc, true); }, false );
-						}
-						
-						if (doc.getElementById("empireTab")) {
-							galaxytoolbar.GTPlugin_empire.submit_empiredata(doc);
+							observer.observe(element, { childList: true, subtree: true});
 						}
 					}
 					return;

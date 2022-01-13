@@ -5,6 +5,7 @@ if(!galaxytoolbar.GTPlugin_planet_data) galaxytoolbar.GTPlugin_planet_data={};
 galaxytoolbar.GTPlugin_planet_data = {
 	
 	get_resources: function(docroot,element_id) {
+		if (element_id == "resources_energy") return this.getPlanetEnergy(docroot);
 		// this is more efficient than reading the tooltip
 		try {
 			var temp = docroot.getElementById(element_id).innerHTML;
@@ -30,6 +31,22 @@ galaxytoolbar.GTPlugin_planet_data = {
 		}
 	},
 	
+	getPlanetEnergy: function(docroot) {
+		try {
+			var temp = galaxytoolbar.GTPlugin_general.get_script_of_page(docroot);
+
+			temp = temp.match(/"energy":.+?"tooltip":"(.+?<\\\/table>)"/)[1];
+			// remove .5/,5
+			temp = parseInt(temp.split("<td")[2].match(/0|[1-9]{1}\d{0,2}(?:[,\.]\d{3})*/)[0].replace(/\D/g,""));
+
+			if (isNaN(temp)) {
+				return 0;
+			}
+			return temp;
+		} catch(e) {
+			return 0;
+		}
+	},
 	getPlanetname: function(doc) {
 		// return currently selected planet: Array of [planetname,coordinates,moon_or_planet]
 		var planetname = "";

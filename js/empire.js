@@ -305,6 +305,7 @@ galaxytoolbar.GTPlugin_empire = {
 	},
 	
 	submit_empiredata: function(doc) {
+		console.log("submit_empiredata triggered");
 		// now we found HTML content that contained the ID
 		var playername = galaxytoolbar.GTPlugin_general.get_playername(doc);
 		if (playername != "") {
@@ -316,40 +317,15 @@ galaxytoolbar.GTPlugin_empire = {
 		}
 	},
 	
-	submit_empiredata_event_handler: function(e, doc, isDOMloaded) {
-		try {
-			if (isDOMloaded) {
-				var id = e.relatedNode.getAttribute("id");
-				if (id != "mainWrapper") {
-					return;
-				}	
-				
-				try {
-					if (e.target.getAttribute("id") != "empireTab") {
-						return;
-					}
-				} catch(e) {
-					// ID attribute does not exist
-					return;
-				}
-			}
-			this.submit_empiredata(doc);
-		} catch(e) {
-			// do nothing
-			//alert("error: "+e);
-		}
-	},
-	
 	submit_empiredata_mutation_handler: function(mutations,doc) {
 		mutations.forEach(function(mutation) {
 			var nodes = mutation.addedNodes;
 			for (var i = 0; i < nodes.length; i++) {
-				if (nodes[i].nodeType == 1) {
-					if (nodes[i].hasAttribute("id"))
-						if (nodes[i].getAttribute("id") == "total" || nodes[i].getAttribute("id") == "planet0") {
-							galaxytoolbar.GTPlugin_empire.submit_empiredata(doc);
-							return;
-						}
+				if (nodes[i].nodeType == 1 && nodes[i].classList.contains("planetWrapper")) {
+					if (nodes[i].querySelector("#planet0")) {
+						galaxytoolbar.GTPlugin_empire.submit_empiredata(doc);
+						return;
+					}
 				}
 			}
 		});

@@ -5,7 +5,6 @@ if (!galaxytoolbar.GTPlugin_galaxyview) galaxytoolbar.GTPlugin_galaxyview = {};
 galaxytoolbar.GTPlugin_galaxyview = {
 
     get_galaxyview_data: function(docroot, pos) {
-        console.log("get_galaxyview_data triggered");
 
         this.addEspionageActionListener(docroot);
         var rows;
@@ -74,7 +73,6 @@ galaxytoolbar.GTPlugin_galaxyview = {
                 }
 
                 planetname = rows[i].querySelector(".cellPlanetName > span").innerHTML.trim();
-                console.log(planetname);
                 // activity
                 try {
                     // Activity is inside the tooltip
@@ -220,7 +218,6 @@ galaxytoolbar.GTPlugin_galaxyview = {
                             if (className.indexOf("honorableTarget") > -1) {
                             	playerstatus += "hp";
                             }*/
-                            console.log(playerstatus);
                         }
 
                         // ally tag + id + rank + member
@@ -375,7 +372,6 @@ galaxytoolbar.GTPlugin_galaxyview = {
     },
 
     getGalaxySystem: function(docroot) {
-        console.log("getGalaxySystem triggered");
         // get information about what galaxy/system selected
         try {
 
@@ -494,12 +490,11 @@ galaxytoolbar.GTPlugin_galaxyview = {
                 }, false);
             }
         } catch (e) {
-            // alert(e);	
+            // alert(e);
         }
     },
 
     submit_galaxydata: function(doc) {
-        console.log("submit_galaxydata triggered");
         // reset status window content from any previous transmission
         try {
             galaxytoolbar.GTPlugin_general.clear_status(doc);
@@ -515,13 +510,11 @@ galaxytoolbar.GTPlugin_galaxyview = {
     },
 
     submit_galaxydata_mutation_handler: function(mutations, doc) {
-        console.log("submit_galaxydata_mutation_handler triggered");
         mutations.forEach(function(mutation) {
             var nodes = mutation.addedNodes;
             for (var i = 0; i < nodes.length; i++) {
                 if (nodes[i].nodeType == 1) {
                     if (nodes[i].classList.contains("planetMoveDefault") || nodes[i].tagName == "SPAN") {
-                        console.log("New Galxyview detected!");
                         galaxytoolbar.GTPlugin_galaxyview.submit_galaxydata(doc);
                     }
                 }
