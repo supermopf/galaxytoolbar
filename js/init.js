@@ -206,28 +206,13 @@ galaxytoolbar.GTPlugin_init = {
 				*/
 				
 				
-				if (doc.URL.search("page=galaxy") > -1) { // /game/galaxy.php
+				if (doc.URL.search("component=galaxy") > -1) { // /game/galaxy.php
 					if (galaxytoolbar.GTPlugin_storage.target_tool_exists(doc.URL,"galaxy")) {
 						
-						element = doc.getElementById('galaxyContent');
+						element = doc.querySelector('#galaxyRow1 > div.galaxyCell.cellPlanetName');
 						if (MutationObserver) {
 							var observer = new MutationObserver(function(m){ galaxytoolbar.GTPlugin_galaxyview.submit_galaxydata_mutation_handler(m,doc); });
-							observer.observe(element, { childList: true });
-						} else {
-							element.addEventListener("DOMNodeInserted", 
-								function(e){ 
-									try {
-										//added the check here, just to avoid multiple, unnecessary updates of the Messagedoc
-										var id = e.relatedNode.getAttribute("id");
-										if (id != "galaxyContent") {
-											return;
-										}
-										galaxytoolbar.GTPlugin_galaxyview.submit_galaxydata_event_handler(e,doc); 
-									} catch (e) {
-										return;
-									} 
-								}, 
-								false);
+							observer.observe(element, {childList: true});
 						}
 					}
 					
