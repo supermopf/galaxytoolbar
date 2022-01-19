@@ -440,16 +440,17 @@ galaxytoolbar.GTPlugin_highscore = {
 	},
 	
 	submit_highscoredata_mutation_handler: function(mutations,doc) {
+		console.log("mutation!");
+		
 		mutations.forEach(function(mutation) {
 			var nodes = mutation.addedNodes;
 			for (var i = 0; i < nodes.length; i++) {
 				if (nodes[i].nodeType == 1) {
-					for (var j =0; j < nodes[i].children.length; j++)
-						if (nodes[i].children[j].hasAttribute("id") && 
-							nodes[i].children[j].getAttribute("id") == "ranks") {
-								galaxytoolbar.GTPlugin_highscore.submit_highscoredata(doc);
-								return;
-						}
+					if (nodes[i].hasAttribute("id") && 
+						nodes[i].getAttribute("id") == "content") {
+							galaxytoolbar.GTPlugin_highscore.submit_highscoredata(doc);
+							return;
+					}
 				}
 			}
 		});

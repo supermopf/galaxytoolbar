@@ -330,7 +330,7 @@ galaxytoolbar.GTPlugin_init = {
 						element = doc.getElementById('stat_list_content');
 						if (MutationObserver) {
 							var observer = new MutationObserver(function(m){ galaxytoolbar.GTPlugin_highscore.submit_highscoredata_mutation_handler(m,doc); });
-							observer.observe(element, { childList: true });
+							observer.observe(element, { childList: true, subtree: true });
 						} else {
 							element.addEventListener("DOMNodeInserted", function(e){ galaxytoolbar.GTPlugin_highscore.submit_highscoredata_event_handler(e,doc,true); }, false );
 						}
