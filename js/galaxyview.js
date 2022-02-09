@@ -115,33 +115,11 @@ galaxytoolbar.GTPlugin_galaxyview = {
                     //nothing to do
                 }
 
-                // moonsize @TODO Get Moonize somehow...?
+                // moonsize
                 try {
 					if (rows[i].querySelector(".cellMoon > a > div") !== null){
-						moonsize = 1;
-						
-						//rows[i].querySelector("#"+ rows[i].querySelector(".cellMoon > a > div").getAttribute("rel"))
-						
-						
+						moonsize = parseInt(rows[i].querySelector("#moonsize").innerText.replace(/\D/g, ""));
 					}
-					/*
-                    tmp = rows[i].getElementsByClassName("moon");
-                    if (tmp[0].getElementsByTagName("a").length > 0) {
-                        //there must be a moon, if there is a link inside
-                        tmp = tmp[0].getElementsByTagName("li");
-                        if (tmp.length >= 3) {
-                            tmp = tmp[2].getElementsByTagName("span");
-                            if (tmp.length > 0) {
-                                moonsize = parseInt(tmp[0].innerHTML.replace(/\D/g, ""));
-                            }
-                        } else {
-                            //own moon has only the link
-                            moonsize = 1;
-                        }
-                    } else {
-                        moonsize = 0;
-                    }
-					*/
                 } catch (error) {
                     // nothing to do
                 }
