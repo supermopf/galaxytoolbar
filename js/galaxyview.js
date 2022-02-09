@@ -153,81 +153,77 @@ galaxytoolbar.GTPlugin_galaxyview = {
 
                 // playername + id + rank
                 try {
-                    //Player present?
-                    if (rows[i].querySelector(".cellPlayerName > span:not(.honorRank)") !== null) {
-                        //Player ID
-                        if (rows[i].querySelector(".cellPlayerName > span:not(.honorRank)").hasAttribute("rel")) {
-                            tmp = rows[i].querySelector(".cellPlayerName > span:not(.honorRank)").getAttribute("rel").trim(); // rel="#player100446"
-                            tmp = tmp.replace(/\D/g, "");
-                            playerid = parseInt(tmp);
-                        } else {
-                            playerid = galaxytoolbar.GTPlugin_general.get_player_id(docroot);
-                        }
+					//Player ID
+					if (rows[i].querySelector("div.galaxyCell.cellAction > a.sendMail.js_openChat.tooltip") !== null) {
+						tmp = rows[i].querySelector("div.galaxyCell.cellAction > a.sendMail.js_openChat.tooltip").getAttribute("data-playerid");
+						playerid = parseInt(tmp);
+					} else {
+						playerid = galaxytoolbar.GTPlugin_general.get_player_id(docroot);
+					}
 
-                        //Player Name
-                        playername = rows[i].querySelector(".cellPlayerName > span:not(.honorRank)").innerText.trim();
+					//Player Name
+					playername = rows[i].querySelector(".cellPlayerName > span:not(.honorRank)").innerText.trim();
 
-                        //Player Rank						
-                        if (rows[i].querySelector(".cellPlayerName > span:not(.honorRank)").classList.contains("ownPlayerRow")) {
-                            // own player
-                            player_rank = galaxytoolbar.GTPlugin_general.get_player_rank(docroot);
-                        } else {
-                            player_rank = parseInt(docroot.querySelector("#player" + playerid + " > ul > li.rank > a").innerText);
-                        }
+					//Player Rank						
+					if (rows[i].querySelector(".cellPlayerName > span:not(.honorRank)").classList.contains("ownPlayerRow")) {
+						// own player
+						player_rank = galaxytoolbar.GTPlugin_general.get_player_rank(docroot);
+					} else {
+						player_rank = parseInt(docroot.querySelector("#player" + playerid + " > ul > li.rank > a").innerText);
+					}
 
-                        //Player Status
-                        tmp = rows[i].querySelector(".cellPlayerName > pre").children;
-                        var className;
-                        for (var j = 0; j < tmp.length; j += 2) {
-                            className = tmp[j].getAttribute("class");
-                            if (className.indexOf("vacation") > -1) {
-                                playerstatus += "v";
-                            } else
+					//Player Status
+					tmp = rows[i].querySelector(".cellPlayerName > pre").children;
+					var className;
+					for (var j = 0; j < tmp.length; j += 2) {
+						className = tmp[j].getAttribute("class");
+						if (className.indexOf("vacation") > -1) {
+							playerstatus += "v";
+						} else
 
-                            if (className.indexOf("longinactive") > -1) {
-                                playerstatus += "iI";
-                                planet_activity = -1;
-                                moon_activity = -1;
-                            } else
-                            if (className.indexOf("inactive") > -1) {
-                                playerstatus += "i";
-                                planet_activity = -1;
-                                moon_activity = -1;
-                            } else
+						if (className.indexOf("longinactive") > -1) {
+							playerstatus += "iI";
+							planet_activity = -1;
+							moon_activity = -1;
+						} else
+						if (className.indexOf("inactive") > -1) {
+							playerstatus += "i";
+							planet_activity = -1;
+							moon_activity = -1;
+						} else
 
-                            if (className.indexOf("banned") > -1) {
-                                playerstatus += "b";
-                                planet_activity = -1;
-                                moon_activity = -1;
-                            } else
+						if (className.indexOf("banned") > -1) {
+							playerstatus += "b";
+							planet_activity = -1;
+							moon_activity = -1;
+						} else
 
-                            if (className.indexOf("strong") > -1) {
-                                playerstatus += "s";
-                            } else
-                            if (className.indexOf("noob") > -1) {
-                                playerstatus += "n";
-                            } else
-                            if (className.indexOf("outlaw") > -1) {
-                                playerstatus += "o";
-                            } else
+						if (className.indexOf("strong") > -1) {
+							playerstatus += "s";
+						} else
+						if (className.indexOf("noob") > -1) {
+							playerstatus += "n";
+						} else
+						if (className.indexOf("outlaw") > -1) {
+							playerstatus += "o";
+						} else
 
-                            if (className.indexOf("admin") > -1) {
-                                playerstatus += "A";
-                            }
-                            /* don't send this
-                            if (className.indexOf("honorableTarget") > -1) {
-                            	playerstatus += "hp";
-                            }*/
-                        }
+						if (className.indexOf("admin") > -1) {
+							playerstatus += "A";
+						}
+						/* don't send this
+						if (className.indexOf("honorableTarget") > -1) {
+							playerstatus += "hp";
+						}*/
+					}
 
-                        // ally tag + id + rank + member
-                        if (rows[i].querySelector(".cellAlliance > span") !== null) {
-                            alliance = rows[i].querySelector(".cellAlliance > span").innerText.trim();
-                            alliance_id = parseInt(rows[i].querySelector(".cellAlliance > span").getAttribute("rel").replace(/\D/g, ""));
-                            alliance_rank = parseInt(docroot.querySelector("#alliance" + alliance_id + "> ul > li.rank > a").innerText.trim());
-                            alliance_member = parseInt(docroot.querySelector("#alliance" + alliance_id + " > ul > li.members").innerText.replace(/\D/g, ""));
-                        }
-                    }
+					// ally tag + id + rank + member
+					if (rows[i].querySelector(".cellAlliance > span") !== null) {
+						alliance = rows[i].querySelector(".cellAlliance > span").innerText.trim();
+						alliance_id = parseInt(rows[i].querySelector(".cellAlliance > span").getAttribute("rel").replace(/\D/g, ""));
+						alliance_rank = parseInt(docroot.querySelector("#alliance" + alliance_id + "> ul > li.rank > a").innerText.trim());
+						alliance_member = parseInt(docroot.querySelector("#alliance" + alliance_id + " > ul > li.members").innerText.replace(/\D/g, ""));
+					}
                 } catch (error) {
                     // no player
                 }
