@@ -387,13 +387,13 @@ galaxytoolbar.GTPlugin_general = {
 					picture = "";
 					break;
 				case 1:
-					picture.setAttribute("src",chrome.extension.getURL("img/green.png"));
+					picture.setAttribute("src",chrome.runtime.getURL("img/green.png"));
 					break;
 				case 2:
-					picture.setAttribute("src",chrome.extension.getURL("img/yellow.png"));
+					picture.setAttribute("src",chrome.runtime.getURL("img/yellow.png"));
 					break;
 				case 3:
-					picture.setAttribute("src",chrome.extension.getURL("img/red.png"));
+					picture.setAttribute("src",chrome.runtime.getURL("img/red.png"));
 					break;
 			}
 			
@@ -700,7 +700,6 @@ galaxytoolbar.GTPlugin_general = {
 			    data: params
 			}, function(httpRequest) {
 				var general = galaxytoolbar.GTPlugin_general;
-				
 				// error handling
 				if (!httpRequest.responseText) {
 					if (httpRequest.status == 403) { // forbidden

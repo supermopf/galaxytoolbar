@@ -8,7 +8,8 @@ window.addEventListener('DOMContentLoaded', function(){ galaxytoolbar.GTPlugin_i
 // Chrome DOMContentLoaded event is called after the OGame script startet its execution. Therefore this hook must be placed first!
 var script = document.createElement("script");
 script.type = "text/javascript";
-script.innerHTML  = '(function(open) { ' +
+script.src = chrome.runtime.getURL("js/injectHandler.js");
+/*script.innerHTML  = '(function(open) { ' +
 '	XMLHttpRequest.prototype.open = function(method, url, async, user, pass) { ' +
 '		this.addEventListener("readystatechange", function() { ' +
 '			if (this.readyState == 4) { ' +
@@ -24,6 +25,7 @@ script.innerHTML  = '(function(open) { ' +
 '		open.call(this, method, url, async, user, pass); ' +
 '	}; ' +
 '})(XMLHttpRequest.prototype.open);';
+*/
 document.documentElement.appendChild(script);
 
 galaxytoolbar.GTPlugin_init = {
@@ -224,7 +226,7 @@ galaxytoolbar.GTPlugin_init = {
 						el.setAttribute("data-value","");
 						
 						doc.body.appendChild(el);
-						
+						/*
 						var string =
 						'$(document).ajaxSuccess(function(e, xhr, settings) {'+"\n"+
 						'	if (settings.url.indexOf("page=phalanx") > -1) {'+"\n"+
@@ -236,8 +238,13 @@ galaxytoolbar.GTPlugin_init = {
 						'		}'+"\n"+
 						'	}'+"\n"+
 						'});';
+						*/
+						//this.injectScript(doc, string);
+						var script = document.createElement("script");
+						script.type = "text/javascript";
+						script.src = chrome.runtime.getURL("js/injectPhalanx.js");
+						document.documentElement.appendChild(script);
 						
-						this.injectScript(doc, string);
 						
 						// this will fire after the response has been received,
 						// so after we have parsed the incoming arrival times in the script section (which becomes invisible for us, even if we'd listen to DOMNodeInserted)
@@ -601,7 +608,7 @@ galaxytoolbar.GTPlugin_init = {
 		
 		el.setAttribute("width",'38');
 		
-		el.setAttribute("src",chrome.extension.getURL("img/menuicon.png"));
+		el.setAttribute("src",chrome.runtime.getURL("img/menuicon.png"));
 		
 		span.appendChild(el);
 		li.appendChild(span);
@@ -629,6 +636,7 @@ galaxytoolbar.GTPlugin_init = {
 	},
 	
 	inject_custom_js_css: function(doc) {
+		/*
 		this.injectScript(doc,"function galaxytoolbarManageTabs(id) {"+
 							"	var selector = '#' + id;"+
 							"	var rel = $(selector).attr('rel');"+
@@ -642,14 +650,19 @@ galaxytoolbar.GTPlugin_init = {
 							"		$(\"#\" + rel).show();"+
 							"	}"+
 							"}");
-							
+		*/
+		var script = document.createElement("script");
+		script.type = "text/javascript";
+		script.src = chrome.runtime.getURL("js/injectStyle.js");
+		document.documentElement.appendChild(script);
+		
 		var link = doc.createElement("link");
 		
 		link.setAttribute("type",'text/css');
 		
 		link.setAttribute("rel","stylesheet");
 		
-		link.setAttribute("href",chrome.extension.getURL("css/galaxytoolbar.css"));
+		link.setAttribute("href",chrome.runtime.getURL("css/galaxytoolbar.css"));
 		
 		doc.getElementsByTagName("head")[0].appendChild(link);
 	},
@@ -669,7 +682,7 @@ galaxytoolbar.GTPlugin_init = {
 		
 		var img = doc.createElement("img");
 		
-		img.setAttribute("src",chrome.extension.getURL("img/send_to_galaxytool.png"));
+		img.setAttribute("src",chrome.runtime.getURL("img/send_to_galaxytool.png"));
 		
 		a.appendChild(img);
 		
@@ -695,7 +708,7 @@ galaxytoolbar.GTPlugin_init = {
 		
 		var img = doc.createElement("img");
 		
-		img.setAttribute("src",chrome.extension.getURL("img/send_to_galaxytool_small.png"));
+		img.setAttribute("src",chrome.runtime.getURL("img/send_to_galaxytool_small.png"));
 		
 		a.appendChild(img);
 		
