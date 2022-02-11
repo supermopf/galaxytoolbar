@@ -6,6 +6,10 @@ I've received permission from the original developer Christan Lehmann to continu
 
 This tool was once permitted by Gameforge, but the relaunch will probably need another permit by Gameforge.
 
+# Installing
+
+[Download in Chrome Web Store](https://chrome.google.com/webstore/detail/galaxytoolbar-revived-for/fpgfgephimamebidafbckomhpjclmpfp)
+
 # Contributing
 If you want to contribute to this project, feel free to create a pull request and issues of found bugs.
 
