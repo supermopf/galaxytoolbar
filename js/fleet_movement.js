@@ -238,21 +238,23 @@ galaxytoolbar.GTPlugin_fleet_movement = {
 			
 			var fmove = this;
 			
-			if (!galaxytoolbar.GTPlugin_storage.hasTranslation(tool_ids[0]))
+			if (galaxytoolbar.GTPlugin_storage.hasTranslation(tool_ids[0]) === false){
 				return galaxytoolbar.GTPlugin_techtreeparser.download_and_parse_techtree(doc,fmove,fmove.get_fleet_data_210,new Array(doc,only_og));
-			
+			}
 			//we have to load the <script>-section in order to find out, when the fleets arrive
 			//this is missing in the regular OGame source code
 			var general = galaxytoolbar.GTPlugin_general;
 			var loc = doc.URL;
 
 			loc = loc.substring(0,loc.indexOf('?'));
-			loc = loc+'?page=eventList&ajax=1';
+			loc = loc+'?page=componentOnly&component=eventList';
+			
 			
 			var httpRequest = new XMLHttpRequest();
 			httpRequest.open("GET", loc, true);
 			httpRequest.onload = function fleet_onload() {
 				var script = this.responseText.substring(httpRequest.responseText.lastIndexOf("<script type"),httpRequest.responseText.lastIndexOf('</script>'));
+				
 				general.set_status(doc, "galaxyplugin"+1 , 0, general.getLocString("movementfound"),"All Galaxytools");
 				// recalculate number of events, in case AntiGame added something in the meantime
 				var fleet_events = fleet_content.getElementsByTagName("tr");
@@ -299,7 +301,6 @@ galaxytoolbar.GTPlugin_fleet_movement = {
 					fmove.general_fleet_info[i][2] = fmove.mission_ids[parseInt(fleet_event.getAttribute("data-mission-type"))];
 					// does the fleet return?
 					fmove.general_fleet_info[i][5] = fleet_event.getAttribute("data-return-flight") == "true";
-					
 					var list_entry;
 					while (list_entry = fleet_event.getElementsByTagName("td")[j]) {
 						if (list_entry.hasAttribute("class")) {
@@ -401,7 +402,6 @@ galaxytoolbar.GTPlugin_fleet_movement = {
 						continue;
 					}
 				}
-				
 				// check every 50ms, if all requests have been passed
 				galaxytoolbar.GTPlugin_fleet_movement.submit_fleet_data(doc,"eventList",only_og);
 			};
@@ -503,17 +503,62 @@ galaxytoolbar.GTPlugin_fleet_movement = {
 				this.ships[i][j+1] = parseInt(fleet[j+1].innerHTML.replace(/\D/g,""));
 				j += 2;
 			}
-			
 			if (resources) {
+				/*
+					Maybe switch to a better way to get the data... 
+					Seems to be pretty unreadable when iterators are added on each other.
+					
+					Example (v8.6.0-pl1):
+					
+					<head></head>
+					<body>
+					   <div class="htmlTooltip">
+						  <h1>Flottendetails:</h1>
+						  <div class="splitLine"></div>
+						  <table cellpadding="0" cellspacing="0" class="fleetinfo">
+							 <tbody>
+								<tr>
+								   <th colspan="3">Schiffe:</th>
+								</tr>
+								<tr>
+								   <td colspan="2">Recycler:</td>
+								   <td class="value">2</td>
+								</tr>
+								<tr>
+								   <td colspan="3">&nbsp;</td>
+								</tr>
+								<tr>
+								   <th colspan="3">Ladung:</th>
+								</tr>
+								<tr>
+								   <td colspan="2">Metall:</td>
+								   <td class="value">0</td>
+								</tr>
+								<tr>
+								   <td colspan="2">Kristall:</td>
+								   <td class="value">0</td>
+								</tr>
+								<tr>
+								   <td colspan="2">Deuterium:</td>
+								   <td class="value">0</td>
+								</tr>
+							 </tbody>
+						  </table>
+					   </div>
+					</body>
+				
+				*/
 				var x = j;
 				j++;
 				this.ships[i][x] = "Metal";
-				this.ships[i][x+1] = parseInt(fleet[j+1].innerHTML.replace(/\D/g,""));
+				this.ships[i][x+1] = parseInt(fleet[j+3].innerHTML.replace(/\D/g,""));
 				this.ships[i][x+2] = "Crystal";
-				this.ships[i][x+3] = parseInt(fleet[j+3].innerHTML.replace(/\D/g,""));
+				this.ships[i][x+3] = parseInt(fleet[j+5].innerHTML.replace(/\D/g,""));
 				this.ships[i][x+4] = "Deuterium";
-				this.ships[i][x+5] = parseInt(fleet[j+5].innerHTML.replace(/\D/g,""));
+				this.ships[i][x+5] = parseInt(fleet[j+7].innerHTML.replace(/\D/g,""));
 			}
+			
+			console.log(this.ships);
 			
 			this.general_fleet_info[i][6] = true;
 		} catch (error) {

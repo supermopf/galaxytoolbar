@@ -228,7 +228,8 @@ galaxytoolbar.GTPlugin_storage={
 	},
 	
 	hasTranslation: function(tool_id) {
-		return localStorage.getItem(this.db_languages) != null;
+		let translations = (localStorage.getItem(this.db_languages));
+		return (translations !== null && translations !== "{}");
 	},
 	
 	insert_espionage_action: function(uni,galaxy,system,planet) {

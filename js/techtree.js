@@ -10,31 +10,22 @@ galaxytoolbar.GTPlugin_techtreeparser = {
 			general.set_status(originaldoc,"galaxyplugin"+1,0,general.getLocString("techtreefound"),"All Galaxytools");
 			var tech_ids = new Array();
 			var translated_tech_names = new Array();
-			var td;
+			var tech;
 			var i = 0;
 			var tmp;
-			var t = techtreedoc.getElementById("technology");
-			while (td = t.getElementsByTagName("td")[i]) {
+			var technologies = techtreedoc.querySelectorAll(".technologies > ul > li");
+			while (tech = technologies[i]) {
 				i++;
-				if (td.hasAttribute("class")) {
-					if (td.getAttribute("class") == "item") {
-						tmp = td.getElementsByTagName("img")[0].getAttribute("src");
-						if (tmp != "") {
-							tmp = tmp.replace("img/tiny/tiny_","");
-							tmp = tmp.replace(".jpg","");
-						}
-						if (isNaN(parseInt(tmp))) {
-							tmp = td.getElementsByTagName("a")[0].getAttribute("href");
-							tmp = tmp.match(/techID=(\d+)/)[1];
-						}
-						tech_ids.push(parseInt(tmp));
-						translated_tech_names.push(general.trimString(td.getElementsByTagName("a")[0].text));
-					}
+				if (tech.hasAttribute("class")) {
+					
+					tmp = tech.getElementsByTagName("a")[0].getAttribute("href");
+					tmp = tmp.match(/technologyId=(\d+)/)[1];
+					
+					tech_ids.push(parseInt(tmp));					
+					translated_tech_names.push(general.trimString(tech.getElementsByTagName("a")[0].text));
 				}
 			}
-			
 			var english_technames = galaxytoolbar.GTPlugin_planet_data.translate_techids_to_english(tech_ids);
-			
 			var tool_ids = galaxytoolbar.GTPlugin_storage.read_tool_ids_for_ogame_url(originaldoc.URL);
 			if (tool_ids.length > 0) {
 				
@@ -48,9 +39,9 @@ galaxytoolbar.GTPlugin_techtreeparser = {
 					general.set_status(originaldoc,"galaxyplugin"+1,3,general.getLocString("error.techtreenotparsed"),"All Galaxytools");
 				}
 			}
-			
 			return false;
 	 	} catch(error) {
+			alert("techtree error");
 	 		galaxytoolbar.GTPlugin_general.set_status(originaldoc,"galaxyplugin"+1,3,"Unexpected error while parsing techtree: "+error,"All Galaxytools");
 	 		return false;
 	 	}
@@ -59,11 +50,7 @@ galaxytoolbar.GTPlugin_techtreeparser = {
 	download_and_parse_techtree: function(doc,thispointer,callback,callbackargs) {
 		var loc = doc.URL;
 		loc = loc.substring(0,loc.indexOf('?'));
-		
-		if (!galaxytoolbar.GTPlugin_general.compare_ogame_version_with(doc,5,3,0))
-			loc = loc+'?page=globalTechtree&techID=109';
-		else
-			loc = loc+'?page=techtree&tab=3&open=all';
+		loc = loc+'?component=technologytree&tab=3&open=all&ajax=1';
 		
 		var httpRequest = new XMLHttpRequest();
 		httpRequest.onload = function gtool_techtree_onsuccess() {
