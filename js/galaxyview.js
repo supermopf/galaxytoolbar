@@ -135,7 +135,11 @@ galaxytoolbar.GTPlugin_galaxyview = {
 					if (rows[i].querySelector("div.galaxyCell.cellAction > a.sendMail.js_openChat.tooltip") !== null) {
 						tmp = rows[i].querySelector("div.galaxyCell.cellAction > a.sendMail.js_openChat.tooltip").getAttribute("data-playerid");
 						playerid = parseInt(tmp);
-					} else {
+					} else if(rows[i].querySelector(".cellPlayerName > span:not(.honorRank)").hasAttribute("rel")) {
+						tmp = rows[i].querySelector(".cellPlayerName > span:not(.honorRank)").getAttribute("rel").trim(); // rel="#player100446"
+						tmp = tmp.replace(/\D/g, "");
+						playerid = parseInt(tmp);
+					}else{
 						playerid = galaxytoolbar.GTPlugin_general.get_player_id(docroot);
 					}
 
