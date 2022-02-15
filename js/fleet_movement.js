@@ -136,6 +136,7 @@ galaxytoolbar.GTPlugin_fleet_movement = {
 							// collect information from countdown
 							case "countDown" 	:
 								this.general_fleet_info[i][1] = new Array(2);
+								//TODO: Maybe broken? Cant check right now
 								this.general_fleet_info[i][1] = this.get_time(galaxytoolbar.GTPlugin_general.get_tzd(host),this.arrival_times_storage[host]["servertime"],this.arrival_times_storage[host][this.general_fleet_info[i][0]]);
 								break;
 							// get Planetname of the origin
@@ -495,10 +496,9 @@ galaxytoolbar.GTPlugin_fleet_movement = {
 			var resources = false;
 			while ( j < fleet.length ) {
 				if (this.error_occured) return;
-				if (fleet[j].innerHTML == "&nbsp;" || fleet[j].hasAttribute("colspan")) {
+				if (fleet[j].innerHTML == "&nbsp;") {
 					resources = true; break;
 				}
-				
 				this.ships[i][j] = storage.get_translation(tool_ids[0],general.trimString(fleet[j].innerHTML).replace(/:/,""),true,url);
 				this.ships[i][j+1] = parseInt(fleet[j+1].innerHTML.replace(/\D/g,""));
 				j += 2;
@@ -507,6 +507,9 @@ galaxytoolbar.GTPlugin_fleet_movement = {
 				/*
 					Maybe switch to a better way to get the data... 
 					Seems to be pretty unreadable when iterators are added on each other.
+					
+					fleet = all <td> tags
+					j = &nbsp; location
 					
 					Example (v8.6.0-pl1):
 					
@@ -551,14 +554,12 @@ galaxytoolbar.GTPlugin_fleet_movement = {
 				var x = j;
 				j++;
 				this.ships[i][x] = "Metal";
-				this.ships[i][x+1] = parseInt(fleet[j+3].innerHTML.replace(/\D/g,""));
+				this.ships[i][x+1] = parseInt(fleet[j+1].innerHTML.replace(/\D/g,""));
 				this.ships[i][x+2] = "Crystal";
-				this.ships[i][x+3] = parseInt(fleet[j+5].innerHTML.replace(/\D/g,""));
+				this.ships[i][x+3] = parseInt(fleet[j+3].innerHTML.replace(/\D/g,""));
 				this.ships[i][x+4] = "Deuterium";
-				this.ships[i][x+5] = parseInt(fleet[j+7].innerHTML.replace(/\D/g,""));
+				this.ships[i][x+5] = parseInt(fleet[j+5].innerHTML.replace(/\D/g,""));
 			}
-			
-			console.log(this.ships);
 			
 			this.general_fleet_info[i][6] = true;
 		} catch (error) {
@@ -569,27 +570,38 @@ galaxytoolbar.GTPlugin_fleet_movement = {
 	get_arrival_time : function (host,script,count_down_id) {
 		//var timeDelta = 1289060944000 - (new Date()).getTime();
 		var ogame_servertime_ms = parseInt(script.substring(0,script.indexOf("LocalizationStrings")).match(/timeDelta\s*\=\s*(\d+)/)[1]);
+		//OLD
 		//function initEventlist() {
 		//    var countdowns = new Array();
 		//    new eventboxCountdown(getElementByIdWithCache("counter-94825543"), 45221);
 		//
 		//    $('.eventFleet:odd').addClass('odd'); 
 		//    $('.partnerInfo:even').addClass('part-even');  
-		//}   
+		//}  
+
+		//NEW
+        //	new eventboxCountdown(
+        //      $("#counter-eventlist-1569298"),
+        //      1644880545 - 1644880513,
+        //      $("#eventListWrap"),
+        //      "https:\/\/s183-de.ogame.gameforge.com/\/game\/index.php?page=componentOnly&component=eventList&action=checkEvents&ajax=1&asJson=1",
+        //     [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]
+        //	);		
 		var reduced_string = "";
-		var additional_seconds = 0;
+		var arrival_time = 0;
 		reduced_string = script.substring(script.indexOf("$(document).ready(function()"));
 		reduced_string = reduced_string.substring(reduced_string.indexOf("counter-eventlist-"+count_down_id)-1);
-		additional_seconds = parseInt(reduced_string.match(/\-\d+\"\)\s*,\s*(\d+)/)[1]);
-		
+		arrival_time = parseInt(reduced_string.match(/\-\d+\"\)\s*,\s*(\d+)/)[1]);
+
+
 		var tzd = galaxytoolbar.GTPlugin_general.get_tzd(host);
 
 		// now create time_string in ogame_servertime format
-		return this.get_time(tzd,ogame_servertime_ms,additional_seconds);
+		return this.get_time(tzd,ogame_servertime_ms,arrival_time);
 	},
 	
-	get_time: function(tzd, ogame_server_time,additional_seconds) {
-		var utc_arrival = ogame_server_time + additional_seconds*1000;
+	get_time: function(tzd, ogame_server_time,arrival_time) {
+		var utc_arrival = arrival_time*1000;
 		
 		var utc_date = new Date(utc_arrival + tzd);
 		var year   = utc_date.getUTCFullYear();
