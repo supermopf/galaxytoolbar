@@ -10,7 +10,7 @@ galaxytoolbar.GTPlugin_general = {
 	selectedRanks: -1,
 	debug_mode: false,
 	//always use format "major.minor.revision"
-	version: "2.9.0",
+	version: "3.0.1",
 	tested_with_ogame_version : "8.5.0-pl1",
 	
 	getLocString: function(string) {
