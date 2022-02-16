@@ -1403,7 +1403,9 @@ galaxytoolbar.GTPlugin_messages={
 			var j = 0;
 			
 			var resources = reportHTML.getElementsByClassName("resource_list_el");
-			for(i=0; i<resources.length; i++) {
+			//Maybe add debris to reports?
+			//For now just iterate to 3 istead of resources.length
+			for(i=0; i<3; i++) {
 				var amount = resources[i].title.replace(/\D/g,"");
 				values.push(parseInt(amount, 10));
 				
@@ -1412,6 +1414,8 @@ galaxytoolbar.GTPlugin_messages={
 					case 1: contents.push("Crystal"); break;
 					case 2: contents.push("Deuterium"); break;
 					case 3: contents.push("Energy"); break;
+					case 4: /*contents.push("MetalTF");*/ break;
+					case 5: /*contents.push("CrystalTF");*/ break;
 				}
 			}
 			

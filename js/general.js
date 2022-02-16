@@ -246,7 +246,11 @@ galaxytoolbar.GTPlugin_general = {
 			try {
 				if (galaxytoolbar.GTPlugin_general.Prefs.getBoolPref("gtplugin.settings.show_statuswindow")) {
 					// display block must be kept
-					my_attribute = "display: block; z-index: 9999;"+galaxytoolbar.GTPlugin_general.Prefs.getCharPref("gtplugin.status_style_window");
+					if(this.debug_mode){
+						my_attribute = "display: block; z-index: 9999;width:430px;"+galaxytoolbar.GTPlugin_general.Prefs.getCharPref("gtplugin.status_style_window");
+					}else{
+						my_attribute = "display: block; z-index: 9999;"+galaxytoolbar.GTPlugin_general.Prefs.getCharPref("gtplugin.status_style_window");
+					}					
 				} else {
 					my_attribute = "display: none; z-index: 9999;"+galaxytoolbar.GTPlugin_general.Prefs.getCharPref("gtplugin.status_style_window");
 				}
@@ -279,7 +283,11 @@ galaxytoolbar.GTPlugin_general = {
 			
 			my_div = docroot.createElement("div");
 			my_div.setAttribute("class","content");
-			my_div.setAttribute("style","max-height:200px; max-width: 190px; overflow: auto;");
+			if(this.debug_mode){
+				my_div.setAttribute("style","max-height:800px; max-width: 430px; overflow: auto;background: #0d1014;");
+			}else{
+				my_div.setAttribute("style","max-height:200px; max-width: 190px; overflow: auto;");
+			}
 			main_div.appendChild(my_div);
 			
 			var my_table = my_div.appendChild(docroot.createElement("table"));
@@ -288,7 +296,11 @@ galaxytoolbar.GTPlugin_general = {
 			}
 			
 			// cellpadding + spacing = 0
-			my_table.setAttribute("style", "width: 192px;");
+			if(this.debug_mode){
+				my_table.setAttribute("style", "width: 430px;");
+			}else{
+				my_table.setAttribute("style", "width: 192px;");
+			}
 			my_table.setAttribute("border","0");
 			my_table.setAttribute("cellpadding","0");
 			my_table.setAttribute("cellspacing","0");
