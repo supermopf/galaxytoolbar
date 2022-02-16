@@ -155,48 +155,50 @@ galaxytoolbar.GTPlugin_galaxyview = {
 					}
 
 					//Player Status
-					tmp = rows[i].querySelector(".cellPlayerName > pre").children;
-					var className;
-					for (var j = 0; j < tmp.length; j += 2) {
-						className = tmp[j].getAttribute("class");
-						if (className.indexOf("vacation") > -1) {
-							playerstatus += "v";
-						} else
+					if(rows[i].querySelector(".cellPlayerName > pre")){
+						tmp = rows[i].querySelector(".cellPlayerName > pre").children;
+						var className;
+						for (var j = 0; j < tmp.length; j += 2) {
+							className = tmp[j].getAttribute("class");
+							if (className.indexOf("vacation") > -1) {
+								playerstatus += "v";
+							} else
 
-						if (className.indexOf("longinactive") > -1) {
-							playerstatus += "iI";
-							planet_activity = -1;
-							moon_activity = -1;
-						} else
-						if (className.indexOf("inactive") > -1) {
-							playerstatus += "i";
-							planet_activity = -1;
-							moon_activity = -1;
-						} else
+							if (className.indexOf("longinactive") > -1) {
+								playerstatus += "iI";
+								planet_activity = -1;
+								moon_activity = -1;
+							} else
+							if (className.indexOf("inactive") > -1) {
+								playerstatus += "i";
+								planet_activity = -1;
+								moon_activity = -1;
+							} else
 
-						if (className.indexOf("banned") > -1) {
-							playerstatus += "b";
-							planet_activity = -1;
-							moon_activity = -1;
-						} else
+							if (className.indexOf("banned") > -1) {
+								playerstatus += "b";
+								planet_activity = -1;
+								moon_activity = -1;
+							} else
 
-						if (className.indexOf("strong") > -1) {
-							playerstatus += "s";
-						} else
-						if (className.indexOf("noob") > -1) {
-							playerstatus += "n";
-						} else
-						if (className.indexOf("outlaw") > -1) {
-							playerstatus += "o";
-						} else
+							if (className.indexOf("strong") > -1) {
+								playerstatus += "s";
+							} else
+							if (className.indexOf("noob") > -1) {
+								playerstatus += "n";
+							} else
+							if (className.indexOf("outlaw") > -1) {
+								playerstatus += "o";
+							} else
 
-						if (className.indexOf("admin") > -1) {
-							playerstatus += "A";
+							if (className.indexOf("admin") > -1) {
+								playerstatus += "A";
+							}
+							/* don't send this
+							if (className.indexOf("honorableTarget") > -1) {
+								playerstatus += "hp";
+							}*/
 						}
-						/* don't send this
-						if (className.indexOf("honorableTarget") > -1) {
-							playerstatus += "hp";
-						}*/
 					}
 
 					// ally tag + id + rank + member
