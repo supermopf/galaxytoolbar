@@ -1405,7 +1405,7 @@ galaxytoolbar.GTPlugin_messages={
 			var resources = reportHTML.getElementsByClassName("resource_list_el");
 			//Maybe add debris to reports?
 			//For now just iterate to 3 istead of resources.length
-			for(i=0; i<3; i++) {
+			for(i=0; i<4; i++) {
 				var amount = resources[i].title.replace(/\D/g,"");
 				values.push(parseInt(amount, 10));
 				
@@ -1431,6 +1431,7 @@ galaxytoolbar.GTPlugin_messages={
 				var class_exp = /\w+\d+/;
 				classContent = classContent.match(class_exp)[0];
 				var scan = galaxytoolbar.GTPlugin_messages.getNameAndDepthByImageId(classContent);
+				console.log(scan);
 				if (scan.depth > scan_depth) {
 					scan_depth = scan.depth;
 				}
@@ -1504,6 +1505,8 @@ galaxytoolbar.GTPlugin_messages={
 			case "tech210": return { name: "Espionage Probe", depth: 2 };
 			case "tech204": return { name: "Light Fighter", depth: 2 };
 			case "tech212": return { name: "Solar Satellite", depth: 2 };
+			case "tech218": return { name: "Reaper", depth: 2 };
+			case "tech219": return { name: "Pathfinder", depth: 2 };
 			// Defence
 			case "defense401": return { name: "Rocket Launcher", depth: 3 };
 			case "defense402": return { name: "Light Laser", depth: 3 };
@@ -1529,6 +1532,7 @@ galaxytoolbar.GTPlugin_messages={
 			case "building24": return { name: "Deuterium Tank", depth: 4 };
 			case "building31": return { name: "Research Lab", depth: 4 };
 			case "building33": return { name: "Terraformer", depth: 4 };
+			case "building36": return { name: "Space Dock", depth: 4 };
 			case "building44": return { name: "Missile Silo", depth: 4 };
 			case "building34": return { name: "Alliance Depot", depth: 4 };
 			case "building41": return { name: "Lunar Base", depth: 4 };

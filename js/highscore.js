@@ -159,7 +159,7 @@ galaxytoolbar.GTPlugin_highscore = {
 						try {
 							ally_ids[i] = parseInt(tmp.match(/id=(\d+)/i)[1]);
 						} catch(own_ally) {
-							if (tmp.indexOf("page=alliance") > -1) {
+							if (tmp.indexOf("component=alliance") > -1) {
 								ally_ids[i] = galaxytoolbar.GTPlugin_general.get_ally_id(docroot);
 							} else {
 								// inconsistent data

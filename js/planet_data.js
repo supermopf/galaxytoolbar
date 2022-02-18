@@ -89,7 +89,7 @@ galaxytoolbar.GTPlugin_planet_data = {
 			case 44:	return "Missile Silo";
 			case 15:	return "Nanite Factory";
 			case 33:	return "Terraformer";
-			//case 36:	return "Raumdock";
+			case 36:	return "Space Dock";
 			// techs
 			case 113:	return "Energy Technology";
 			case 120:	return "Laser Technology";
@@ -122,9 +122,9 @@ galaxytoolbar.GTPlugin_planet_data = {
 			case 209:	return "Recycler";
 			case 210:	return "Espionage Probe";
 			case 212:	return "Solar Satellite";
-			//case 217:	return "Crawler";
-			//case 218:	return "Reaper";
-			//case 219:	return "Pathfinder";
+			case 217:	return "Crawler";
+			case 218:	return "Reaper";
+			case 219:	return "Pathfinder";
 			// defense
 			case 401:	return "Rocket Launcher";
 			case 402:	return "Light Laser";
@@ -345,6 +345,12 @@ galaxytoolbar.GTPlugin_planet_data = {
 			case "5f3ca7e91fc0a9b1ee014c3c01ea41"	:
 			case "small_212"						:
 			case "tiny_212"							: return 212;
+			//Reaper
+			case "small_218"						:
+			case "tiny_218"							: return 218;
+			//Pathfinder
+			case "small_219"						:
+			case "tiny_219"							: return 219;
 			//Crawler
 			case "small_217"						:
 			case "tiny_217"							: return 217;
